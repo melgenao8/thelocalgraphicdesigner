@@ -47,7 +47,7 @@
         padding: 15px;
         max-width: 850px;
         h2 {
-            color: $text-light-brown;
+            color: $lighter-brown;
             margin-bottom: 10px;
             font-size: 40px;
         }
@@ -159,6 +159,103 @@
 }
 
 .core-values {
-    padding: 100px 0;
+    padding: 250px 0 150px;
     background: $dark-brown;
+
+     > p {
+        text-align: center;
+        color: $primary-yellow;
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+
+    .core-cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .card {
+            background-color: $light-brown;
+            max-width: 400px;
+            margin: 0 20px;
+            padding: 120px 70px;
+
+            h4 {
+                color: $white;
+                text-align: center;
+                font-size: 22px;
+                font-weight: 300;
+            }
+
+            h3 {
+                color: $white;
+                text-align: center;
+                font-size: 28px;
+            }
+
+            p {
+                color: $darker-pink;
+                text-align: center;
+                margin-top: 50px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.home-two-col {
+
+    .two-col-box {
+        
+        &:first-child {
+            background: $primary-yellow;
+        }
+
+        &:last-child {
+            background: $lighter-brown;
+        }
+    }
+}
+
+.instagram {
+    background: $light-tan;
+    padding: 120px 0;
+
+    > p {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+
+    .gallery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            width: 150px;
+            height: 150px;
+            margin-right: 7px;
+
+            &:first-child, &:last-child {
+                background: $lighter-brown;
+            }
+
+            &:nth-child(2), &:nth-child(5){
+                background: $light-brown;
+            }
+
+            &:nth-child(3) {
+                background: lightgray;
+            }
+
+            &:nth-child(4) {
+                background: $dark-pink;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
 }

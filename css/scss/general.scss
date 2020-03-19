@@ -1,6 +1,6 @@
 //colors
 $nav-text: #B5AC95;
-$text-light-brown: #8E807D;
+$lighter-brown: #8E807D;
 $brown: #353434;
 $primary-yellow: #ECE850;
 $darker-pink: #A58984;
@@ -10,10 +10,17 @@ $light-brown: #47403F;
 $light-tan: #EDE5E2;
 $dark-pink: #D3B7B0;
 
+//default styles
 a:visited {
     color: unset;
 }
 
+p, h2, h3, h4, a {
+    letter-spacing: 1px;
+}
+
+
+//fonts
 .sofia-light {
     font-family: "sofia-pro", sans-serif;
     font-weight: 300;
@@ -43,4 +50,94 @@ a:visited {
 .plantin-i {
     font-family: "plantin", sans-serif;
     font-style: italic;
+}
+
+//reusable classes
+.two-col {
+    display: flex;
+
+    .two-col-box {
+        padding: 125px 100px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .box {
+            display: flex;
+            align-items: center;
+
+            h3 {
+                margin-right: 20px;
+                font-size: 50px;
+            }
+
+            h4 {
+                font-size: 40px;
+            }
+        }
+
+        .btn-wide {
+            display: block;
+            background-color: $light-brown;
+            padding: 15px 0;
+            color: $white;
+            width: 70%;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 30px;
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+    }
+}
+
+footer {
+    padding: 70px 90px;
+    border-bottom: 15px solid $light-brown;
+    background: $dark-pink;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    .footer-social {
+        display: flex;
+        margin-right: 50px;
+
+        div {
+            margin-right: 20px;
+            border: 1px solid $primary-yellow;
+            width: 60px;
+            height: 60px;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .footer-links {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        li {
+            a{
+                color: $lighter-brown;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .footer-logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        img {
+            max-width: 350px;
+        }
+    }
 }
