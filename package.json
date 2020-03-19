@@ -1,0 +1,16 @@
+{
+  "name": "melissa",
+  "version": "1.0.0",
+  "description": "Melissa Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:sass": "node-sass -r --output-style compressed css/scss/main.scss css/style.css",
+    "watch:sass": "npm run build:sass && npm run build:sass -- -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
