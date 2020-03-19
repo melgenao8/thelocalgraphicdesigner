@@ -1,1 +1,1 @@
-# The Local Graphic Designer Website
+# The Local Graphic Designer - Website
