@@ -20,7 +20,7 @@
                 text-transform: uppercase;
                 padding: 1px 5px;
                 letter-spacing: 2px;
-                font-size: 14px;
+                font-size: 13px;
             }
 
             &:nth-child(5) {
@@ -57,6 +57,26 @@
             font-size: 50px;
         }
     }
+    .navbar-toggler {
+        margin-top: 25px;
+
+    }
+
+    .fa-bars {
+        color: $lighter-brown;
+        font-size: 32px;
+    }
+
+    .nav-brand {
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+        img {
+            max-width: 120px;
+        }
+    }
 }
 
 
@@ -65,6 +85,8 @@
     justify-content: space-between;
     background-color: $dark-brown;
     padding-bottom: 150px;
+    overflow-y: auto;
+
 
     .mission-content {
         width: 75%;
@@ -73,6 +95,7 @@
         margin-right: 20px;
         display: flex;
         align-items: center;
+        min-width: 400px;
 
         .content {
             max-width: 300px;
@@ -87,7 +110,7 @@
 
             h2 {
                 color: $primary-yellow;
-                margin: 20px 0;
+                margin: 15px 0;
                 font-size: 45px;
             }
 
@@ -106,7 +129,12 @@
         flex: 1;
         img {
             width: 100%;
+            min-width: 330px;
         }
+    }
+
+    &::-webkit-scrollbar {
+        display: none;
     }
 }
 
@@ -173,12 +201,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow-x: auto;
 
         .card {
             background-color: $light-brown;
             max-width: 400px;
             margin: 0 20px;
             padding: 120px 70px;
+            min-width: 400px;
 
             h4 {
                 color: $white;
@@ -200,7 +230,13 @@
                 margin-bottom: 0;
             }
         }
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
     }
+
+    
 }
 
 .home-two-col {
@@ -231,9 +267,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow-x: auto;
 
         div {
             width: 150px;
+            min-width: 150px;
             height: 150px;
             margin-right: 7px;
 
@@ -256,6 +294,101 @@
             &:last-child {
                 margin-right: 0;
             }
+        }
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .core-values {
+        padding-left: 15px;
+        padding-right: 15px;
+        .core-cards {
+            justify-content: flex-start;
+
+            .card {
+
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px){
+    .nav-banner {
+        .nav-brand {
+            display: block;
+        }
+
+        .home-nav {
+            align-items: flex-start;
+
+            .nav-item {
+                border: none !important;
+                padding-left: .75rem;
+                margin: 6px 0;
+            }
+
+            .nav-logo {
+                display: none;
+            }
+        }
+
+        .banner {
+            padding: 15px 30px;
+        }
+    }
+
+    .design-studio {
+        .design-title {
+            margin-right: 10%;
+        }
+    }
+
+}
+
+@media screen and (max-width: 955px) {
+    .instagram {
+        padding-left: 15px;
+        padding-right: 15px;
+        .gallery {
+            justify-content: flex-start;
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .design-studio {
+        flex-direction: column;
+
+        .design-title {
+            margin: 0 0 60px;
+        }
+
+        .design-content {
+            display: flex;
+            flex-direction: column;
+            a {
+                align-self: center;
+                margin-top: 80px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-banner {
+
+        .banner {
+            h1 {
+                font-size: 40px;
+            }
+
         }
     }
 }
