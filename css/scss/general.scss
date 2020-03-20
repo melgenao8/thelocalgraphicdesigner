@@ -156,9 +156,10 @@ footer {
         .footer-links {
             display: flex;
             margin-bottom: 35px;
+            align-items: flex-start;
 
             li {
-                padding: 0 15px;
+                padding: 0 10px;
                 border-right: 1px solid $lighter-brown;
 
                 &:last-of-type {
