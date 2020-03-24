@@ -1,0 +1,144 @@
+// @use "general.scss";
+
+.packages {
+    padding: 200px 0 100px;
+    background: $dark-brown;
+
+    >p {
+        text-transform: uppercase;
+        color: $lighter-brown;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 70px;
+    }
+
+    .cards {
+        align-items: stretch;
+        .card {
+            padding: 0;
+            border: 1px solid $primary-yellow;
+            background: $dark-brown;
+            max-width: 499px;
+            min-width: 499px;
+
+            .top-card {
+                background: $primary-yellow;
+                padding-top: 10px;
+                p,h2 {
+                    color: black;
+                    text-align: center;
+                }
+
+                p {
+                    margin-top: 20px;
+                    font-size: 24px;
+                }
+
+                h2 {
+                    margin: 0;
+                }
+
+                .img-holder {
+                    margin-top: 30px;
+                    width: 100%;
+                    height: 175px;
+                    border: 4px solid $primary-yellow;
+                    background-image: url("../img/design-picture.png");
+                    background-size: cover;
+                    background-position: center;
+                }
+            }
+
+            .middle-card {
+                background: $dark-brown;
+                color: $lighter-brown;
+
+                p {
+                    margin: 30px 0;
+                    padding: 0 40px;  
+                    font-size: 18px;  
+                }
+            }
+
+            .bottom-card {
+                background: $dark-brown;
+                border-top: 1px solid $primary-yellow;
+
+                p:first-of-type {
+                    color: $light-brown;
+                    margin: 30px 0;
+                    text-transform: uppercase;
+                }
+
+                .social-strategy {
+                    margin: 0;
+                    color: $lighter-brown;
+                }
+
+                .includes {
+                    margin: 10px 0;
+                    color: $light-brown;
+                    text-transform: uppercase;
+                }
+
+                h3 {
+                    color: $white;
+
+                    span {
+                        color: $primary-yellow;
+                        font-style: normal;
+                    }
+                }
+
+                ul {
+                    margin: 0 0 40px;
+                    padding: 0;
+                    list-style: none;
+
+                    li {
+                        text-align: center;
+                        color: $lighter-brown;
+                        font-family: "sofia-pro", sans-serif;
+                        font-weight: 600;
+                        font-style: normal;
+                        letter-spacing: 2px;
+                        margin: 2px 0;
+                    }
+                }
+
+                p,li {
+                    font-size: 14px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }   
+}
+
+.design-guide {
+    background: $dark-brown;
+    padding: 150px 0;
+
+    h2,h3 {
+        color: $lighter-brown;
+        margin: 0;
+    }
+    p {
+        color: $light-brown;
+        margin-top: 30px;
+    }
+
+    input[type="text"]{
+        background: $light-brown;
+        color: $white;
+
+        &::placeholder {
+            color: $white;
+        }
+    }
+
+    input[type="submit"]{
+        background: $primary-yellow;
+        color: #000;
+    }
+}

@@ -36,30 +36,41 @@ var lastTop = 0;
 var navBannerBottom = $(".nav-banner").position().top + $(".nav-banner").outerHeight(true);
 var nav = $(".nav-banner nav");
 $(window).on("scroll", debounce(function (e) {
-    var top = $(this).scrollTop();
-    if (top >= navBannerBottom) {
-        if (top <= lastTop) {
-            if (!nav.hasClass("show-nav")) {
-                nav.addClass("show-nav");
-                nav.animate({ "height": "65px", "opacity": "1" }, 500)
+    if ($(this).width() <= 991) {
+        var top = $(this).scrollTop();
+        if (top >= navBannerBottom) {
+            if (top <= lastTop) {
+                if (!nav.hasClass("show-nav")) {
+                    nav.addClass("show-nav");
+                    nav.animate({ "height": "65px", "opacity": "1" }, 500)
+                }
+                lastTop = top;
+            } else {
+                if (nav.hasClass("show-nav")) {
+                    nav.animate({ "height": "0px", "opacity": "0" }, 500, function () {
+                        nav.removeClass("show-nav");
+                    })
+                }
+                lastTop = top;
             }
-            lastTop = top;
         } else {
             if (nav.hasClass("show-nav")) {
-                nav.animate({ "height": "0px", "opacity": "0" }, 500, function () {
-                    nav.removeClass("show-nav");
-                })
+                nav.removeClass("show-nav");
+                nav.removeAttr("style");
             }
-            lastTop = top;
         }
-    } else {
+    }
+}, 100)
+)
+
+$(window).on("resize", function () {
+    if ($(this).width() > 991) {
         if (nav.hasClass("show-nav")) {
             nav.removeClass("show-nav");
             nav.removeAttr("style");
         }
     }
-}, 100)
-)
+})
 
 //debounce function for scroll events
 function debounce(func, wait, immediate) {
