@@ -193,9 +193,10 @@ p, h2, h3, h4, a {
     overflow-x: auto;
 
     .card {
-        width: 400px;
+        max-width: 400px;
         margin: 0 20px;
         padding: 120px 70px;
+        min-width: 400px;
 
         h4 {
             text-align: center;

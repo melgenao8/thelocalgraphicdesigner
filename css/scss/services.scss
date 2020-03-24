@@ -18,7 +18,8 @@
             padding: 0;
             border: 1px solid $primary-yellow;
             background: $dark-brown;
-            width: 450px;
+            max-width: 450px;
+            min-width: 450px;
 
             .top-card {
                 background: $primary-yellow;
