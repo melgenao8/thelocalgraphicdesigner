@@ -18,12 +18,23 @@ $(document).ready(function () {
 $('[data-toggle="slide-collapse"]').on('click', function () {
     var navMenuCont = $($(this).data('target'));
     navMenuCont.animate({ 'width': 'toggle', 'opacity': 'toggle' }, 350);
+    var burger = $(".navbar-toggler i");
+    if (burger.hasClass("fa-bars")) {
+        burger.removeClass("fa-bars")
+        burger.addClass("fa-times");
+    } else {
+        if (burger.hasClass("fa-times")) {
+            burger.removeClass("fa-times");
+            burger.addClass("fa-bars")
+        }
+    }
 });
 
 
 //Logic to show nav when scrolling up on mobile
 var lastTop = 0;
 var navBannerBottom = $(".nav-banner").position().top + $(".nav-banner").outerHeight(true);
+console.log(navBannerBottom)
 var nav = $(".nav-banner nav");
 $(window).on("scroll", debounce(function (e) {
     var top = $(this).scrollTop();
@@ -44,15 +55,13 @@ $(window).on("scroll", debounce(function (e) {
         }
     } else {
         if (nav.hasClass("show-nav")) {
-            nav.animate({ "height": "0px", "opacity": "0" }, 200, function () {
-                nav.removeClass("show-nav");
-                nav.removeAttr("style");
-            })
-
-            lastTop = 0;
+            nav.removeClass("show-nav");
+            nav.removeAttr("style");
         }
+        // lastTop = 0;
     }
-}, 100))
+}, 100)
+)
 
 //debounce function for scroll events
 function debounce(func, wait, immediate) {
