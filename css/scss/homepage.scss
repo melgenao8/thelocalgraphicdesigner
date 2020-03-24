@@ -4,6 +4,34 @@
 .nav-banner {
     background: $brown;
     padding-bottom: 180px;
+    position: relative;
+
+    nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        &.show-nav {
+            position: fixed;
+            height: 0;
+            opacity: 0;
+            z-index: 1000;
+            background-color: $brown;
+
+            .navbar-toggler {
+                margin-top: 0;
+            }
+
+            .nav-brand {
+                top: 10px;
+
+                img {
+                    max-width: 50px;
+                }
+            }
+        }
+    }
 
     .home-nav {
         justify-content: center;
@@ -43,8 +71,8 @@
     }
 
     .banner {
-        margin: 150px auto 0;
-        padding: 15px;
+        margin: 0 auto;
+        padding: 300px 15px 15px;
         max-width: 850px;
         h2 {
             color: $lighter-brown;
@@ -351,10 +379,8 @@
         }
 
         .banner {
-            padding: 15px 30px;
+            padding: 300px 30px 15px;
         }
-
-
     }
 
     .design-studio {
@@ -362,7 +388,6 @@
             margin-right: 10%;
         }
     }
-
 }
 
 @media screen and (max-width: 955px) {
@@ -383,6 +408,10 @@
     .mission {
         .mission-content {
             margin-right: 0;
+
+            .content {
+                margin-left: 30px;
+            }
         }
     }
 
@@ -424,7 +453,7 @@
 @media screen and (max-width: 450px) {
     .mission {
         .mission-content {
-            min-width: 365px;
+            min-width: 325px;
             .content {
                 p {
                     font-size: 15px;

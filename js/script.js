@@ -1,19 +1,3 @@
-// $(window).on("resize", function (e) {
-//     console.log(e);
-//     if (e.target.innerWidth >= 992) {
-//         $(".nav-banner .nav-brand").hide();
-//     } else {
-//         $(".nav-banner .nav-brand").show();
-//     }
-// })
-
-// $(document).ready(function (e) {
-//     console.log($(window).width());
-//     if ($(window).width() >= 992) {
-//         $(".nav-banner .nav-brand").hide();
-//     }
-// })
-
 $(document).ready(function () {
 
     //sets horizontal scroll to center on core values card
@@ -35,3 +19,53 @@ $('[data-toggle="slide-collapse"]').on('click', function () {
     var navMenuCont = $($(this).data('target'));
     navMenuCont.animate({ 'width': 'toggle', 'opacity': 'toggle' }, 350);
 });
+
+
+//Logic to show nav when scrolling up on mobile
+var lastTop = 0;
+var navBannerBottom = $(".nav-banner").position().top + $(".nav-banner").outerHeight(true);
+var nav = $(".nav-banner nav");
+$(window).on("scroll", debounce(function (e) {
+    var top = $(this).scrollTop();
+    if (top >= navBannerBottom) {
+        if (top <= lastTop) {
+            if (!nav.hasClass("show-nav")) {
+                nav.addClass("show-nav");
+                nav.animate({ "height": "65px", "opacity": "1" }, 500)
+            }
+            lastTop = top;
+        } else {
+            if (nav.hasClass("show-nav")) {
+                nav.animate({ "height": "0px", "opacity": "0" }, 500, function () {
+                    nav.removeClass("show-nav");
+                })
+            }
+            lastTop = top;
+        }
+    } else {
+        if (nav.hasClass("show-nav")) {
+            nav.animate({ "height": "0px", "opacity": "0" }, 200, function () {
+                nav.removeClass("show-nav");
+                nav.removeAttr("style");
+            })
+
+            lastTop = 0;
+        }
+    }
+}, 100))
+
+//debounce function for scroll events
+function debounce(func, wait, immediate) {
+    var timeout;
+    return function () {
+        var context = this, args = arguments;
+        var later = function () {
+            timeout = null;
+            if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+    };
+};
