@@ -34,7 +34,6 @@ $('[data-toggle="slide-collapse"]').on('click', function () {
 //Logic to show nav when scrolling up on mobile
 var lastTop = 0;
 var navBannerBottom = $(".nav-banner").position().top + $(".nav-banner").outerHeight(true);
-console.log(navBannerBottom)
 var nav = $(".nav-banner nav");
 $(window).on("scroll", debounce(function (e) {
     var top = $(this).scrollTop();
@@ -58,7 +57,6 @@ $(window).on("scroll", debounce(function (e) {
             nav.removeClass("show-nav");
             nav.removeAttr("style");
         }
-        // lastTop = 0;
     }
 }, 100)
 )

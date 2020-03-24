@@ -440,8 +440,11 @@
 
 @media screen and (max-width: 600px) {
     .nav-banner {
-
+        padding-bottom: 150px;
         .banner {
+
+            padding-top: 250px;
+
             h1 {
                 font-size: 40px;
             }
@@ -468,8 +471,8 @@
         .core-cards {
             .card {
                 margin: 0 7px;
-                padding: 90px 40px;
-                min-width: 340px;
+                padding: 90px 15px;
+                min-width: 310px;
             }
         }
     }
