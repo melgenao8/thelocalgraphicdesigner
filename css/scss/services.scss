@@ -271,6 +271,8 @@
                 font-family: "sofia-pro", sans-serif;
                 letter-spacing: 2px;
                 margin-top: 10px;
+                text-transform: uppercase;
+                font-size: 14px;
             }
         }
     }
@@ -295,7 +297,7 @@
                 }
 
                 input[type="submit"] {
-                    background-color: $brown;
+                    background-color: $light-brown;
                     color: $dark-pink;
                 }
             }
