@@ -142,3 +142,189 @@
         color: #000;
     }
 }
+
+.branded-content {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../img/design-picture.png");
+    background-size: cover;
+    background-position: center;
+    border-top: 1px solid $primary-yellow;
+    border-bottom: 1px solid $primary-yellow;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    h2 {
+        color: $white;
+    }
+
+    h3 {
+        color: $primary-yellow;
+    }
+
+    .text-col {
+        max-width: 800px;
+
+        ul {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            flex-wrap: wrap;
+            list-style-type: none;
+            align-items: center;
+            li {
+                width: 15%;
+                color: $white;
+                margin: 25px 20px;
+                text-align: center;
+                font-family: "sofia-pro", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                text-transform: uppercase;
+                font-size: 13px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+    
+}
+
+.website-copy {
+    padding: 200px 20px;
+    background: $dark-brown;
+
+    h3 {
+        color: $white;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        color: $lighter-brown;
+        text-align: center;
+        max-width: 725px;
+        margin: 40px auto 80px;
+    }
+
+    .cards {
+        .card {
+            background: $brown;
+            max-width: 450px;
+            min-width: 450px;
+
+            h4, h3 {
+                color: $primary-yellow;
+                text-transform: none;
+            }
+
+            h4 {
+                font-size: 34px;
+                margin-bottom: 0;
+            }
+
+            p {
+                color: $light-tan;
+                text-align: left;
+                font-size: 18px;
+                line-height: 1.5;
+            }
+        }
+    }
+}
+
+.retainers {
+    background: $lighter-brown;
+    padding: 200px 20px;
+
+    h3,h2,p,.icon {
+        text-align: center;
+    }
+
+    > h3 {
+        color: $white;
+        text-transform: uppercase;
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    > h2 {
+        color: #000;
+        max-width: 725px;
+        margin: 40px auto 80px;
+    }
+
+    .retainer-cols {
+        display: flex;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+
+        .col {
+            
+            .icon {
+                color: $primary-yellow;
+                font-size: 50px;
+            }
+
+            p {
+                color: $white;
+                font-family: "sofia-pro", sans-serif;
+                letter-spacing: 2px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .retainer-form {
+        margin-top: 170px;
+
+
+        .download-form {
+            h2,h3 {
+                color: $white;
+                margin: 0;
+            }
+
+            form {
+                input[type="text"] {
+                    background: $dark-pink;
+
+                    &::placeholder {
+                        color: #000;
+                    }
+                }
+
+                input[type="submit"] {
+                    background-color: $brown;
+                    color: $dark-pink;
+                }
+            }
+        }
+    }
+}
+
+.services-two-col {
+    background: $dark-brown;
+    padding: 100px 0;
+
+    .two-col-box:first-child {
+        background: $light-brown;
+
+        h3,h4 {
+            color: $primary-yellow;
+        }
+
+        a {
+            background: $light-tan;
+            color: $light-brown;
+        }
+    }
+
+    .two-col-box:last-child {
+        background: $nav-text;
+    }
+}
+
+.services-footer {
+    border-bottom: 15px solid $dark-brown;
+}
