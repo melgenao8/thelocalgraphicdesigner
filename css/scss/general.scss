@@ -1,3 +1,9 @@
+@font-face {
+    src: url('webFonts/SackersGothicStd-Medium/font.eot');
+    font-family: 'SackersGothicStd-Medium';
+    src: url('webFonts/SackersGothicStd-Medium/font.woff2') format('woff2'), url('webFonts/SackersGothicStd-Medium/font.woff') format('woff'), url('webFonts/SackersGothicStd-Medium/font.eot?#iefix') format('embedded-opentype'), url('webFonts/SackersGothicStd-Medium/font.ttf') format('truetype');
+  }
+
 //colors
 $nav-text: #B5AC95;
 $lighter-brown: #8E807D;
@@ -9,6 +15,10 @@ $dark-brown: #292728;
 $light-brown: #47403F;
 $light-tan: #EDE5E2;
 $dark-pink: #D3B7B0;
+//new colors
+$cream:#D0C9BA;
+$dark-blush:#A58984;
+$ash:#58595B
 
 //default styles
 a:visited {
@@ -19,8 +29,35 @@ p, h2, h3, h4, a {
     letter-spacing: 1px;
 }
 
+// font styling
+.loose {
+    letter-spacing: 6px;
+  }
+  .xtra-loose {
+    letter-spacing: 11px;
+  }
+
+.xsmall {
+    font-size: 10px;
+}
+
 
 //fonts
+.freight-i{
+    font-family: freight-big-pro, serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+
+.sackers-gothic {
+	font-family: SackersGothicStd-Medium;
+}
+.bebas-neue {
+    font-family: 'Bebas Neue', cursive;
+}
+
 .sofia-light {
     font-family: "sofia-pro", sans-serif;
     font-weight: 300;
@@ -35,7 +72,7 @@ p, h2, h3, h4, a {
 
 .sofia-sb-i {
     font-family: "sofia-pro", sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     font-style: italic;
 }
 
@@ -112,25 +149,32 @@ p, h2, h3, h4, a {
         align-items: center;
         min-width: 400px;
 
+//HOME PAGE FONTS
         .content {
-            max-width: 300px;
+            max-width: 280px;
             margin: 0 auto;
 
+            h4 {
+                margin: 10px 0;
+                // max-width: 200px;
+
+            }
+
             h3 {
-                margin: 0;
-                font-size: 32px;
+                margin: 5px 0;
             }
 
             h2 {
-                margin: 15px 0;
-                font-size: 45px;
+                margin: 5px 0;
+
             }
 
             p {
-                margin-top: 70px;
-                line-height: 1.5;
-                font-size: 18px;
+                margin-top: 25px;
+                line-height: 1.35;
+                font-size: 14px;
                 font-weight: 300;
+                text-align: left;
             }
         }
     }
@@ -159,21 +203,21 @@ p, h2, h3, h4, a {
         align-items: center;
         margin-right: 140px;
 
-        h2 {
-            font-size: 55px;
-            margin-right: 25px;
-        }
+        // h2 {
+        //     font-size: 55px;
+        //     margin-right: 25px;
+        // }
 
-        h3 {
-            font-size: 45px;
-        }
+        // h3 {
+        //     font-size: 45px;
+        // }
     }
 
     .text-col {
         max-width: 500px;
 
         p {
-            font-size: 18px;
+            font-size: 14px;
             margin-bottom: 30px;
         }
 
@@ -340,12 +384,14 @@ p, h2, h3, h4, a {
         h2 {
             color: $lighter-brown;
             margin-bottom: 10px;
-            font-size: 40px;
+            font-size: 30px;
+            text-align: center;
         }
 
         h1 {
             color: $primary-yellow;
             font-size: 50px;
+            text-align: center;
         }
     }
     .navbar-toggler {
@@ -377,16 +423,20 @@ p, h2, h3, h4, a {
 
         .opening-title {
             width: 50%;
-            padding-right: 100px;
+            // padding-right: 50px;
+
             h1 {
                 color: $light-tan;
+                text-align: center;
                 font-size: 50px;   
-                margin-bottom: 20px;
             }
 
             p {
-                font-size: 14px;
+                font-size: 15pt;
                 padding-right: 50px;
+                padding-top: 20px;
+                letter-spacing: 1px;
+                text-align: center;
             }
         }
 
@@ -606,9 +656,12 @@ footer {
     .text-image-col {
         .text-col {
             margin-right: 0;
+        
 
             .content {
-                margin-left: 30px;
+                margin-left: 25px;
+                padding-right:15px;
+                
             }
         }
     }

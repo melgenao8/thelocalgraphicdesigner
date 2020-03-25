@@ -1,24 +1,36 @@
 // @use "general.scss";
 
-
+// ==== FOUNDERS MESSAGE ====
 .mission {
     background-color: $dark-brown;
 
     .mission-content {
-        background-color: $darker-pink;
+        background-color: $cream;
         
         .content {
 
+            h4 {
+                color: $ash;
+                font-size: 17pt;
+                text-align: center;
+            }
+
             h3 {
-                color: $white;
+                color: $dark-blush;
+                font-size: 15pt;
+                text-align: center;
+                letter-spacing: 3px;
             }
 
             h2 {
-                color: $primary-yellow;
+                color: $dark-blush;
+                text-align: center;
+                font-size: 50px;
             }
 
             p {
-                color: $white;
+                color: $dark-blush;
+
             }
         }
         
@@ -35,11 +47,22 @@
     .design-title {
 
         h2 {
-            color: $white;
+            color: $cream;
+            font-size: 33px;
+
         }
 
         h3 {
-            color: $primary-yellow;
+            padding-right: 20px;
+            color: $dark-blush;
+            letter-spacing: 3px;
+            text-align: right;
+        }
+
+        p {
+            color: $dark-blush;
+            
+
         }
 
         
@@ -72,17 +95,26 @@
         .card {
             background-color: $light-brown;
 
-            h4 {
-                color: $white;
+            h2 {
+                color: $cream;
+                font-size: 55px;
+                text-align: center;
+                padding-bottom: 10px;
             }
-
+            
             h3 {
-                color: $white;
+                color: $cream;
+                padding-right: 20px;
+                padding-bottom: 10px;
+                letter-spacing: 2px;
+                text-align: center;
+                font-size:13pt;
             }
 
-            p {
-                color: $darker-pink;
+            h4 {
+                color: $cream;
             }
+
         }
     }
 }
@@ -102,7 +134,7 @@
 }
 
 .instagram {
-    background: $light-tan;
+    background:$dark-brown;
     padding: 120px 0;
 
     > p {
