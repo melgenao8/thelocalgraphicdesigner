@@ -18,7 +18,7 @@ $dark-pink: #D3B7B0;
 //new colors
 $cream:#D0C9BA;
 $dark-blush:#A58984;
-$ash:#58595B
+$ash:#58595B;
 
 //default styles
 a:visited {
@@ -48,8 +48,6 @@ p, h2, h3, h4, a {
     font-weight: 500;
     font-style: italic;
 }
-
-
 
 .sackers-gothic {
 	font-family: SackersGothicStd-Medium;
@@ -638,7 +636,7 @@ footer {
         form {
             flex-direction: column;
 
-            input {
+            input,#full-name, #email {
                 width: 100% !important;
                 margin: 10px 0;
             }
@@ -743,6 +741,16 @@ footer {
                 h1 {
                     font-size: 42px;
                 }
+            }
+        }
+    }
+
+    .download-form {
+
+        form {
+
+            input[type="submit"] {
+                max-width: 200px;
             }
         }
     }
