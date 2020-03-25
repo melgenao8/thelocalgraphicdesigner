@@ -588,7 +588,7 @@ footer {
         form {
             flex-direction: column;
 
-            input {
+            input,#full-name, #email {
                 width: 100% !important;
                 margin: 10px 0;
             }
@@ -690,6 +690,16 @@ footer {
                 h1 {
                     font-size: 42px;
                 }
+            }
+        }
+    }
+
+    .download-form {
+
+        form {
+
+            input[type="submit"] {
+                max-width: 200px;
             }
         }
     }

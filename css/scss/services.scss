@@ -438,6 +438,12 @@
                     h2 {
                         font-size: 24px;
                     }
+
+                    p {
+                        &:last-of-type {
+                            margin-top: 10px;
+                        }
+                    }
                 }
 
                 .middle-card {
