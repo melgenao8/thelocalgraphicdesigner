@@ -258,8 +258,9 @@
         align-items: center;
         max-width: 1000px;
         margin: 0 auto;
+        justify-content: space-between;
 
-        .col {
+        .retainer-col {
             
             .icon {
                 color: $primary-yellow;
@@ -330,3 +331,136 @@
 .services-footer {
     border-bottom: 15px solid $dark-brown;
 }
+
+@media screen and (max-width: 1480px) {
+    .packages {
+        padding-left: 15px;
+        padding-right: 15px;
+        .cards {
+
+            .card {
+                max-width: 425px;
+                min-width: 425px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .website-copy {
+        .cards {
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .branded-content {
+        .title-col {
+            margin-right: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .branded-content {
+        flex-direction: column;
+
+        .title-col {
+            margin: 0 0 30px;
+        }
+
+        .text-col {
+
+            ul {
+                justify-content: space-between;
+                li {
+                    width: 30%;
+                    margin: 25px 0;
+                }
+            }
+        }
+    }
+
+    .website-copy {
+        .cards {
+            flex-direction: column;
+
+            .card {
+                margin: 20px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .retainers {
+        .retainer-cols {
+            flex-wrap: wrap;
+
+            .retainer-col {
+                width: 50%;
+                margin: 10px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .branded-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .website-copy {
+        .cards {
+            .card {
+                max-width: unset;
+                min-width: unset;
+                padding-left: 20px;
+                padding-right: 20px;
+
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .packages {
+        .cards {
+            .card {
+                max-width: 310px;
+                min-width: 310px;
+                margin: 0 7px;
+
+                .top-card {
+                    h2 {
+                        font-size: 24px;
+                    }
+                }
+
+                .middle-card {
+                    p {
+                        font-size: 16px;
+                    }
+                }
+
+                .bottom-card {
+                    p,li {
+                        font-size: 13px;
+                    }
+
+                    .social-strategy {
+                        padding: 0 20px;
+                    }
+                }
+
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+
