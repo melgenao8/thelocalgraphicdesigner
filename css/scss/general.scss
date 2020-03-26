@@ -1,8 +1,3 @@
-@font-face {
-    src: url('webFonts/SackersGothicStd-Medium/font.eot');
-    font-family: 'SackersGothicStd-Medium';
-    src: url('webFonts/SackersGothicStd-Medium/font.woff2') format('woff2'), url('webFonts/SackersGothicStd-Medium/font.woff') format('woff'), url('webFonts/SackersGothicStd-Medium/font.eot?#iefix') format('embedded-opentype'), url('webFonts/SackersGothicStd-Medium/font.ttf') format('truetype');
-  }
 
 //colors
 $nav-text: #B5AC95;
@@ -49,9 +44,6 @@ p, h2, h3, h4, a {
     font-style: italic;
 }
 
-.sackers-gothic {
-	font-family: SackersGothicStd-Medium;
-}
 .bebas-neue {
     font-family: 'Bebas Neue', cursive;
 }
