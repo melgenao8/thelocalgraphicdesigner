@@ -1,15 +1,16 @@
 // @use "general.scss";
 
 .packages {
-    padding: 200px 0 100px;
+    padding: 100px 0 100px;
     background: $dark-brown;
 
     >p {
         text-transform: uppercase;
         color: $lighter-brown;
         text-align: center;
-        font-size: 24px;
-        margin-bottom: 70px;
+        font-size: 16px;
+        letter-spacing: 4px;
+        margin-bottom: 80px;
     }
 
     .cards {
@@ -18,28 +19,35 @@
             padding: 0;
             border: 1px solid $primary-yellow;
             background: $dark-brown;
-            max-width: 450px;
-            min-width: 450px;
+            max-width: 375px;
+            min-width: 375px;
 
             .top-card {
                 background: $primary-yellow;
-                padding-top: 10px;
+                padding-top: 15px;
                 p,h2 {
                     color: black;
                     text-align: center;
+                    padding-bottom: 5px;
+                }
+
+                #social-txt-size{
+                    font-size:30px;
+                    margin-top:10px;
                 }
 
                 p {
-                    margin-top: 20px;
-                    font-size: 24px;
+                    margin-top: 0px;
+                    font-size: 12pt;
                 }
 
                 h2 {
                     margin: 0;
+                    font-size:40px;
                 }
 
                 .img-holder {
-                    margin-top: 30px;
+                    margin-top: 5px;
                     width: 100%;
                     height: 175px;
                     border: 4px solid $primary-yellow;
@@ -54,20 +62,26 @@
                 color: $lighter-brown;
 
                 p {
-                    margin: 30px 0;
-                    padding: 0 40px;  
-                    font-size: 18px;  
+                    margin: 20px 0;
+                    padding: 0 50px;  
+                    font-size: 13px; 
+                    line-height: 17px;
+                    color:$cream; 
                 }
             }
 
             .bottom-card {
                 background: $dark-brown;
                 border-top: 1px solid $primary-yellow;
+                margin-bottom: 15px;
 
                 p:first-of-type {
-                    color: $light-brown;
-                    margin: 30px 0;
-                    text-transform: uppercase;
+                    color: $cream;
+                    font-size:8px;
+                    margin: 20px 0;
+                    letter-spacing: 2px;
+                    
+                    // text-transform: uppercase;
                 }
 
                 .social-strategy {
@@ -82,24 +96,51 @@
                 }
 
                 h3 {
-                    color: $white;
+                    color: $primary-yellow;
 
                     span {
                         color: $primary-yellow;
                         font-style: normal;
+                        font-size: 20px;
+                        letter-spacing: 3.5px;
                     }
                 }
 
+                #bb-1{
+                    font-size:20px;
+                }
+                #bb-2{
+                    letter-spacing: 1.5px;
+                    font-size:25px;
+                }
+                #ss-1{
+                    font-size:14px;
+                }
+                #ss-2{
+                    letter-spacing: 1.5px;
+                    font-size:25px;
+                }
+                #ss-3{
+                    letter-spacing: .5px;
+                    font-size:15px;
+                }
+
+                #ss-4{
+                    font-size:20px;
+                }
+
+
+
                 ul {
-                    margin: 0 0 40px;
+                    margin: 0 0 12px;
                     padding: 0;
                     list-style: none;
 
                     li {
                         text-align: center;
-                        color: $lighter-brown;
+                        color: $taupe;
                         font-family: "sofia-pro", sans-serif;
-                        font-weight: 600;
+                        font-weight: 400;
                         font-style: normal;
                         letter-spacing: 2px;
                         margin: 2px 0;
@@ -107,7 +148,7 @@
                 }
 
                 p,li {
-                    font-size: 14px;
+                    font-size: 9px;
                     text-transform: uppercase;
                 }
             }
@@ -120,11 +161,11 @@
     padding: 150px 0;
 
     h2,h3 {
-        color: $lighter-brown;
+        color: $cream;
         margin: 0;
     }
     p {
-        color: $light-brown;
+        color: $cream;
         margin-top: 30px;
     }
 
@@ -192,11 +233,12 @@
     background: $dark-brown;
 
     h3 {
-        color: $white;
-        text-align: center;
         text-transform: uppercase;
-        font-size: 22px;
-        letter-spacing: 2px;
+        color: $lighter-brown;
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 4px;
+        margin-bottom: 80px;
     }
 
     h2 {
@@ -226,7 +268,7 @@
                 color: $light-tan;
                 text-align: left;
                 font-size: 18px;
-                line-height: 1.5;
+                line-height: 1.25;
             }
         }
     }
@@ -243,8 +285,10 @@
     > h3 {
         color: $white;
         text-transform: uppercase;
-        font-size: 22px;
-        letter-spacing: 2px;
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 4px;
+        margin-bottom: 80px;
     }
 
     > h2 {
@@ -339,8 +383,10 @@
         .cards {
 
             .card {
-                max-width: 425px;
-                min-width: 425px;
+                // max-width: 425px;
+                // min-width: 425px;
+                // max-width: 375px;
+                // min-width: 375px;
             }
         }
     }
@@ -436,25 +482,30 @@
 
                 .top-card {
                     h2 {
-                        font-size: 24px;
+                        font-size: 35px;
                     }
 
                     p {
                         &:last-of-type {
-                            margin-top: 10px;
+                            margin-top: 0px;
                         }
                     }
+
+                    // #no-spacing {
+                    //     letter-spacing: -5px;
+                    //   }
+
                 }
 
                 .middle-card {
                     p {
-                        font-size: 16px;
+                        font-size: 13px;
                     }
                 }
 
                 .bottom-card {
                     p,li {
-                        font-size: 13px;
+                        font-size: 12px;
                     }
 
                     .social-strategy {

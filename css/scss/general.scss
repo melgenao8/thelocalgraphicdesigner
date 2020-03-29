@@ -1,4 +1,9 @@
-
+// body {
+//     background-image: url("../img/bg-texture-medium-1920px-3125px.jpg");
+//     background-size: cover;
+//     position: absolute;
+//     background-color: transparent;
+// }
 //colors
 $nav-text: #B5AC95;
 $lighter-brown: #8E807D;
@@ -12,6 +17,7 @@ $light-tan: #EDE5E2;
 $dark-pink: #D3B7B0;
 //new colors
 $cream:#D0C9BA;
+$taupe:#938A7D;
 $dark-blush:#A58984;
 $ash:#58595B;
 
@@ -28,6 +34,7 @@ p, h2, h3, h4, a {
 .loose {
     letter-spacing: 6px;
   }
+
   .xtra-loose {
     letter-spacing: 11px;
   }
@@ -232,6 +239,25 @@ p, h2, h3, h4, a {
         padding: 120px 70px;
         min-width: 400px;
 
+        &#design-process-bg{
+            background-image: url("../img/process-bg-TEST.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        &#services-process-bg{
+            background-image: url("../img/services-bg-TEST.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        
+        &#studio-process-bg{
+            background-image: url("../img/about-bg-TEST.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
         h4 {
             text-align: center;
             font-size: 22px;
@@ -321,10 +347,10 @@ p, h2, h3, h4, a {
             }
 
             .nav-brand {
-                top: 10px;
+                top: 5px;
 
                 img {
-                    max-width: 50px;
+                    max-width: 40px;
                 }
             }
         }
@@ -334,10 +360,10 @@ p, h2, h3, h4, a {
         justify-content: center;
         width: 100%;
         align-items: center;
-        padding-top: 20px;
+        padding-top: 10Px;
 
         .nav-item {
-            border-right: 1px solid #000;
+            border-right: 0px solid #000;
             padding: 0 20px;
 
             a {
@@ -345,11 +371,11 @@ p, h2, h3, h4, a {
                 text-transform: uppercase;
                 padding: 1px 5px;
                 letter-spacing: 2px;
-                font-size: 13px;
+                font-size: 8px;
             }
 
             &:nth-child(5) {
-                border-left: 1px solid #000;
+                border-left: 0px solid #000;
             }
 
             &:nth-child(4) {
@@ -370,7 +396,7 @@ p, h2, h3, h4, a {
     .banner {
         margin: 0 auto;
         padding: 300px 15px 15px;
-        max-width: 850px;
+        max-width: 980px;
         h2 {
             color: $lighter-brown;
             margin-bottom: 10px;
@@ -382,6 +408,17 @@ p, h2, h3, h4, a {
             color: $primary-yellow;
             font-size: 50px;
             text-align: center;
+        }
+        .back-quote{
+            z-index: 1;
+            position: absolute;
+            top: 0px;
+            left:0px;
+            color:$light-brown;
+            font-size:200px;
+            text-align: left;
+            letter-spacing: 20px;
+            margin: 0px;
         }
     }
     .navbar-toggler {
@@ -418,11 +455,12 @@ p, h2, h3, h4, a {
             h1 {
                 color: $light-tan;
                 text-align: center;
+                margin-top:20px;
                 font-size: 50px;   
             }
 
             p {
-                font-size: 15pt;
+                font-size: 12pt;
                 padding-right: 50px;
                 padding-top: 20px;
                 letter-spacing: 1px;
@@ -432,13 +470,14 @@ p, h2, h3, h4, a {
 
         .opening-text {
             width: 50%;
-            padding-left: 20px;
+            padding-left: 40px;
             border-left: 1px solid $primary-yellow;
+            max-width: 350px;
         }
 
         p {
             color: $light-tan;
-            font-size: 18px;
+            font-size: 14px;
             margin-bottom: 0;
         }
         
@@ -447,11 +486,16 @@ p, h2, h3, h4, a {
 
 footer {
     padding: 70px 90px;
-    border-bottom: 15px solid $light-brown;
-    background: $dark-pink;
+    border-bottom: 15px solid $primary-yellow;
+    background: $light-brown;
     display: flex;
     align-items: center;
     position: relative;
+
+    h2{
+    font-size: 12pt;
+    text-align: center;
+    }
 
     .footer-social {
         display: flex;
@@ -460,8 +504,8 @@ footer {
         div {
             margin-right: 20px;
             border: 1px solid $primary-yellow;
-            width: 60px;
-            height: 60px;
+            width: 30px;
+            height: 30px;
 
             &:last-of-type {
                 margin-right: 0;
@@ -476,6 +520,7 @@ footer {
 
         li {
             a{
+                font-size: 10px;
                 color: $lighter-brown;
                 text-transform: uppercase;
                 text-decoration: none;
@@ -546,6 +591,8 @@ footer {
 
 @media screen and (max-width: 991px){
     .nav-banner {
+
+
         .nav-brand {
             display: block;
         }
@@ -565,6 +612,7 @@ footer {
             margin-left: 27px;
 
             .nav-item {
+                font-size: 25px;
                 border: none !important;
                 padding-left: .75rem;
                 margin: 6px 0;
@@ -679,14 +727,15 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+
     .nav-banner {
-        padding-bottom: 150px;
+        padding-bottom: 75px;
         .banner {
 
             padding-top: 250px;
 
             h1 {
-                font-size: 40px;
+                font-size: 30px;
             }
 
         }
@@ -700,9 +749,10 @@ footer {
             min-width: 325px;
             .content {
                 p {
-                    font-size: 15px;
-                    margin-top: 50px;
-                }
+                    font-size: 14px;
+                    margin-top: 25px;
+                    padding-left:20px;
+                    padding-right: 15px;                }
             }
         }
     }

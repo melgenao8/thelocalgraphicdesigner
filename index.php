@@ -1,3 +1,6 @@
+<head>
+<link rel="stylesheet" href="css/style.css">
+</head>
 <?php require_once("header.php")?>
 
 <div class="container-fluid nav-banner">
@@ -5,9 +8,12 @@
 
     <!-- ==== MAIN BANNER ==== -->
     <div class="banner">
-        <h2 class="freight-i">who we are</h2>
-        <h1 class="sofia-sb">A dallas based graphic design studio helping entreprenuers make a big impact
-            with their business.</h1>
+        <!-- <h2 class="freight-i">who we are</h2> -->
+        <!-- <h2 class="bebas-neue loose"><div class ="back-quote">HELPING SMALL BUSINESSES MAKE A BIG IMPACT</div></h2> -->
+
+        <h1 class="sofia-sb">A dallas based graphic designer focusing on
+            strategic branding and web development for the self employed.
+        </h1>
     </div>
 </div>
 
@@ -16,21 +22,20 @@
 <div class="text-image-col mission">
     <div class="text-col mission-content">
         <div class="content">
-            <h3 class="sofia-sb-i smallfont">A MESSAGE</h3>
-            <h3 class="sackers-gothic">FROM THE</h3>
+            <h3 class="sofia-sb-i">A MESSAGE</h3>
+            <h3 class="sackers-gothic" id="h3-2">FROM THE</h3>
             <h2 class="bebas-neue loose">FOUNDER</h2>
-            <h4 class="freight-i">There’s nothing better<br>
-                then letting the design <br>
+            <h3 class="sackers-gothic" id="h3-3">- MELISSA -</h3>
+            <h4 class="freight-i">To me,<br>there’s nothing better<br>
+                than letting the design <br>
                 do the work for you.</p>
 
-                <p class="sofia-sb">Lorem ipsum dolor sit amet, consectetuer
-                    adipiscing elit, sed diam nonummy nibh
-                    euismod tincidunt ut laoreet dolore
-                    magna aliquam erat volutpat. Lorem
-                    ipsum dolor sit amet, consectetuer
-                    adipiscing elit, sed diam nonummy nibh
-                    euismod tincidunt ut laoreet dolore
-                    magna aliquam erat vo
+                <p class="sofia-sb">Most small business owners know there
+            are many hats to wear. As one myself, it's all too easy to get
+            overwhelmed with the day-to-day process.
+            <!-- <br> <br>
+            With so many things to think about, I'm sure you've already asked yourself,
+            is design that important? Is this a priority investment? -->
                 </p>
         </div>
     </div>
@@ -43,7 +48,7 @@
 <div class="two-text-col design-studio">
     <div class="title-col design-title">
 
-        <h3 class="sackers-gothic xsmall">THE MAGIC IN </h3>
+        <h3 class="sackers-gothic" id="magic-txt">THE MAGIC OF </h3>
         <h3 class="freight-i">your</h3>
         <h2 class="bebas-neue loose">LOCAL<BR>BUSINESS</h2>
         <!-- <h2 class="plantin-i">the</h2>
@@ -55,7 +60,7 @@
             erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing
             elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
             magna aliquam erat vo</p>
-        <a href="#" class="sofia-sb">Learn More ></a>
+        <!-- <a href="#" class="sofia-sb">Learn More ></a> -->
     </div>
 </div>
 
@@ -66,25 +71,27 @@
     <!-- links to DESIGN PROCESS page -->
     <div class="cards core-cards">
 
-        <div class="card">
-            <h3 class="freight-i ">understanding</h3>
-            <h3 class="bebas-neue loose">THE</h3>
-            <h2 class="sofia-sb-i">DESIGN <BR></h2>
+        <div class="card" id="design-process-bg">
+        <!-- <img src="img/process-bg-TEST.jpg" alt="The Design Process Picture"> -->
+            <!-- <h3 class="freight-i ">understanding</h3>
+            <h3 class="bebas-neue loose">THE</h3> -->
+            
+            <h2 class="sofia-sb-i" id="search-design-text">design<BR></h2>
             <h2 class="bebas-neue xtra-loose" id="processh2">PROCESS</h2>
         </div>
         <!-- links to SERVICES page -->
-        <div class="card">
+        <div class="card" id="services-process-bg">
             <h2 class="bebas-neue loose">DESIGN</h2>
             <h2 class="sofia-sb-i">SERVICES <BR></h2>
-            <h3 class="freight-i ">what we offer</h3>
+            <!-- <h3 class="freight-i ">what we offer</h3> -->
         </div>
 
         <!-- links to ABOUT page -->
-        <div class="card">
-            <h3 class="freight-i ">who</h3>
-            <h3 class="bebas-neue loose">WE ARE</h3>
-            <h2 class="bebas-neue xtra-loose">THE<BR></h2>
-            <h2 class="sofia-sb-i">STUDIO</h2>
+        <div class="card" id="studio-process-bg">
+            <!-- <h3 class="freight-i ">who</h3>
+            <h3 class="bebas-neue loose">WE ARE</h3> -->
+            <h2 class="sofia-sb-i" id="the-small"> THE<BR></h2>
+            <h2 class="bebas-neue loose">STUDIO</h2>
         </div>
         <!-- 
             <img src="img/search-btns-bg-TEST-03.jpg" alt="Search BG pic"> -->

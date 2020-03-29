@@ -4,7 +4,11 @@
         <div></div>
         <div></div>
     </div>
+
+    <h2 class="bebas-neue"> Freelance Graphic Designer in Dallas, TX<BR></h2>
     <ul class="footer-links">
+
+
         <li><a href="#" class="sofia-sb">About</a></li>
         <li><a href="#" class="sofia-sb">Services</a></li>
         <li><a href="#" class="sofia-sb">Contact</a></li>
@@ -12,9 +16,11 @@
     </ul>
 
     <div class="footer-logo">
-        <img src="img/secondary-logo-TLGC.png" alt="secondary-logo-TLGC">
+        <img src="img/footer-logo.png" alt="secondary-logo-TLGC">
     </div>
 </footer>
+
+
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
