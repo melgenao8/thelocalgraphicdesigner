@@ -1,0 +1,135 @@
+.connect-banner {
+    h1 {
+        span {
+            letter-spacing: 1px;
+        }
+    }
+}
+
+.connect-col {
+    background: $dark-brown;
+    border-top: 1px solid $primary-yellow;
+    border-bottom: 1px solid $primary-yellow;
+
+    .title-col {
+        h3 {
+            color: $white;
+            margin-right: 20px;
+            font-size: 40px;
+        }
+
+        h2 {
+            color: $primary-yellow;
+        }
+    }
+
+    .text-col {
+        p, a {
+            margin: 0;
+            color: #fff;
+        }
+
+        .business, .connect-email {
+            color: $darker-pink;
+        }
+
+        .business {
+            margin-bottom: 5px;
+        }
+
+        .connect-email {
+            margin-top: 40px;
+        }
+    }
+}
+
+.connect-form {
+    padding: 50px 20px;
+    background: $dark-brown;
+
+    form {
+        max-width: 800px;
+        margin: 0 auto 80px;
+
+        h2 {
+            text-align: center;
+            font-size: 20px;
+            color: $white;
+            text-transform: uppercase;
+            margin-bottom: 60px;
+        }
+
+        div {
+            display: flex;
+
+            input {
+                flex: 1;
+                margin: 20px 0;
+
+                &:first-of-type {
+                    margin-right: 40px;
+                }
+            }
+        }
+
+        input, select, textarea {
+            background: $brown;
+            color: $white;
+            padding: 15px 5px 15px 25px;
+            border: none;
+            font-family: "sofia-pro", sans-serif;
+            letter-spacing: 2px;
+            font-size: 14px;
+
+            &::placeholder {
+                color: $white;
+            }
+        }
+
+        > input, > select {
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        textarea {
+            width: 100%;
+            margin: 20px 0;
+        }
+        button {
+            width: 100%;
+            max-width: 400px;
+            margin: 10px auto 0;
+            display: block;
+            border: none;
+            background-color:$light-brown;
+            padding: 15px 10px;
+            color: $white;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .connect-form{
+        form {
+            div {
+                flex-direction: column;
+
+                input {
+                    width: 100%;
+                    margin: 20px 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .connect-banner {
+        h1 {
+            font-size: 36px !important;
+        }
+    }
+}

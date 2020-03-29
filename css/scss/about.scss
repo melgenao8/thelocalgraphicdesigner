@@ -1,0 +1,211 @@
+.mission-statement {
+    text-align: center;
+    background: $nav-text;
+    padding: 150px 30px;
+
+    h2 {
+        color: $white;
+        font-size: 42px;
+        margin-bottom: 0;
+    }
+
+    h3 {
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+
+    p {
+        max-width: 650px;
+        margin: 0 auto;
+        font-size: 28px;
+        line-height: 1.2;
+    }
+}
+
+.about-values {
+    padding: 150px 20px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../img/design-picture.png);
+    background-size: cover;
+    background-position: center;
+
+    > p {
+        color: $white;
+    }
+
+    .cards {
+        align-items: stretch;
+
+        .card {
+            background: $dark-pink;
+            padding: 80px 40px 40px;
+            max-width: 350px;
+            min-width: 350px;
+            border-radius: 0;
+
+            h2 {
+                font-size: 18px;
+                text-transform: uppercase;
+                margin: 0;
+                color: #000;
+                padding: 0;
+                letter-spacing: 3px;
+            }
+
+            h4 {
+                font-size: 20px;
+                margin: 15px 0 5px;
+                color: #000;
+            }
+
+            h3 {
+                font-size: 24px;
+                margin: 0 0 40px;
+                color: #000;
+                padding: 0;
+                letter-spacing: 0;
+            }
+
+            p{
+                margin: 0;
+                font-size: 14px;
+            }
+
+        }
+    }  
+}
+
+.collaboration {
+    padding: 100px 30px;
+    background: $dark-brown;
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 50px;
+        color: $white;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    p {
+        max-width: 500px;
+        margin: 0 auto 60px;
+        color: $cream;
+        font-size: 20px;
+    }
+
+    .collab-cols {
+        display: flex;
+        align-items: center;
+        max-width: 700px;
+        margin: 0 auto;
+        justify-content: space-between;
+
+        .collab-col {
+            text-align: center;
+
+            .icon {
+                color: $primary-yellow;
+                font-size: 50px;
+            }
+
+            p {
+                color: $white;
+                font-family: "sofia-pro", sans-serif;
+                letter-spacing: 2px;
+                margin-top: 10px;
+                text-transform: uppercase;
+                font-size: 14px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.founder {
+    background: $dark-brown;
+
+    .founder-content {
+        background: $primary-yellow;
+        order: 1;
+        margin: 0 0 0 20px;
+
+        .content {
+            max-width: 310px;
+
+            h3 {
+                font-size: 34px;
+            }
+
+            h2 {
+                font-size: 38px;
+                margin-bottom: 40px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+        }
+
+    }
+}
+
+.about-nav {
+    padding: 0 0 150px;
+    background: $dark-brown;
+
+    .two-col {
+        justify-content: center;
+
+        .two-col-box {
+            padding: 20px;
+        }
+        h3 {
+            color: $white;
+        }
+
+        h4 {
+            color: $primary-yellow;
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .collaboration {
+        .collab-cols {
+            flex-wrap: wrap;
+
+            .collab-col {
+                width: 50%;
+                margin: 10px 0;
+            }
+        }
+    }
+
+    .founder {
+        
+        .founder-content {
+            margin-left: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .about-values {
+        .cards {
+            .card {
+                min-width: 300px;
+                max-width: 300px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    }
+
+    .founder {
+        .image-col {
+            max-width: 300px;
+        }
+    }
+}
