@@ -24,7 +24,7 @@
                 <a class="nav-link sofia-sb" href="learn.html">Learn</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link sofia-sb" href="about.html">About</a>
+                <a class="nav-link sofia-sb" href="about.php">About</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link sofia-sb" href="connect.php">Connect</a>

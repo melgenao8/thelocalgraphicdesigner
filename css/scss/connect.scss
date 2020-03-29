@@ -1,3 +1,11 @@
+.connect-banner {
+    h1 {
+        span {
+            letter-spacing: 1px;
+        }
+    }
+}
+
 .connect-col {
     background: $dark-brown;
     border-top: 1px solid $primary-yellow;
@@ -40,7 +48,7 @@
     background: $dark-brown;
 
     form {
-        max-width: 900px;
+        max-width: 800px;
         margin: 0 auto 80px;
 
         h2 {
@@ -67,7 +75,7 @@
         input, select, textarea {
             background: $brown;
             color: $white;
-            padding: 10px 5px 10px 25px;
+            padding: 15px 5px 15px 25px;
             border: none;
             font-family: "sofia-pro", sans-serif;
             letter-spacing: 2px;
@@ -94,11 +102,34 @@
             display: block;
             border: none;
             background-color:$light-brown;
-            padding: 10px;
+            padding: 15px 10px;
             color: $white;
             text-transform: uppercase;
             letter-spacing: 2px;
             font-size: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .connect-form{
+        form {
+            div {
+                flex-direction: column;
+
+                input {
+                    width: 100%;
+                    margin: 20px 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .connect-banner {
+        h1 {
+            font-size: 36px !important;
         }
     }
 }

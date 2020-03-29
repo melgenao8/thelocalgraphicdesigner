@@ -1,14 +1,11 @@
 <?php require_once("header.php")?>
 
-<div class="container-fluid nav-banner">
+<div class="container-fluid nav-banner connect-banner">
     <?php require_once("navigation.php")?>
 
     <div class="opening">
         <div class="opening-title">
-            <h1 class="bebas-neue loose">Let's work together</h1>
-
-            <!-- <h1 class="sofia-sb">Design Services</h1> -->
-            <p class="freight-i">work with people you trust</p>
+            <h1 class="bebas-neue loose">Working <span class="sofia-sb">Together</span></h1>
         </div>
         <div class="opening-text">
             <p class="sofia">I’m excited to get to know your business a
@@ -68,7 +65,7 @@
 </div>
 
 <div class="instagram">
-    <p class="sofia-sb">Instagram</p>
+    <!-- <p class="sofia-sb">Instagram</p> -->
 
     <div class="gallery">
         <div></div>
