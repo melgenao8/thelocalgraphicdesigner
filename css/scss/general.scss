@@ -1,9 +1,10 @@
-// body {
-//     background-image: url("../img/bg-texture-medium-1920px-3125px.jpg");
-//     background-size: cover;
-//     position: absolute;
-//     background-color: transparent;
-// }
+body {
+    background-image: url("../img/bg-texture-medium-1920px-3125px.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
 //colors
 $nav-text: #B5AC95;
 $lighter-brown: #8E807D;
@@ -325,7 +326,7 @@ p, h2, h3, h4, a {
 }
 
 .nav-banner {
-    background: $brown;
+    background: transparent;
     padding-bottom: 180px;
     position: relative;
 
@@ -380,7 +381,7 @@ p, h2, h3, h4, a {
 
             &:nth-child(4) {
                 border: none;
-                padding: 0 40px;
+                // padding: 0 40px;
             }
 
             &:last-child {
@@ -454,7 +455,8 @@ p, h2, h3, h4, a {
 
             h1 {
                 color: $light-tan;
-                text-align: center;
+                text-align: right;
+                margin-right: 30px;
                 margin-top:20px;
                 font-size: 50px;   
             }
@@ -470,7 +472,7 @@ p, h2, h3, h4, a {
 
         .opening-text {
             width: 50%;
-            padding-left: 40px;
+            padding-left: 20px;
             border-left: 1px solid $primary-yellow;
             max-width: 350px;
         }
@@ -616,6 +618,10 @@ footer {
                 border: none !important;
                 padding-left: .75rem;
                 margin: 6px 0;
+
+                .nav-link {
+                    font-size: 20px;
+                }
             }
 
             .nav-logo {
@@ -657,11 +663,18 @@ footer {
         .opening {
             flex-direction: column;
             align-items: center;
+            padding: 250px 15px 15px;
+
 
             .opening-title {
                 width: 100%;
-                margin-bottom: 50px;
+                margin-bottom: 20px;
                 max-width: 500px;
+                
+
+                h1 {
+                    text-align: center;  
+                }
             }
 
             .opening-text {
@@ -732,7 +745,7 @@ footer {
         padding-bottom: 75px;
         .banner {
 
-            padding-top: 250px;
+            padding-top: 200px;
 
             h1 {
                 font-size: 30px;
@@ -779,6 +792,7 @@ footer {
         .opening {
             .opening-title {
                 padding-right: 0;
+
 
                 h1 {
                     font-size: 42px;
