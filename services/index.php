@@ -1,48 +1,48 @@
-<?php require_once("header.php")?>
+<?php require_once("../header.php")?>
 
 <div class="container-fluid nav-banner">
-    <?php require_once("navigation.php") ?>
+    <?php require_once("../navigation.php") ?>
 
-<!-- * ----------------------------------------
+    <!-- * ----------------------------------------
  * opening title
  * ---------------------------------------- -->
 
     <div class="opening">
         <div class="opening-title">
             <div class="bounce-in-top">
-            <!-- <h1 class="bebas-neue loose">DESIGN</h1><h1 class="sofia-sb-i">SERVICES</h1> -->
+                <!-- <h1 class="bebas-neue loose">DESIGN</h1><h1 class="sofia-sb-i">SERVICES</h1> -->
                 <h1 class="bebas-neue">DESIGN <span class="sofia-sb-i">Services</span></h1>
-            <!-- <h1 class="sofia-sb">Design Services</h1> -->
-            <!-- <p class="freight-i">great for bloggers, entrepreneurs, restaurants,
+                <!-- <h1 class="sofia-sb">Design Services</h1> -->
+                <!-- <p class="freight-i">great for bloggers, entrepreneurs, restaurants,
                 & the self-employed</p> -->
             </div>
         </div>
         <div class="opening-text">
-        <div class="bounce-in-top-slower">
-            <p class="sofia-light">Investing in something unfamiliar is not a good feeling.
-                Get acquianted with the branding process so that you
-                feel confident in your decision to create an effective
-                impression on your audience.</p>
-</div>
+            <div class="bounce-in-top-slower">
+                <p class="sofia-light">Investing in something unfamiliar is not a good feeling.
+                    Get acquianted with the branding process so that you
+                    feel confident in your decision to create an effective
+                    impression on your audience.</p>
+            </div>
         </div>
     </div>
 </div>
 
 
- <!-- * ----------------------------------------
+<!-- * ----------------------------------------
  * packages
  * ---------------------------------------- -->
 
 <div class="packages">
 
     <h2 class="sofia-sb">Popular Packages</h3>
-    <p class="plantin-i">These packages are a great place to start.
-        Services are tailored specifically to each business.
+        <p class="plantin-i">These packages are a great place to start.
+            Services are tailored specifically to each business.
     </h2>
 
 
 
-  
+
 
     <div class="cards">
         <!-- BRANDING BASICS -- PACKAGE -->
@@ -159,7 +159,7 @@
     </div>
 </div>
 
- <!-- * ----------------------------------------
+<!-- * ----------------------------------------
  * instant download
  * ---------------------------------------- -->
 
@@ -178,7 +178,7 @@
     </div>
 </div>
 
- <!-- * ----------------------------------------
+<!-- * ----------------------------------------
  * more branded content
  * ---------------------------------------- -->
 
@@ -211,7 +211,7 @@
 
 
 </div>
- <!-- * ----------------------------------------
+<!-- * ----------------------------------------
  * common services
  * ---------------------------------------- -->
 <!-- <div class="website-copy">
@@ -264,7 +264,7 @@
     </div>
 </div> -->
 
- <!-- * ----------------------------------------
+<!-- * ----------------------------------------
  * monthly retainers
  * ---------------------------------------- -->
 
@@ -274,44 +274,44 @@
         entrprenuers who need fresh content every month, or
         need help keeping up with the brand execution</h2>
 
-    
-        <div class="retainer-cols">
-        
-    <!-- ICON 1 -->
-    <div class="retainer-col">
+
+    <div class="retainer-cols">
+
+        <!-- ICON 1 -->
+        <div class="retainer-col">
             <div class="icon-img-holder">
-                 <img src="img/icons/social-media-content-icon.svg">
+                <img src="img/icons/social-media-content-icon.svg">
             </div>
             <p>Social Media<br>Content Creation</p>
         </div>
-    
-    <!-- ICON 2 -->
-    <div class="retainer-col">
+
+        <!-- ICON 2 -->
+        <div class="retainer-col">
             <div class="icon-img-holder">
-                 <img src="img/icons/website-maintenance-icon.svg">
+                <img src="img/icons/website-maintenance-icon.svg">
             </div>
             <p>Website<br>Maintenance</p>
         </div>
 
-    <!-- ICON 3 -->
-    <div class="retainer-col">
+        <!-- ICON 3 -->
+        <div class="retainer-col">
             <div class="icon-img-holder">
-                 <img src="img/icons/blog-writer-icon.svg">
+                <img src="img/icons/blog-writer-icon.svg">
             </div>
             <p>Blog/Article<br>Writting</p>
         </div>
 
-    <!-- ICON 3 -->
+        <!-- ICON 3 -->
         <div class="retainer-col">
             <div class="icon-img-holder">
-                 <img src="img/icons/social-media-photographer-videographer.svg">
+                <img src="img/icons/social-media-photographer-videographer.svg">
             </div>
             <p>Videography<br>And Photography</p>
         </div>
     </div>
 
-    
-     <!-- * ----------------------------------------
+
+    <!-- * ----------------------------------------
  * pricing guide download
  * ---------------------------------------- -->
 
@@ -331,7 +331,7 @@
 </div>
 
 
- <!-- * ----------------------------------------
+<!-- * ----------------------------------------
  * work together button
  * ---------------------------------------- -->
 
@@ -341,17 +341,17 @@
             <h3 class="plantin-i">let's</h3>
             <h4 class="sofia-bold">Work <br> Together</h4>
         </div>
-        <a href="#" class="btn-wide sofia">Contact</a>
+        <a href="/connect" class="btn-wide sofia">Contact</a>
     </div>
     <div class="two-col-box">
         <div class="box">
             <h3 class="plantin-i">the</h3>
             <h4 class="sofia-bold">Strategic <br> Process</h4>
         </div>
-        <a href="#" class="btn-wide sofia">Learn About The Design Process</a>
+        <a href="/process" class="btn-wide sofia">Learn About The Design Process</a>
     </div>
 </div>
 
 
 
-<?php require_once("footer.php") ?>
+<?php require_once("../footer.php") ?>

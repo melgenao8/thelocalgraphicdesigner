@@ -1,7 +1,7 @@
-<?php require_once("header.php")?>
+<?php require_once("../header.php")?>
 
 <div class="container-fluid nav-banner about-banner">
-    <?php require_once("navigation.php")?>
+    <?php require_once("../navigation.php")?>
 
     <div class="opening">
         <div class="opening-title">
@@ -19,11 +19,11 @@
 <div class="process">
     <div class="process-title">
         <div class="process-step">
-            <h2 class="bebas-neue">01</h2>
+            <h2 class="bebas-neue" id="process-step">01</h2>
         </div>
         <div class="process-content">
-            <h3 class="plantin-i">the <span class="sofia">Discovery</span></h3>
-            <p>Lorem ipsum dolor sit amet, consectetuer
+            <h3 class="plantin-i">the <span class="sofia" id="process-title">Discovery</span></h3>
+            <p id="process-text">Lorem ipsum dolor sit amet, consectetuer
                 adipiscing elit, sed diam nonummy nibh
                 euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat. Ut wisi enim ad minim </p>
@@ -39,9 +39,11 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
             ...
         </div>
         <!-- If we need pagination -->
@@ -59,14 +61,14 @@
 </div>
 
 
-<div class="about-nav">
+<div class="about-nav process-nav">
     <div class="two-col">
         <div class="two-col-box">
             <div class="box">
                 <h3 class="plantin-i">let's</h3>
                 <h4 class="sofia-bold">Work <br> Together</h4>
             </div>
-            <a href="#" class="btn-wide sofia">Contact</a>
+            <a href="/connect" class="btn-wide sofia">Contact</a>
         </div>
     </div>
 
@@ -76,28 +78,28 @@
         <!-- links to DESIGN PROCESS page -->
         <div class="cards core-cards">
 
-            <div class="card" id="design-process-bg">
+            <a class="card" id="design-process-bg" href="/process">
                 <!-- <img src="img/process-bg-TEST.jpg" alt="The Design Process Picture"> -->
                 <!-- <h3 class="freight-i ">understanding</h3>
             <h3 class="bebas-neue loose">THE</h3> -->
 
                 <h2 class="sofia-sb-i" id="search-design-text">design<BR></h2>
                 <h2 class="bebas-neue xtra-loose" id="processh2">PROCESS</h2>
-            </div>
+            </a>
             <!-- links to SERVICES page -->
-            <div class="card" id="services-process-bg">
+            <a class="card" id="services-process-bg" href="/services">
                 <h2 class="bebas-neue loose">DESIGN</h2>
                 <h2 class="sofia-sb-i">SERVICES <BR></h2>
                 <!-- <h3 class="freight-i ">what we offer</h3> -->
-            </div>
+            </a>
 
             <!-- links to ABOUT page -->
-            <div class="card" id="studio-process-bg">
+            <a class="card" id="studio-process-bg" href="#">
                 <!-- <h3 class="freight-i ">who</h3>
             <h3 class="bebas-neue loose">WE ARE</h3> -->
                 <h2 class="sofia-sb-i" id="the-small"> THE<BR></h2>
                 <h2 class="bebas-neue loose">STUDIO</h2>
-            </div>
+            </a>
             <!-- 
             <img src="img/search-btns-bg-TEST-03.jpg" alt="Search BG pic"> -->
         </div>
@@ -106,4 +108,4 @@
 
 
 
-<?php require_once("footer.php");?>
+<?php require_once("../footer.php");?>

@@ -1,0 +1,2 @@
+[31-Mar-2020 16:02:40 America/Chicago] PHP Warning:  require_once(header.php): failed to open stream: No such file or directory in C:\projects\thelocalgraphicdesigner\process\index.php on line 1
+[31-Mar-2020 16:02:40 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'header.php' (include_path='.;C:\Program Files (x86)\EasyPHP-Devserver-17\eds-binaries\php\php713vc14x86x181027195535\ext') in C:\projects\thelocalgraphicdesigner\process\index.php on line 1

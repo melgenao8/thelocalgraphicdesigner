@@ -1,7 +1,7 @@
 
 .process {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 100px;
     padding: 100px 20px;
     background: $dark-brown;
     border: 1px solid $primary-yellow;
@@ -44,12 +44,77 @@
 
     .arrow {
             text-align: center;
-            margin-top: 30px;
+            margin: 30px 0 20px;
+            
+            img{
+                width: 30px;
+            }
         }
     
 }
 
 .swiper-container {
-    width: 600px;
-    height: 300px;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    // overflow: visible;
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .swiper-pagination-bullets {
+        bottom: unset;
+        top: 0px;
+        
+    }
+
+    .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border: 2px solid $light-brown;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: $light-brown;
+    }
+
+    .swiper-scrollbar, .swiper-button-prev, .swiper-button-next {
+        display: none;
+    }
+}
+
+.process-nav {
+    background: transparent;
+}
+
+@media screen and (max-width: 600px) {
+    .process {
+        .process-title {
+            flex-direction: column;
+                    text-align: center;
+
+            .process-step {
+                margin-right: 0;
+                h2 {
+                    font-size: 100px;
+                }
+            }
+        }
+    }
+
+    .swiper-container {
+        .swiper-slide {
+            width: 100%;
+        }
+    }
 }
