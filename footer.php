@@ -5,6 +5,7 @@
         <div></div>
     </div>
 
+    <div>
     <h2 class="bebas-neue"> Freelance Graphic Designer in Dallas, TX<BR></h2>
     <ul class="footer-links">
 
@@ -14,6 +15,8 @@
         <li><a href="#" class="sofia-sb">Contact</a></li>
         <li><a href="#" class="sofia-sb">FAQ</a></li>
     </ul>
+    </div>
+    
 
     <div class="footer-logo">
         <img src="img/footer-logo.png" alt="secondary-logo-TLGC">

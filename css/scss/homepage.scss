@@ -1,8 +1,15 @@
 // @use "general.scss";
 
+
+.homepage-banner {
+    background-image: url("../img/hm-pg-bg-text-banner-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 // ==== FOUNDERS MESSAGE ====
 .mission {
-    background-color: $dark-brown;
+    background-color: transparent;
 
     .mission-content {
         background-color: $cream;
@@ -53,8 +60,9 @@
 
 .design-studio {
     background-color: $dark-brown;
-    border-top: 1px solid $primary-yellow;
-    border-bottom: 1px solid $primary-yellow;
+    border: 1px solid $primary-yellow;
+    width: 90%;
+    margin: 0 auto;
     
 
     .design-title {
@@ -96,7 +104,7 @@
 }
 
 .core-values {
-    background: $dark-brown;
+
     padding: 250px 0 150px;
 
      > p {

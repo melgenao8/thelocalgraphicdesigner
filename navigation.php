@@ -18,7 +18,9 @@
                 <a class="nav-link sackers-gothic" href="process.php">The Process</a>
             </li>
             <li class="nav-item nav-logo">
-                <a class="nav-link" href="index.php"><img src="img/the-local-graphic-designer-logo-WHITE.png" /></a>
+
+                    <a class="nav-link" href="index.php"><img src="img/the-local-graphic-designer-logo-WHITE.png" /></a>
+
             </li>
             <!-- <li class="nav-item">
                 <a class="nav-link sofia-sb" href="learn.html">Learn</a>

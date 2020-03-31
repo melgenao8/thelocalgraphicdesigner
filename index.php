@@ -3,7 +3,7 @@
 </head>
 <?php require_once("header.php")?>
 
-<div class="container-fluid nav-banner">
+<div class="container-fluid nav-banner homepage-banner">
     <?php require_once("navigation.php")?>
 
     <!-- ==== MAIN BANNER ==== -->
@@ -39,8 +39,11 @@
                 </p>
         </div>
     </div>
+    
     <div class="image-col">
-        <img src="img/design-picture.png" alt="Design Picture">
+    <div class="shake-horizontal">
+            <img src="img/design-picture.png" alt="Design Picture">
+</div>
     </div>
 </div>
 
