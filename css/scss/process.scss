@@ -1,0 +1,55 @@
+
+.process {
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 20px;
+    background: $dark-brown;
+    border: 1px solid $primary-yellow;
+
+    .process-title {
+        display: flex;
+        max-width: 550px;
+        margin: 0 auto;
+
+        .process-step {
+            margin-right: 40px;
+            h2 {
+                color: $light-brown;
+                font-size: 170px;
+                line-height: .9;
+            }
+        }
+
+        .process-content {
+            h3 {
+                color: $primary-yellow;
+                margin-bottom: 10px;
+                font-size: 36px;
+
+                span {
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    font-style: normal;
+                    font-size: 30px;
+                }
+            }
+
+            p {
+                color: $taupe;
+            }
+        }
+
+        
+    }
+
+    .arrow {
+            text-align: center;
+            margin-top: 30px;
+        }
+    
+}
+
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}

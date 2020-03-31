@@ -30,8 +30,8 @@
         <div class="card">
             <div class="top-card">
 
-            <h2 class="bebas-neue">BRANDING <span class="sofia-sb-i">Basics</span></h2>
-                    
+                <h2 class="bebas-neue">BRANDING <span class="sofia-sb-i">Basics</span></h2>
+
                 <p class="freight-i">package</p>
                 <div class="img-holder"></div>
             </div>
@@ -68,10 +68,10 @@
         <div class="card">
             <div class="top-card">
 
-            <h2 class="bebas-neue" id="social-txt-size">SOCIAL <span class="sofia-sb-i">ENGAGEMENT</span></h2>
+                <h2 class="bebas-neue" id="social-txt-size">SOCIAL <span class="sofia-sb-i">ENGAGEMENT</span></h2>
 
                 <p class="freight-i">package</p>
-                
+
                 <div class="img-holder"></div>
             </div>
             <div class="middle-card">
@@ -79,9 +79,10 @@
                 </p>
             </div>
             <div class="bottom-card">
-            <p class="sackers-gothic">- package includes -</p>
-                
-                <h3 class="sofia-sb-i"  id="ss-1">the <span class="freight-i" id="ss-2">Social </span><span class="sofia-sb" id="ss-3" >STRATEGY</span> </h3>
+                <p class="sackers-gothic">- package includes -</p>
+
+                <h3 class="sofia-sb-i" id="ss-1">the <span class="freight-i" id="ss-2">Social </span><span
+                        class="sofia-sb" id="ss-3">STRATEGY</span> </h3>
                 <p class="social-strategy sofia-sb">18 Day Content Calendar Specific to your business</p>
                 <p class="includes">Includes:</p>
                 <ul>
@@ -104,9 +105,9 @@
 
         <div class="card">
             <div class="top-card">
-            <h2 class="bebas-neue">THE <span class="sofia-sb-i">Website</span></h2>
+                <h2 class="bebas-neue">THE <span class="sofia-sb-i">Website</span></h2>
 
-  
+
                 <p class="freight-i">package</p>
                 <div class="img-holder"></div>
             </div>
@@ -115,9 +116,10 @@
                 </p>
             </div>
             <div class="bottom-card">
-            <p class="sackers-gothic">- package includes -</p>
+                <p class="sackers-gothic">- package includes -</p>
 
-                <h3 class="freight-i">the <span class="bebas-neue" id="ss-4">WEB </span><span class="freight-i" id="ss-2">Strategy</span></h3>
+                <h3 class="freight-i">the <span class="bebas-neue" id="ss-4">WEB </span><span class="freight-i"
+                        id="ss-2">Strategy</span></h3>
                 <ul>
                     <li>Competitor Analysis</li>
                     <li>Mobile Responsive</li>
@@ -280,5 +282,7 @@
         <a href="#" class="btn-wide sofia">Learn About The Design Process</a>
     </div>
 </div>
+
+
 
 <?php require_once("footer.php") ?>
