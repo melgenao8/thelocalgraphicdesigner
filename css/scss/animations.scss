@@ -232,3 +232,38 @@
       
 
  
+
+/**
+ * ----------------------------------------
+ * animation blink-1
+ * ----------------------------------------
+ */
+
+ .blink-1 {
+	-webkit-animation: blink-1 1.25s both;
+	        animation: blink-1 1.25s both;
+}
+
+@-webkit-keyframes blink-1 {
+        0%,
+        50%,
+        100% {
+          opacity: 1;
+        }
+        25%,
+        75% {
+          opacity: 0;
+        }
+      }
+      @keyframes blink-1 {
+        0%,
+        50%,
+        100% {
+          opacity: 1;
+        }
+        25%,
+        75% {
+          opacity: 0;
+        }
+      }
+      

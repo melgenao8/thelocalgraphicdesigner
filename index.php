@@ -9,10 +9,8 @@
     <!-- ==== MAIN BANNER ==== -->
     <div class="banner">
         <!-- <h2 class="freight-i">who we are</h2> -->
-        <!-- <h2 class="bebas-neue loose"><div class ="back-quote">HELPING SMALL BUSINESSES MAKE A BIG IMPACT</div></h2> -->
-
         <h1 class="sofia-sb">A dallas based graphic designer focusing on
-            strategic branding and web development for the self employed.
+            strategic branding and web development for the self-employed.
         </h1>
     </div>
 </div>

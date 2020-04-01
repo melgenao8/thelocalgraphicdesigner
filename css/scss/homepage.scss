@@ -2,7 +2,7 @@
 
 
 .homepage-banner {
-    background-image: url("../img/hm-pg-bg-text-banner-2.png");
+    background-image: url("../img/bg/hm-pg-bg-text-banner.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -235,6 +235,11 @@
 }
 
 @media screen and (max-width: 955px) {
+    .homepage-banner {
+        background-image: url("../img/bg/background-text-banner-tablet.svg");
+       
+    }
+
     .instagram {
         padding: 70px 15px 100px;
 
@@ -249,6 +254,17 @@
 }
 
 @media screen and (max-width: 768px){
+    body {
+        background-image: url("../img/bg/bg-texture-mobile-600px-1333px.jpg");
+
+    }
+
+    .homepage-banner {
+        background-image: url("../img/bg/background-text-banner-mobile.svg");
+       
+    }
+
+    
     .core-values {
         padding-top: 150px;
 

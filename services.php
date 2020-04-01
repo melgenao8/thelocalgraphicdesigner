@@ -34,13 +34,11 @@
  * ---------------------------------------- -->
 
 <div class="packages">
+<h1 class="freight-i">popular <span h2 class="sofia-sb">packages</span></h1>
 
-    <h2 class="sofia-sb">Popular Packages</h3>
-    <p class="plantin-i">These packages are a great place to start.
-        Services are tailored specifically to each business.
+    <p class="sofia">Services are tailored specifically to each business,
+        but this is a great place to start.
     </h2>
-
-
 
   
 
@@ -164,9 +162,9 @@
 
 <div class="design-guide">
     <div class="download-form">
-        <h2 class="plantin-i">instant download</h2>
+        <h2 class="freight-i blink-1">instant download</h2>
         <h3 class="sofia-sb">Pricing + Package Guide</h3>
-        <p class="plantin-i">includes packages faqs</p>
+        <!-- <p class="plantin-i">includes packages faqs</p> -->
 
         <form action="" method="post">
             <input id="full-name" type="text" placeholder="FULL NAME">
@@ -182,7 +180,7 @@
 
 <div class="two-text-col branded-content">
     <div class="title-col">
-        <h2 class="plantin-i">more </h2>
+        <h2 class="freight-i">more </h2>
         <h3 class="sofia-sb">Branded <br> Content</h3>
     </div>
 
@@ -268,9 +266,9 @@
 
 <div class="retainers">
     <h3 class="sofia-sb">Monthly Retainers</h3>
-    <h2 class="plantin-i">write about how monthy retainers are good for those
-        entrprenuers who need fresh content every month, or
-        need help keeping up with the brand execution</h2>
+    <h2 class="plantin-i">
+        For those entrprenuers who need fresh content every month, or
+        need help keeping up with brand execution, this is perfect for you.</h2>
 
     
         <div class="retainer-cols">
@@ -314,7 +312,7 @@
  * ---------------------------------------- -->
 
 
-    <div class="retainer-form">
+    <!-- <div class="retainer-form">
         <div class="download-form">
             <h2 class="plantin-i">download</h2>
             <h3 class="sofia-sb">Pricing Guide</h3>
@@ -325,7 +323,7 @@
                 <input id="download" type="submit" value="DOWNLOAD">
             </form>
         </div>
-    </div>
+    </div> -->
 </div>
 
 

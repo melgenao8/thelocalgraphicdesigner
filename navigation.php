@@ -19,7 +19,8 @@
             </li>
             <li class="nav-item nav-logo">
 
-                    <a class="nav-link" href="index.php"><img src="img/the-local-graphic-designer-logo-WHITE.png" /></a>
+                    <a class="nav-link" href="index.php"><img src="img/logo/the-local-graphic-designer-logo-green-2.png">
+            
 
             </li>
             <!-- <li class="nav-item">

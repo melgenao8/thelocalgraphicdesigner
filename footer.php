@@ -1,4 +1,5 @@
 <footer>
+<!-- <div class="footer-banner"> -->
     <div class="footer-social">
         <div></div>
         <div></div>
@@ -12,6 +13,7 @@
 
         <li><a href="#" class="sofia-sb">About</a></li>
         <li><a href="#" class="sofia-sb">Services</a></li>
+        <li><a href="#" class="sofia-sb">Pricing</a></li>
         <li><a href="#" class="sofia-sb">Contact</a></li>
         <li><a href="#" class="sofia-sb">FAQ</a></li>
     </ul>
@@ -19,8 +21,11 @@
     
 
     <div class="footer-logo">
-        <img src="img/footer-logo.png" alt="secondary-logo-TLGC">
+        <img src="img/logo/the-local-graphic-designer-SYMBOL-green.png" alt="secondary-logo-TLGC">
     </div>
+
+<!-- </div> -->
+</div>
 </footer>
 
 

@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/bg-texture-medium-1920px-3125px.jpg");
+    background-image: url("../img/bg/bg-texture-medium-1920px-3125px-min.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -21,6 +21,7 @@ $cream:#D0C9BA;
 $taupe:#938A7D;
 $dark-blush:#A58984;
 $ash:#58595B;
+$footer-brown: #333030;
 
 //default styles
 a:visited {
@@ -46,9 +47,11 @@ p, h2, h3, h4, a {
 
 
 //fonts
+
+
 .freight-i{
-    font-family: freight-big-pro, serif;
-    font-weight: 500;
+    font-family: freight-text-pro, serif;
+    font-weight: 400;
     font-style: italic;
 }
 
@@ -489,14 +492,16 @@ p, h2, h3, h4, a {
 footer {
     padding: 70px 90px;
     border-bottom: 15px solid $primary-yellow;
-    background: $light-brown;
+    background: $footer-brown;
     display: flex;
     align-items: center;
     position: relative;
 
     h2{
-    font-size: 12pt;
+    font-size: 11pt;
+    letter-spacing: 2px;
     text-align: center;
+    color:$cream;
     }
 
     .footer-social {
@@ -537,7 +542,7 @@ footer {
         transform: translate(-50%, -50%);
 
         img {
-            max-width: 350px;
+            max-width: 80px;
         }
     }
 }
@@ -740,6 +745,10 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+
+    body {
+        background-image: url("../img/bg/bg-texture-mobile-600px-1333px-min.jpg");
+    }
 
     .nav-banner {
         padding-bottom: 75px;
