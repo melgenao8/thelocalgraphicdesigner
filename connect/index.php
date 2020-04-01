@@ -1,7 +1,7 @@
-<?php require_once("header.php")?>
+<?php require_once("../header.php")?>
 
 <div class="container-fluid nav-banner connect-banner">
-    <?php require_once("navigation.php")?>
+    <?php require_once("../navigation.php")?>
 
     <div class="opening">
         <div class="opening-title">
@@ -77,4 +77,4 @@
     </div>
 </div>
 
-<?php require_once("footer.php") ?>
+<?php require_once("../footer.php") ?>

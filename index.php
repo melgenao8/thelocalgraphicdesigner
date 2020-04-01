@@ -1,6 +1,3 @@
-<head>
-<link rel="stylesheet" href="css/style.css">
-</head>
 <?php require_once("header.php")?>
 
 <div class="container-fluid nav-banner homepage-banner">
@@ -29,19 +26,19 @@
                 do the work for you.</p>
 
                 <p class="sofia-sb">Most small business owners know there
-            are many hats to wear. As one myself, it's all too easy to get
-            overwhelmed with the day-to-day process.
-            <!-- <br> <br>
+                    are many hats to wear. As one myself, it's all too easy to get
+                    overwhelmed with the day-to-day process.
+                    <!-- <br> <br>
             With so many things to think about, I'm sure you've already asked yourself,
             is design that important? Is this a priority investment? -->
                 </p>
         </div>
     </div>
-    
+
     <div class="image-col">
-    <div class="shake-horizontal">
+        <div class="shake-horizontal">
             <img src="img/design-picture.png" alt="Design Picture">
-</div>
+        </div>
     </div>
 </div>
 
@@ -72,28 +69,28 @@
     <!-- links to DESIGN PROCESS page -->
     <div class="cards core-cards">
 
-        <div class="card" id="design-process-bg">
-        <!-- <img src="img/process-bg-TEST.jpg" alt="The Design Process Picture"> -->
+        <a class="card" id="design-process-bg" href="process/">
+            <!-- <img src="img/process-bg-TEST.jpg" alt="The Design Process Picture"> -->
             <!-- <h3 class="freight-i ">understanding</h3>
             <h3 class="bebas-neue loose">THE</h3> -->
-            
+
             <h2 class="sofia-sb-i" id="search-design-text">design<BR></h2>
             <h2 class="bebas-neue xtra-loose" id="processh2">PROCESS</h2>
-        </div>
+        </a>
         <!-- links to SERVICES page -->
-        <div class="card" id="services-process-bg">
+        <a class="card" id="services-process-bg" href="services/">
             <h2 class="bebas-neue loose">DESIGN</h2>
             <h2 class="sofia-sb-i">SERVICES <BR></h2>
             <!-- <h3 class="freight-i ">what we offer</h3> -->
-        </div>
+        </a>
 
         <!-- links to ABOUT page -->
-        <div class="card" id="studio-process-bg">
+        <a class="card" id="studio-process-bg" href="#">
             <!-- <h3 class="freight-i ">who</h3>
             <h3 class="bebas-neue loose">WE ARE</h3> -->
             <h2 class="sofia-sb-i" id="the-small"> THE<BR></h2>
             <h2 class="bebas-neue loose">STUDIO</h2>
-        </div>
+        </a>
         <!-- 
             <img src="img/search-btns-bg-TEST-03.jpg" alt="Search BG pic"> -->
     </div>

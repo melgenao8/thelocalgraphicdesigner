@@ -87,3 +87,56 @@ function debounce(func, wait, immediate) {
         if (callNow) func.apply(context, args);
     };
 };
+
+const process = [
+    {
+        step: "01",
+        title: "Discovery",
+        text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim"
+    },
+    {
+        step: "02",
+        title: "Strategy",
+        text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim"
+    },
+    {
+        step: "03",
+        title: "Design",
+        text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim"
+    },
+    {
+        step: "04",
+        title: "Application",
+        text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim"
+    },
+    {
+        step: "05",
+        title: "Launch",
+        text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim"
+    }
+]
+
+var mySwiper = new Swiper('.swiper-container', {
+    // Optional parameters
+    slidesPerView: 'auto',
+    spaceBetween: 40,
+    centeredSlides: true,
+    initialSlide: 0,
+    loop: true,
+
+    // Navigation dots
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true
+    },
+})
+
+mySwiper.on('slideChange', function (e) {
+    const index = mySwiper.realIndex;
+
+    $("#process-step").text(process[index].step);
+    $("#process-title").text(process[index].title);
+    $("#process-text").text(process[index].text);
+})
+

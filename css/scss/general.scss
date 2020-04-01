@@ -2,6 +2,8 @@ body {
     background-image: url("../img/bg/bg-texture-medium-1920px-3125px-min.jpg");
     background-size: cover;
     background-attachment: fixed;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 
@@ -23,9 +25,14 @@ $dark-blush:#A58984;
 $ash:#58595B;
 $footer-brown: #333030;
 
+
 //default styles
 a:visited {
     color: unset;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 p, h2, h3, h4, a {
@@ -343,7 +350,7 @@ p, h2, h3, h4, a {
             position: fixed;
             height: 0;
             opacity: 0;
-            z-index: 1000;
+            z-index: 10000;
             background-color: $brown;
 
             .navbar-toggler {
@@ -611,6 +618,7 @@ footer {
             width: 100%;
             height: 100vh;
             background: $brown;
+            z-index: 99;
         }
 
         .menu-nav {
@@ -774,7 +782,8 @@ footer {
                     font-size: 14px;
                     margin-top: 25px;
                     padding-left:20px;
-                    padding-right: 15px;                }
+                    padding-right: 15px;
+                }
             }
         }
     }

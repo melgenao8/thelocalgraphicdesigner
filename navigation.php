@@ -12,14 +12,14 @@
                 <a class="nav-link sofia-sb" href="work.html">Work</a>
             </li> -->
             <li class="nav-item">
-                <a class="nav-link sackers-gothic" href="services.php">Services</a>
+                <a class="nav-link sackers-gothic" href="/services">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link sackers-gothic" href="process.php">The Process</a>
+                <a class="nav-link sackers-gothic" href="/process">The Process</a>
             </li>
             <li class="nav-item nav-logo">
 
-                    <a class="nav-link" href="index.php"><img src="img/logo/the-local-graphic-designer-logo-green-2.png">
+                    <a class="nav-link" href="/"><img src="img/logo/the-local-graphic-designer-logo-green-2.png">
             
 
             </li>
@@ -27,10 +27,10 @@
                 <a class="nav-link sofia-sb" href="learn.html">Learn</a>
             </li> -->
             <li class="nav-item">
-                <a class="nav-link sackers-gothic" href="about.php">About</a>
+                <a class="nav-link sackers-gothic" href="/about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link sackers-gothic" href="connect.php">Connect</a>
+                <a class="nav-link sackers-gothic" href="/connect">Connect</a>
             </li>
         </ul>
         </ul>

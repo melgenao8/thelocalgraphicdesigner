@@ -12,6 +12,9 @@
     <!-- GOOGLE FONT - Bebas Neue -->
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
 
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
     <!-- Sackers GothicStd-Medium -->
     <link rel="stylesheet" type="text/css" href="css/MyFontsWebfontsKit.css">
 
