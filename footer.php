@@ -1,30 +1,36 @@
 <footer>
 <!-- <div class="footer-banner"> -->
-    <div class="footer-social">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-
     <div>
-        <h2 class="bebas-neue"> Freelance Graphic Designer in Dallas, TX<BR></h2>
-        <ul class="footer-links">
+        <h2 class="bebas-neue footer-link-2"> strategic branding and
+        web development <br>for the self-employed<BR></h2>
+        
+        <!-- SOCIAL MEDIA ICONS -->
+        <div class="footer-social">
+            <div class="social-icon icon-1" >
+            </div>
 
-
-        <li><a href="/about" class="sofia-sb">About</a></li>
-        <li><a href="/services" class="sofia-sb">Services</a></li>
-        <li><a href="#" class="sofia-sb">Pricing</a></li>
-        <li><a href="/connect" class="sofia-sb">Contact</a></li>
-        <li><a href="#" class="sofia-sb">FAQ</a></li>
-    </ul>
+        <div></div>
+        <div></div>
     </div>
+    <!-- SERVICE LINKS -->
+        <ul class="footer-links">
+            <li><a href="/about" class="sofia-sb">About</a></li>
+            <li><a href="/services" class="sofia-sb">Services</a></li>
+            <li><a href="#" class="sofia-sb">Pricing</a></li>
+            <li><a href="/connect" class="sofia-sb">Contact</a></li>
+            <li><a href="#" class="sofia-sb">FAQ</a></li>
+        </ul>
+        
+        <p class="sofia-sb">©2020 THE LOCAL GRAPHIC DESIGNER</p>
 
-
+    </div>
+    <!-- SYMBOL -->
     <div class="footer-logo">
         <img src="img/logo/the-local-graphic-designer-SYMBOL-green.png" alt="secondary-logo-TLGC">
     </div>
 
 <!-- </div> -->
+
 </div>
 </footer>
 

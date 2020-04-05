@@ -4,13 +4,20 @@
     <?php require_once("../navigation.php")?>
 
     <div class="opening">
-        <div class="opening-title">
-            <h1 class="bebas-neue loose">Working <span class="sofia-sb">Together</span></h1>
+    <div class="opening-title">
+            <div class="bounce-in-top">
+                
+                <h1 class="bebas-neue">WORKING <span class="sofia-sb-i">Together</span></h1>
+
+            </div>
         </div>
+
         <div class="opening-text">
-            <p class="sofia">I’m excited to get to know your business a
+        <div class="bounce-in-top-slower">
+            <p class="sofia-light">I’m excited to get to know your business a
                 little better. Responses to inquiries are within
                 48 business hours.</p>
+        </div>
         </div>
     </div>
 </div>

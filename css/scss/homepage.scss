@@ -13,6 +13,7 @@
 
     .mission-content {
         background-color: $cream;
+        min-height:600px;
         
         .content {
 
@@ -48,8 +49,7 @@
             }
 
             p {
-                color: $ash;
-                max-width: 225px;
+                color: $dark-blush;
 
             }
         }
@@ -57,44 +57,134 @@
     }
 
 }
+// the process - 3 columns - start
 
-.design-studio {
-    background-color: $dark-brown;
+.step-1-bg {
+    background-image: url("../img/bg/01-strategy-bg.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.step-2-bg {
+    background-image: url("../img/bg/02-strategy-bg.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.step-3-bg {
+    background-image: url("../img/bg/03-strategy-bg.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.process-bg{
+    background-image: url("../img/bg/3-step-process-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hm-pg-process {
+   
+    // background: transparent;
     border: 1px solid $primary-yellow;
+    padding: 50px 50px;
     width: 90%;
     margin: 0 auto;
+    margin-top: 100px;
+    
+
+    h3,h2,p,.icon {
+        text-align: center;
+    }
+
+    .process-col {
+        display: flex;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+        color: $darker-pink;
+        justify-content: space-between;
+
+        .process-cols {
+            
+                background-color: $dark-yellow;
+                color: $dark-brown;
+                padding:15px;
+                width: 30%;
+                height: 170px;
+
+            .title {
+                margin-bottom: 10px;
+                margin: 0 auto;
+                background-position: center;
+                font-size:30px;
+            }
+
+            p {
+                color: $cream;
+                font-family: "sofia-pro", sans-serif;
+                margin-top: 10px;
+                font-size: 11.5px;
+                line-height: 15px;
+            }
+        }
+    }
+
+    .process-btn {
+        margin-top: 80px;
+
+            .btn-bg {
+                    background-color: $light-brown;
+                    color: $dark-pink;
+                    padding: 80px;
+            }
+        
+    }
+
+}
+
+// the process - 3 columns - end
+
+
+.design-studio {
+    background-color: $lighter-brown;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    color: $cream;
     
 
     .design-title {
 
         h2 {
-            color: $cream;
-            font-size: 33px;
-
+            font-size: 28px;
+            letter-spacing: 3px;
         }
 
         h3 {
             padding-right: 20px;
-            color: $dark-blush;
-            letter-spacing: 3px;
             text-align: right;
-        }
-
-        p {
-            color: $dark-blush;
+            font-size: 2rem;
 
         }
 
-        #magic-txt{
+        #the-imp-txt{
             font-size: 10px;
             margin-top: 8px;
+            letter-spacing: 2px;
+        }
+
+        p{
+            color: $cream;
+            
         }
         
     }
 
     .design-content {
         p {
-            color: $white;
+            color: $cream;
+            text-align: left;
         }
 
         a {
@@ -178,6 +268,68 @@
     }
 }
 
+// services 3 columns - start
+.services {
+    background: transparent;
+    border: 1px solid $primary-yellow;
+    padding: 80px 80px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+
+    h3,h2,p,.icon {
+        text-align: center;
+    }
+
+    .services-col {
+        display: flex;
+        align-items: center;
+        max-width: 1000px;
+        margin: 0 auto;
+        color: $darker-pink;
+        justify-content: space-between;
+
+        .services-cols {
+            
+                background-color: $cream;
+                color: $lighter-brown;
+                padding:50px;
+                width: 30%;
+                height: 20%;
+
+            .title {
+                margin-bottom: 10px;
+                margin: 0 auto;
+                background-position: center;
+                font-size:30px;
+            }
+
+            p {
+    
+                font-family: "sofia-pro", sans-serif;
+                margin-top: 10px;
+                font-size: 11.5px;
+                line-height: 15px;
+            }
+        }
+    }
+
+    .services-btn {
+        margin-top: 80px;
+
+            .btn-bg {
+                    background-color: $light-brown;
+                    color: $dark-pink;
+                    padding: 80px;
+            }
+        
+    }
+
+}
+
+// services 3 columns - end
+
 .instagram {
     background:$dark-brown;
     padding: 120px 0;
@@ -253,6 +405,20 @@
     }
 }
 
+@media screen and (max-width: 850px){
+    .hm-pg-process {
+        
+        .process-col {
+            flex-direction: column;
+
+            .process-cols {
+                margin: 20px 0;
+                width: 50%;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 768px){
     body {
         background-image: url("../img/bg/bg-texture-mobile-600px-1333px.jpg");
@@ -268,5 +434,20 @@
     .core-values {
         padding-top: 150px;
 
+    }
+}
+
+@media screen and (max-width: 450px){
+
+
+    .hm-pg-process {
+            padding: 50px 15px;
+            width:100%;
+        .process-col {
+
+            .process-cols {
+                width: 70%;
+            }
+        }
     }
 }

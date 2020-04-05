@@ -3,17 +3,21 @@
 <div class="container-fluid nav-banner homepage-banner">
     <?php require_once("navigation.php")?>
 
-    <!-- ==== MAIN BANNER ==== -->
-    <div class="banner">
+<!------------------------------------------
+ * landing banner
+ * ---------------------------------------- -->
+    <div class="banner fade-in">
         <!-- <h2 class="freight-i">who we are</h2> -->
-        <h1 class="sofia-sb">A dallas based graphic designer focusing on
-            strategic branding and web development for the self-employed.
+        <h1 class="sofia-sb">A dallas based graphic designer focusing on <span class="freight-i">strategic branding</span>
+        and <span class="freight-i">web development</span> for the self-employed.</h1>
         </h1>
     </div>
 </div>
 
 
-<!-- ==== FOUNDERS MESSAGE ==== -->
+<!------------------------------------------
+ * founders message
+ * ---------------------------------------- -->
 <div class="text-image-col mission">
     <div class="text-col mission-content">
         <div class="content">
@@ -21,17 +25,18 @@
             <h3 class="sackers-gothic" id="h3-2">FROM THE</h3>
             <h2 class="bebas-neue loose">FOUNDER</h2>
             <h3 class="sackers-gothic" id="h3-3">- MELISSA -</h3>
-            <h4 class="freight-i">To me,<br>there’s nothing better<br>
-                than letting the design <br>
-                do the work for you.</p>
+            <h4 class="freight-i">In a world of short attention spans the
+                                 first impression is everything. <br><br>
 
-                <p class="sofia-sb">Most small business owners know there
-                    are many hats to wear. As one myself, it's all too easy to get
-                    overwhelmed with the day-to-day process.
-                    <!-- <br> <br>
-            With so many things to think about, I'm sure you've already asked yourself,
-            is design that important? Is this a priority investment? -->
-                </p>
+                                Good, strategic design pulls the weight
+                                of interacting with your customer before you
+                                get the chance to shake their hand.<br><br>
+
+                                Are you capturing your audience and
+                                turning them into loyal customers?
+            </h4>
+
+                <p class="sofia-sb">CONTINUE READING</p>
         </div>
     </div>
 
@@ -42,12 +47,53 @@
     </div>
 </div>
 
-<!-- ==== YOUR LOCAL BUSINESS ==== -->
+<!------------------------------------------
+ * the process - 3 columns
+ * ---------------------------------------- -->
+ <div class="hm-pg-process process-bg">
+
+    <div class="title-headers">
+        <div class="header-1 freight-i">understanding the <span class="bebas-neue header-2">DESIGN PROCESS</span>
+    </div>
+
+    <!-- 3 columns -->
+    <div class="process-col">
+        <div class="process-cols step-1-bg">
+           <div class="sub-title sackers-gothic">step one</div>
+            <div class="title sofia-sb-i">Strategy</div>
+            <p class="sofia-light">First, we establish your voice and messaging.
+            This gives us a foundation to build on.</p>
+        </div>
+        <div class="process-cols step-2-bg">
+            <div class="sub-title sackers-gothic">step two</div>
+            <div class="title bebas-neue">BRANDING</div>
+            <p class="sofia-light">First, we establish your voice and messaging.
+            This gives us a foundation to build on.</p>
+        </div>
+        <div class="process-cols step-3-bg">
+            <div class="sub-title sackers-gothic">step three</div>
+            <div class="title freight-i">implementation</div>
+            <p class="sofia-light">First, we establish your voice and messaging.
+            This gives us a foundation to build on.</p>
+        </div>
+    </div>
+    
+    <!-- search button -->
+    <div class="process-btn">
+        <a class="sackers-gothic" href="/process">learn more about the process</a>
+    </div>
+    
+</div>
+</div>
+
+<!------------------------------------------
+ * the importance of your local business
+ * ---------------------------------------- -->
 <div class="two-text-col design-studio">
     <div class="title-col design-title">
 
-        <h3 class="sackers-gothic" id="magic-txt">THE MAGIC OF </h3>
-        <h3 class="freight-i">your</h3>
+        <h3 class="sackers-gothic" id="the-imp-txt">THE IMPORTANCE </h3>
+        <h3 class="freight-i">of your</h3>
         <h2 class="bebas-neue loose">LOCAL<BR>BUSINESS</h2>
         <!-- <h2 class="plantin-i">the</h2>
             <h3 class="sofia-sb">Design <br> Studio</h3> -->
@@ -62,68 +108,57 @@
     </div>
 </div>
 
-<!-- ==== formerly "CORE VALUES" ==== -->
-<div class="core-values">
-    <p class="sofia-sb">FIND WHAT YOU'RE LOOKING FOR</p>
+<!------------------------------------------
+ * services 3 columns 
+ * ---------------------------------------- -->
+ <div class="services">
 
-    <!-- links to DESIGN PROCESS page -->
-    <div class="cards core-cards">
-
-        <a class="card" id="design-process-bg" href="process/">
-            <!-- <img src="img/process-bg-TEST.jpg" alt="The Design Process Picture"> -->
-            <!-- <h3 class="freight-i ">understanding</h3>
-            <h3 class="bebas-neue loose">THE</h3> -->
-
-            <h2 class="sofia-sb-i" id="search-design-text">design<BR></h2>
-            <h2 class="bebas-neue xtra-loose" id="processh2">PROCESS</h2>
-        </a>
-        <!-- links to SERVICES page -->
-        <a class="card" id="services-process-bg" href="services/">
-            <h2 class="bebas-neue loose">DESIGN</h2>
-            <h2 class="sofia-sb-i">SERVICES <BR></h2>
-            <!-- <h3 class="freight-i ">what we offer</h3> -->
-        </a>
-
-        <!-- links to ABOUT page -->
-        <a class="card" id="studio-process-bg" href="#">
-            <!-- <h3 class="freight-i ">who</h3>
-            <h3 class="bebas-neue loose">WE ARE</h3> -->
-            <h2 class="sofia-sb-i" id="the-small"> THE<BR></h2>
-            <h2 class="bebas-neue loose">STUDIO</h2>
-        </a>
-        <!-- 
-            <img src="img/search-btns-bg-TEST-03.jpg" alt="Search BG pic"> -->
+    <div class="title-headers">
+        <div class="header-1 freight-i">what are you <span class="bebas-neue header-2">LOOKING FOR?</span>
     </div>
+
+    <!-- 3 columns -->
+    <div class="services-col">
+        <div class="services-cols">
+            <div class="title sofia-sb-i">logo design</div>
+            <p class="sofia-light">First, we establish your voice and messaging.
+            This gives us a foundation to build on.</p>
+        </div>
+        <div class="services-cols">
+            <div class="title bebas-neue">A WEBSITE</div>
+            <p class="sofia-light">First, we establish your voice and messaging.
+            This gives us a foundation to build on.</p>
+        </div>
+        <div class="services-cols">
+            <div class="title freight-i">social media</div>
+            <p class="sofia-light">First, we establish your voice and messaging.
+            This gives us a foundation to build on.</p>
+        </div>
+    </div>
+    
+    <!-- search button -->
+    <div class="services-btn">
+        <a class="sackers-gothic" href="/services">learn more about services</a>
+    </div>
+    
+</div>
 </div>
 
-<!-- <div class="two-col home-two-col">
-        <div class="two-col-box">
-            <div class="box">
-                <h3 class="plantin-i">popular</h3>
-                <h4 class="sofia-sb">Design <br> Services</h4>
-            </div>
-            <a href="#" class="btn-wide sofia">Current Services</a>
-        </div>
-        <div class="two-col-box">
-            <div class="box">
-                <h3 class="plantin-i">the</h3>
-                <h4 class="sofia-sb">Design <br> Process</h4>
-            </div>
-            <a href="#" class="btn-wide sofia">Learn About The Process</a>
-        </div>
-    </div> -->
+ <!------------------------------------------
+ * navigation cards
+ * ---------------------------------------- -->
+ <?php require_once("navigation-cards.php")?>
 
-<div class="instagram">
-    <!-- <p class="sofia-sb">Instagram</p> -->
+    
+ <!------------------------------------------
+ * instagram plugin
+ * ---------------------------------------- -->
 
-    <div class="gallery">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-</div>
+ <!-- <?php require_once("instagram.php")?> -->
+
+
+  <!------------------------------------------
+ * footer
+ * ---------------------------------------- -->
 
 <?php require_once("footer.php")?>
