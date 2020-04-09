@@ -4,15 +4,22 @@
     <?php require_once("../navigation.php")?>
 
     <div class="opening">
-        <div class="opening-title">
-            <h1 class="bebas-neue loose">The <span class="sofia-sb">Studio</span></h1>
+
+    <div class="opening-title">
+            <div class="bounce-in-top">     
+                <h1 class="bebas-neue">THE <span class="sofia-sb-i">Studio</span></h1>
+            </div>
         </div>
+
+
         <div class="opening-text">
-            <p class="sofia">Investing in something unfamiliar is not
+        <div class="bounce-in-top-slower">
+            <p class="sofia-light">Investing in something unfamiliar is not
                 a good feeling. Get acquianted with the
                 branding process so that you feel
                 confident in your decision to create an
                 effective impression on your audience.</p>
+        </div>
         </div>
     </div>
 </div>
@@ -147,10 +154,15 @@
     <div class="two-col">
         <div class="two-col-box">
             <div class="box">
-                <h3 class="plantin-i">let's</h3>
-                <h4 class="sofia-bold">Work <br> Together</h4>
+
+                <div class="contact-headers">
+                <div class="contact-header-1 freight-i">let's work <span class="bebas-neue contact-header-2">TOGETHER</span>
+                </div>
+                </div>
+
+    
             </div>
-            <a href="/connect" class="btn-wide sofia">Contact</a>
+            <a href="/connect" class="btn-wide sofia">INQUIRE ABOUT YOUR PROJECT</a>
         </div>
     </div>
 

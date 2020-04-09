@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/bg-texture-medium-1920px-3125px.jpg");
+    background-image: url("../img/bg/bg-texture-medium-1920px-3125px-min.jpg");
     background-size: cover;
     background-attachment: fixed;
     width: 100vw;
@@ -23,6 +23,8 @@ $cream:#D0C9BA;
 $taupe:#938A7D;
 $dark-blush:#A58984;
 $ash:#58595B;
+$footer-brown: #2D2B2B;
+$dark-yellow:#857E35;
 
 
 //default styles
@@ -53,9 +55,17 @@ p, h2, h3, h4, a {
 
 
 //fonts
+
+
 .freight-i{
-    font-family: freight-big-pro, serif;
-    font-weight: 500;
+    font-family: freight-text-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.freight-i-lite{
+    font-family: freight-text-pro, serif;
+    font-weight: 300;
     font-style: italic;
 }
 
@@ -91,13 +101,62 @@ p, h2, h3, h4, a {
     font-style: normal; 
 }
 
-.plantin {
-    font-family: "plantin", sans-serif;
+//headers
+
+.title-headers {
+    color: $primary-yellow;
+    text-align: center;
+
+
+    .header-1 {
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+    }
+
+    .header-2 {
+        text-transform: uppercase;
+        font-style: normal;
+        font-size: 1.75rem;
+        letter-spacing: 4px;
+        margin-left: 5px;
+    }
+
+    .title-body{
+        font-size: 1.5rem;
+        padding-bottom: 60px;
+        max-width: 650px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
 }
 
-.plantin-i {
-    font-family: "plantin", sans-serif;
-    font-style: italic;
+
+//let's work together header
+
+.contact-headers {
+    color: $dark-pink;
+    text-align: center;
+
+
+    .contact-header-1 {
+        font-size: 5rem;
+    }
+
+    .contact-header-2 {
+        text-transform: uppercase;
+        font-style: normal;
+        font-size: 4rem;
+        letter-spacing: 4.5px;
+        margin-left: 5px;
+    }
+
+    .title-body{
+        font-size: 1.5rem;
+        padding-bottom: 60px;
+        max-width: 650px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
 }
 
 //reusable classes
@@ -135,7 +194,8 @@ p, h2, h3, h4, a {
             text-decoration: none;
             margin-top: 30px;
             text-transform: uppercase;
-            font-size: 13px;
+            font-size: 12px;
+            letter-spacing: 2.5px;
         }
     }
 }
@@ -156,12 +216,11 @@ p, h2, h3, h4, a {
 
 //HOME PAGE FONTS
         .content {
-            max-width: 280px;
+            max-width: 450px;
             margin: 0 auto;
 
             h4 {
-                margin: 10px 0;
-                // max-width: 200px;
+                margin: 30px 0;
 
             }
 
@@ -179,7 +238,7 @@ p, h2, h3, h4, a {
                 line-height: 1.35;
                 font-size: 14px;
                 font-weight: 300;
-                text-align: left;
+                text-align: center;
             }
         }
     }
@@ -188,6 +247,7 @@ p, h2, h3, h4, a {
         img {
             width: 100%;
             min-width: 330px;
+            min-height:600px;
         }
     }
 
@@ -201,7 +261,7 @@ p, h2, h3, h4, a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 70px;
+    padding: 100px;
 
     .title-col {
         display: flex;
@@ -223,7 +283,6 @@ p, h2, h3, h4, a {
 
         p {
             font-size: 14px;
-            margin-bottom: 30px;
         }
 
         a {
@@ -336,12 +395,15 @@ p, h2, h3, h4, a {
     background: transparent;
     padding-bottom: 180px;
     position: relative;
+    
 
     nav {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
+        padding-top:20px;
+        z-index: 100;
 
         &.show-nav {
             position: fixed;
@@ -358,7 +420,7 @@ p, h2, h3, h4, a {
                 top: 5px;
 
                 img {
-                    max-width: 40px;
+                    max-width: 35px;
                 }
             }
         }
@@ -375,7 +437,7 @@ p, h2, h3, h4, a {
             padding: 0 20px;
 
             a {
-                color: $nav-text;
+                color: $primary-yellow;
                 text-transform: uppercase;
                 padding: 1px 5px;
                 letter-spacing: 2px;
@@ -413,7 +475,7 @@ p, h2, h3, h4, a {
         }
 
         h1 {
-            color: $primary-yellow;
+            color: $dark-pink;
             font-size: 50px;
             text-align: center;
         }
@@ -465,7 +527,8 @@ p, h2, h3, h4, a {
                 text-align: right;
                 margin-right: 30px;
                 margin-top:20px;
-                font-size: 50px;   
+                font-size: 50px;
+                letter-spacing: 3px;   
             }
 
             p {
@@ -494,31 +557,52 @@ p, h2, h3, h4, a {
 }
 
 footer {
-    padding: 70px 90px;
-    border-bottom: 15px solid $primary-yellow;
-    background: $light-brown;
+    padding: 50px 50px;
+    border-bottom: 10px solid $primary-yellow;
     display: flex;
     align-items: center;
+    background-image:  url("../img/bg/bg-text-footer-banner-desktop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
     position: relative;
+    background-color:$footer-brown;
 
     h2{
-    font-size: 12pt;
-    text-align: center;
+    font-size: 11pt;
+    letter-spacing: 2px;
+    text-align: left;
+    color:$cream;
     }
+
+    p{
+        font-size: 6pt;
+        margin-top:20px;
+        letter-spacing: 2px;
+        text-align: left;
+        color:$cream;
+        }
 
     .footer-social {
         display: flex;
-        margin-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
 
-        div {
+        
+        .social-icon {
             margin-right: 20px;
-            border: 1px solid $primary-yellow;
-            width: 30px;
-            height: 30px;
+            // border: 1px solid $primary-yellow;
+            width: 50px;
+            height: 50px;
 
             &:last-of-type {
                 margin-right: 0;
             }
+        }
+
+        .icon-1{
+            background-image: url("../img/icons/social-media-icon-pinterest-30px.png");
+            background-size: cover;
         }
     }
 
@@ -530,13 +614,24 @@ footer {
         li {
             a{
                 font-size: 10px;
-                color: $lighter-brown;
+                color: $cream;
                 text-transform: uppercase;
                 text-decoration: none;
             }
         }
+
+        p {
+                font-size: 10px;
+                color: $cream;
+                text-transform: uppercase;
+                text-decoration: none;
+            
+        }
     }
 
+    .footer-link-2 {
+        color: $dark-blush;
+    }
     .footer-logo {
         position: absolute;
         top: 50%;
@@ -544,12 +639,19 @@ footer {
         transform: translate(-50%, -50%);
 
         img {
-            max-width: 350px;
+            max-width: 80px;
         }
     }
 }
 
 @media screen and (max-width: 1330px) {
+
+    footer {
+    
+        h2{
+        text-align: left;
+        }
+    }
 
     .cards {
         justify-content: flex-start;
@@ -563,12 +665,25 @@ footer {
     }
 }
 
-@media screen and (max-width: 1270px){
+@media screen and (max-width: 1000px){
     footer {
         flex-direction: column;
         align-items: center;
         padding-top: 25px;
         padding-bottom: 50px;
+
+        div:first-of-type {
+            order: 1;
+            margin-top: 20px;
+        }
+
+        h2{
+            text-align: center;
+            }
+
+        p{
+            text-align: center;
+            }
 
         .footer-social {
             margin: 0 0 30px;
@@ -579,6 +694,11 @@ footer {
             margin-bottom: 35px;
             align-items: flex-start;
 
+            p {
+                text-align: center;
+
+                }
+
             li {
                 padding: 0 10px;
                 border-right: 1px solid $lighter-brown;
@@ -587,6 +707,7 @@ footer {
                     border-right: none;
                 }
             }
+
         }
 
         .footer-logo {
@@ -629,6 +750,7 @@ footer {
 
                 .nav-link {
                     font-size: 20px;
+                    
                 }
             }
 
@@ -676,7 +798,6 @@ footer {
 
             .opening-title {
                 width: 100%;
-                margin-bottom: 20px;
                 max-width: 500px;
                 
 
@@ -749,6 +870,11 @@ footer {
 
 @media screen and (max-width: 600px) {
 
+    body {
+        background-image: url("../img/bg/bg-texture-mobile-600px-1333px-min.jpg");
+    }
+
+
     .nav-banner {
         padding-bottom: 75px;
         .banner {
@@ -760,8 +886,16 @@ footer {
             }
 
         }
-
     }
+
+    footer {
+        background-image:  url("../img/bg/bg-text-footer-banner-mobile.svg");
+
+        h2{
+            text-align: center;
+            }
+    }
+
 }
 
 @media screen and (max-width: 450px){
@@ -777,6 +911,12 @@ footer {
                 }
             }
         }
+    }
+    .two-text-col {
+
+        padding: 55px;
+    
+    
     }
 
     .two-col {
@@ -819,5 +959,22 @@ footer {
             }
         }
     }
+
+    
+.title-headers {
+
+
+    .header-1 {
+        font-size: 2rem;
+    }
+
+    .title-body{
+        font-size: 1.25rem;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+
+}
     
 }

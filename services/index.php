@@ -7,7 +7,7 @@
  * opening title
  * ---------------------------------------- -->
 
-    <div class="opening">
+    <div class="opening fade-in">
         <div class="opening-title">
             <div class="bounce-in-top">
                 <!-- <h1 class="bebas-neue loose">DESIGN</h1><h1 class="sofia-sb-i">SERVICES</h1> -->
@@ -35,34 +35,36 @@
 
 <div class="packages">
 
-    <h2 class="sofia-sb">Popular Packages</h3>
-        <p class="plantin-i">These packages are a great place to start.
-            Services are tailored specifically to each business.
+    <div class="title-headers">
+        <div class="header-1 freight-i">popular <span class="bebas-neue header-2">PACKAGES</span>
+    </div>
+
+    <p class="freight-i-lite title-body">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
     </h2>
 
-
-
-
-
     <div class="cards">
+
         <!-- BRANDING BASICS -- PACKAGE -->
         <div class="card">
-            <div class="top-card">
+            <div class="top-card top-card-bg">
+
 
                 <h2 class="bebas-neue">BRANDING <span class="sofia-sb-i">Basics</span></h2>
-
-                <p class="freight-i">package</p>
-                <div class="img-holder"></div>
-            </div>
-            <div class="middle-card">
+               
+                <div class="middle-card">
                 <p>Perfect for new businesses, or
                     brands in need of an identity refresh
                 </p>
+                </div>
+
+                <div class="img-holder"></div>
             </div>
+
             <div class="bottom-card">
                 <p class="sackers-gothic">- package includes -</p>
 
-                <h3 class="freight-i">the <span class="bebas-neue">Strategy</span></h3>
+                <h3 class="bebas-neue">Strategy</h3>
                 <ul>
                     <li>Business Goals</li>
                     <li>Competitor Analysis</li>
@@ -72,7 +74,7 @@
                     <li>Tone & Voice</li>
                 </ul>
 
-                <h3 class="sofia-sb" id="bb-1">the <span class="freight-i" id="bb-2">identity</span></h3>
+                <h3 class="bebas-neue">Identity</h3>
                 <ul>
                     <li>Logo</li>
                     <li>Supporting Logos</li>
@@ -88,21 +90,20 @@
             <div class="top-card">
 
                 <h2 class="bebas-neue" id="social-txt-size">SOCIAL <span class="sofia-sb-i">ENGAGEMENT</span></h2>
-
-                <p class="freight-i">package</p>
-
-                <div class="img-holder"></div>
-            </div>
-            <div class="middle-card">
+                
+                <div class="middle-card">
                 <p>Suggested for established businesses needing help with social growth
                 </p>
             </div>
+
+                <div class="img-holder"></div>
+            </div>
+
             <div class="bottom-card">
                 <p class="sackers-gothic">- package includes -</p>
 
-                <h3 class="sofia-sb-i" id="ss-1">the <span class="freight-i" id="ss-2">Social </span><span
-                        class="sofia-sb" id="ss-3">STRATEGY</span> </h3>
-                <p class="social-strategy sofia-sb">18 Day Content Calendar Specific to your business</p>
+                <h3 class="bebas-neue">social strategy</h3>
+                <p class="social-strategy sofia-sb">Custom 18 Day Content Calendar</p>
                 <p class="includes">Includes:</p>
                 <ul>
                     <li>Content Topics</li>
@@ -111,10 +112,11 @@
                     <li>Posting Schedule</li>
                 </ul>
 
-                <h3 class="plantin-i">the <span class="bebas-neue" id="ss-4">Design</span></h3>
+
+                <h3 class="bebas-neue">templates</h3>
                 <ul>
-                    <li>Custom 15 post editable layout</li>
-                    <li>Cover images for all platforms</li>
+                    <li>Custom 15 Grid editable layouts</li>
+                    <li>Cover images for all social platforms</li>
                     <li>Profile Thumbnail</li>
                 </ul>
             </div>
@@ -126,19 +128,18 @@
             <div class="top-card">
                 <h2 class="bebas-neue">THE <span class="sofia-sb-i">Website</span></h2>
 
-
-                <p class="freight-i">package</p>
-                <div class="img-holder"></div>
-            </div>
-            <div class="middle-card">
+                <div class="middle-card">
                 <p>Strategically planned & custom designed to generate organic traffic
                 </p>
             </div>
+            
+                <div class="img-holder"></div>
+            </div>
+            
             <div class="bottom-card">
                 <p class="sackers-gothic">- package includes -</p>
 
-                <h3 class="freight-i">the <span class="bebas-neue" id="ss-4">WEB </span><span class="freight-i"
-                        id="ss-2">Strategy</span></h3>
+                <h3 class="bebas-neue">web strategy</h3>
                 <ul>
                     <li>Competitor Analysis</li>
                     <li>Mobile Responsive</li>
@@ -146,7 +147,7 @@
                     <li>Color Scheme</li>
                     <li>Typography</li>
                 </ul>
-                <h3 class="sofia-sb" id="bb-1">the <span class="freight-i" id="bb-2">copywritting</span></h3>
+                <h3 class="bebas-neue">copywriting</h3>
                 <ul>
                     <li>Tone/Voice/Messaging</li>
                     <li>SEO Keyword Research</li>
@@ -158,6 +159,7 @@
         </div>
     </div>
 </div>
+</div>
 
 <!-- * ----------------------------------------
  * instant download
@@ -166,9 +168,12 @@
 
 <div class="design-guide">
     <div class="download-form">
-        <h2 class="plantin-i">instant download</h2>
-        <h3 class="sofia-sb">Pricing + Package Guide</h3>
-        <p class="plantin-i">includes packages faqs</p>
+    <div class="title-headers">
+        <div class="header-1 freight-i">instant download <span class="bebas-neue header-2">PRICING GUIDE</span>
+    </div>
+</div>
+
+        <!-- <p class="plantin-i">includes packages faqs</p> -->
 
         <form action="" method="post">
             <input id="full-name" type="text" placeholder="FULL NAME">
@@ -184,7 +189,7 @@
 
 <div class="two-text-col branded-content">
     <div class="title-col">
-        <h2 class="plantin-i">more </h2>
+        <h2 class="freight-i">more </h2>
         <h3 class="sofia-sb">Branded <br> Content</h3>
     </div>
 
@@ -269,10 +274,15 @@
  * ---------------------------------------- -->
 
 <div class="retainers">
-    <h3 class="sofia-sb">Monthly Retainers</h3>
-    <h2 class="plantin-i">write about how monthy retainers are good for those
-        entrprenuers who need fresh content every month, or
-        need help keeping up with the brand execution</h2>
+
+
+<div class="title-headers" id="dark-header">
+        <div class="header-1 freight-i">monthly <span class="bebas-neue header-2">Retainers</span>
+    </div>
+
+    <p class="freight-i-lite title-body">For those entrprenuers who need fresh 
+        content every month, or need help keeping up with brand execution, this is perfect for you.
+    </h2>
 
 
     <div class="retainer-cols">
@@ -309,14 +319,14 @@
             <p>Videography<br>And Photography</p>
         </div>
     </div>
-
+</div>
 
     <!-- * ----------------------------------------
  * pricing guide download
  * ---------------------------------------- -->
 
 
-    <div class="retainer-form">
+    <!-- <div class="retainer-form">
         <div class="download-form">
             <h2 class="plantin-i">download</h2>
             <h3 class="sofia-sb">Pricing Guide</h3>
@@ -327,15 +337,70 @@
                 <input id="download" type="submit" value="DOWNLOAD">
             </form>
         </div>
+    </div> -->
+</div>
+
+
+<!-- * ----------------------------------------
+ * let's work together + 3 column nav cards
+ * ---------------------------------------- -->
+
+<div class="about-nav">
+    <div class="two-col">
+        <div class="two-col-box">
+            <div class="box">
+
+                <div class="contact-headers">
+                <div class="contact-header-1 freight-i">let's work <span class="bebas-neue contact-header-2">TOGETHER</span>
+                </div>
+                </div>
+
+    
+            </div>
+            <a href="/connect" class="btn-wide sofia">INQUIRE ABOUT YOUR PROJECT</a>
+        </div>
+    </div>
+
+    <!-- ==== formerly "CORE VALUES" ==== -->
+    <div class="core-values">
+
+        <!-- links to DESIGN PROCESS page -->
+        <div class="cards core-cards">
+
+            <a class="card" id="design-process-bg" href="/process">
+                <!-- <img src="img/process-bg-TEST.jpg" alt="The Design Process Picture"> -->
+                <!-- <h3 class="freight-i ">understanding</h3>
+            <h3 class="bebas-neue loose">THE</h3> -->
+
+                <h2 class="sofia-sb-i" id="search-design-text">design<BR></h2>
+                <h2 class="bebas-neue xtra-loose" id="processh2">PROCESS</h2>
+            </a>
+            <!-- links to SERVICES page -->
+            <a class="card" id="services-process-bg" href="/services">
+                <h2 class="bebas-neue loose">DESIGN</h2>
+                <h2 class="sofia-sb-i">SERVICES <BR></h2>
+                <!-- <h3 class="freight-i ">what we offer</h3> -->
+            </a>
+
+            <!-- links to ABOUT page -->
+            <a class="card" id="studio-process-bg" href="#">
+                <!-- <h3 class="freight-i ">who</h3>
+            <h3 class="bebas-neue loose">WE ARE</h3> -->
+                <h2 class="sofia-sb-i" id="the-small"> THE<BR></h2>
+                <h2 class="bebas-neue loose">STUDIO</h2>
+            </a>
+            <!-- 
+            <img src="img/search-btns-bg-TEST-03.jpg" alt="Search BG pic"> -->
+        </div>
     </div>
 </div>
 
 
 <!-- * ----------------------------------------
- * work together button
+ * 2 column responsive work together button
  * ---------------------------------------- -->
 
-<div class="two-col services-two-col">
+<!-- <div class="two-col services-two-col">
     <div class="two-col-box">
         <div class="box">
             <h3 class="plantin-i">let's</h3>
@@ -350,7 +415,7 @@
         </div>
         <a href="/process" class="btn-wide sofia">Learn About The Design Process</a>
     </div>
-</div>
+</div> -->
 
 
 
