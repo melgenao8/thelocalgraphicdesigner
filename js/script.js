@@ -123,6 +123,7 @@ var mySwiper = new Swiper('.swiper-container', {
     centeredSlides: true,
     initialSlide: 0,
     loop: true,
+    slideToClickedSlide: true,
 
     // Navigation dots
     pagination: {
@@ -130,6 +131,10 @@ var mySwiper = new Swiper('.swiper-container', {
         type: 'bullets',
         clickable: true
     },
+
+    navigation: {
+        nextEl: '.arrow img',
+    }
 })
 
 mySwiper.on('slideChange', function (e) {

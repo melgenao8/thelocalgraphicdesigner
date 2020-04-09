@@ -48,13 +48,18 @@
             
             img{
                 width: 30px;
+                cursor: pointer;
+
+                &:active, &:focus{
+                    outline: none;
+                }
             }
         }
     
 }
 
 .swiper-container {
-    width: 100%;
+    width: 100vw;
     height: auto;
     padding-top: 30px;
     // overflow: visible;
@@ -64,10 +69,13 @@
         justify-content: center;
         align-items: center;
         width: 70%;
+        // position: relative;
+
 
         img {
             width: 100%;
             height: auto;
+            cursor: pointer;
         }
     }
 
