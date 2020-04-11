@@ -116,7 +116,7 @@ const process = [
     }
 ]
 
-var mySwiper = new Swiper('.swiper-container', {
+var mySwiper = new Swiper('.process-swiper', {
     // Optional parameters
     slidesPerView: 'auto',
     spaceBetween: 40,
@@ -138,5 +138,21 @@ mySwiper.on('slideChange', function (e) {
     $("#process-step").text(process[index].step);
     $("#process-title").text(process[index].title);
     $("#process-text").text(process[index].text);
+})
+
+var mySwiper = new Swiper('.services-swiper', {
+    // Optional parameters
+    slidesPerView: 'auto',
+    spaceBetween: 40,
+    // centeredSlides: true,
+    initialSlide: 0,
+    // loop: true,
+
+    // Navigation dots
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true
+    },
 })
 

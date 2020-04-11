@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/bg/bg-texture-medium-1920px-3125px-min.jpg");
+    background-image: url("../img/bg/background-1920px.jpg");
     background-size: cover;
     background-attachment: fixed;
     width: 100vw;
@@ -25,6 +25,9 @@ $dark-blush:#A58984;
 $ash:#58595B;
 $footer-brown: #2D2B2B;
 $dark-yellow:#857E35;
+$lt-purple:#99908F;
+$off-white:#EAEAEA;
+
 
 
 //default styles
@@ -63,10 +66,11 @@ p, h2, h3, h4, a {
     font-style: italic;
 }
 
+
 .freight-i-lite{
     font-family: freight-text-pro, serif;
-    font-weight: 300;
     font-style: italic;
+    font-weight: 300;
 }
 
 .bebas-neue {
@@ -79,38 +83,33 @@ p, h2, h3, h4, a {
     font-style: normal;
 }
 
-.sofia-sb {
-    font-family: "sofia-pro", sans-serif;
-    font-weight: 600;
-    font-style: normal;  
-}
-
-.sofia-sb-i {
-    font-family: "sofia-pro", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-}
-
 .sofia {
     font-family: "sofia-pro", sans-serif;
 }
 
-.sofia-bold {
-    font-family: "sofia-pro", sans-serif;
-    font-weight: 800;
-    font-style: normal; 
+.simple-mono-reg{
+    font-family: SimplonMono-Reg;
+    font-style: normal;
+    font-weight: 400;
 }
+
+
 
 //headers
 
 .title-headers {
-    color: $primary-yellow;
+    color:$dark-brown;
     text-align: center;
 
-
+    .title-sub-headers{
+        font-size: 8pt;
+        margin-bottom: 20px; 
+        letter-spacing: 1.75px;
+    }
     .header-1 {
-        font-size: 2.5rem;
-        margin-bottom: 50px;
+        font-size: 3rem;
+        line-height: 3rem;
+        margin-bottom: 50px; 
     }
 
     .header-2 {
@@ -121,6 +120,9 @@ p, h2, h3, h4, a {
         margin-left: 5px;
     }
 
+    
+
+
     .title-body{
         font-size: 1.5rem;
         padding-bottom: 60px;
@@ -129,6 +131,7 @@ p, h2, h3, h4, a {
         margin-bottom: 50px;
     }
 }
+
 
 
 //let's work together header
@@ -158,6 +161,55 @@ p, h2, h3, h4, a {
         margin-bottom: 50px;
     }
 }
+
+
+//buttona
+.main-btn {
+    
+    display: block;
+    margin:0 auto;
+    padding: 15px 0;
+    color: $white;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid $dark-yellow;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    
+    .main-btn-text{
+        color:$dark-yellow;
+    }
+
+}
+
+.main-btn:hover {
+    background-color:$dark-brown;
+    color: $off-white;
+}
+
+  
+// left align dark btn
+.main-btn-left-dark  {
+    background-color: transparent;
+    display: block;
+    color: $off-white;
+    padding: 15px 0;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid $dark-yellow;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+}
+
+.main-btn-left-dark:hover {
+    background-color:$dark-yellow;
+    color: $dark-brown;
+  }
 
 //reusable classes
 .two-col {
@@ -200,6 +252,39 @@ p, h2, h3, h4, a {
     }
 }
 
+.four-col{
+    display: flex;
+    flex-wrap: wrap;
+
+
+    .four-col-box {
+        padding: 60px 25px;
+        background-color: $off-white;
+        border: .25px solid $dark-brown;
+        width: 25%;
+        display: flex;
+
+        align-items: flex-start;
+
+        .four-box {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            h3 {
+                margin-right: 20px;
+                font-size: 50px;
+            }
+
+            p{
+                font-size:10pt
+            }
+        }
+    }
+
+}
+
+
 .text-image-col {
     display: flex;
     justify-content: space-between;
@@ -214,9 +299,8 @@ p, h2, h3, h4, a {
         align-items: center;
         min-width: 400px;
 
-//HOME PAGE FONTS
         .content {
-            max-width: 450px;
+            max-width: 650px;
             margin: 0 auto;
 
             h4 {
@@ -252,7 +336,7 @@ p, h2, h3, h4, a {
     }
 
     &::-webkit-scrollbar {
-        display: none;
+        // display: none;
     }
 
 }
@@ -266,30 +350,13 @@ p, h2, h3, h4, a {
     .title-col {
         display: flex;
         align-items: center;
-        margin-right: 140px;
-
-        // h2 {
-        //     font-size: 55px;
-        //     margin-right: 25px;
-        // }
-
-        // h3 {
-        //     font-size: 45px;
-        // }
     }
 
     .text-col {
-        max-width: 500px;
+        max-width: 30%;
 
         p {
             font-size: 14px;
-        }
-
-        a {
-            text-transform: uppercase;
-            font-size: 14px;
-            letter-spacing: 2px;
-            text-decoration: none;
         }
     }
 }
@@ -391,14 +458,44 @@ p, h2, h3, h4, a {
 
 }
 
+
+.why-banner {
+
+    margin: 350px 30px;
+
+    .why-banner-text {
+        margin: 0 auto;
+        text-align: center;
+        
+        .why-banner-header{
+            color:$primary-yellow;
+            font-size: 1.75rem;
+            line-height:3rem;
+            margin-bottom: 50px;
+        }
+        .arrow-down{
+            width:10px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.arrow-right{
+    width:30px;
+}
+
 .nav-banner {
-    background: transparent;
+
     padding-bottom: 180px;
     position: relative;
     
 
     nav {
+        // background-image: url("../img/bg/navigation-background-texture.png");
+        // background-size: contain;
+        background-attachment: fixed;
         position: absolute;
+        padding-bottom: 50px;
         top: 0;
         left: 0;
         width: 100%;
@@ -420,7 +517,8 @@ p, h2, h3, h4, a {
                 top: 5px;
 
                 img {
-                    max-width: 35px;
+                    max-width: 80px;
+                    margin-top: 15px;
                 }
             }
         }
@@ -437,11 +535,11 @@ p, h2, h3, h4, a {
             padding: 0 20px;
 
             a {
-                color: $primary-yellow;
+                color: $white;
                 text-transform: uppercase;
                 padding: 1px 5px;
-                letter-spacing: 2px;
-                font-size: 8px;
+                letter-spacing: 3px;
+                font-size: 8.5px;
             }
 
             &:nth-child(5) {
@@ -475,7 +573,7 @@ p, h2, h3, h4, a {
         }
 
         h1 {
-            color: $dark-pink;
+            color: $dark-brown;
             font-size: 50px;
             text-align: center;
         }
@@ -519,17 +617,18 @@ p, h2, h3, h4, a {
         margin: 0 auto;
 
         .opening-title {
-            width: 50%;
-            // padding-right: 50px;
+            width: 95%;
+            margin: 0 auto;
 
             h1 {
-                color: $light-tan;
-                text-align: right;
-                margin-right: 30px;
-                margin-top:20px;
-                font-size: 50px;
-                letter-spacing: 3px;   
+                color: transparent;
+                text-align: center;
+                font-size: 10rem;
+                letter-spacing: 5px;   
+                -webkit-text-stroke: .6px $primary-yellow;
             }
+
+
 
             p {
                 font-size: 12pt;
@@ -556,9 +655,20 @@ p, h2, h3, h4, a {
     }
 }
 
+.nav-banner-2 {
+
+    padding-bottom: 25px;
+    .opening {
+
+        padding: 225px 15px 15px;
+
+
+    }
+}
+
 footer {
-    padding: 50px 50px;
-    border-bottom: 10px solid $primary-yellow;
+    padding: 15px 40px;
+    border-bottom: 5px solid $primary-yellow;
     display: flex;
     align-items: center;
     background-image:  url("../img/bg/bg-text-footer-banner-desktop.svg");
@@ -592,8 +702,8 @@ footer {
         .social-icon {
             margin-right: 20px;
             // border: 1px solid $primary-yellow;
-            width: 50px;
-            height: 50px;
+            width: 30px;
+            height: 30px;
 
             &:last-of-type {
                 margin-right: 0;
@@ -602,6 +712,15 @@ footer {
 
         .icon-1{
             background-image: url("../img/icons/social-media-icon-pinterest-30px.png");
+            background-size: cover;
+        }
+        .icon-2{
+            background-image: url("../img/icons/social-media-icon-instagram-30px.png");
+            background-size: cover;
+        }
+
+        .icon-3{
+            background-image: url("../img/icons/social-media-icon-linkedin-30px.png");
             background-size: cover;
         }
     }
@@ -720,8 +839,15 @@ footer {
 }
 
 @media screen and (max-width: 991px){
+
+        
+
     .nav-banner {
 
+        nav {
+
+            padding-bottom:85px;
+        }
 
         .nav-brand {
             display: block;
@@ -729,7 +855,7 @@ footer {
 
         #menu {
             position: fixed;
-            top:0;
+            top:30px;
             left: 0;
             width: 100%;
             height: 100vh;
@@ -833,6 +959,15 @@ footer {
 }
 
 @media screen and (max-width: 768px){
+
+    .title-headers {
+
+        .header-1 {
+            margin-bottom: 30px;
+        }
+    
+    }
+
     .text-image-col {
         .text-col {
             margin-right: 0;
@@ -841,6 +976,7 @@ footer {
             .content {
                 margin-left: 25px;
                 padding-right:15px;
+                margin-top:30px;
                 
             }
         }
@@ -870,12 +1006,10 @@ footer {
 
 @media screen and (max-width: 600px) {
 
-    body {
-        background-image: url("../img/bg/bg-texture-mobile-600px-1333px-min.jpg");
-    }
 
 
     .nav-banner {
+        
         padding-bottom: 75px;
         .banner {
 
@@ -886,7 +1020,21 @@ footer {
             }
 
         }
+
+        .opening {
+            .opening-title {
+
+
+                h1 {
+                    font-size: 6rem;
+                    
+                }
+            }
+        }
+
     }
+
+
 
     footer {
         background-image:  url("../img/bg/bg-text-footer-banner-mobile.svg");
@@ -898,7 +1046,10 @@ footer {
 
 }
 
+
 @media screen and (max-width: 450px){
+
+
     .text-image-col {
         .text-col {
             min-width: 325px;
@@ -944,7 +1095,8 @@ footer {
 
 
                 h1 {
-                    font-size: 42px;
+                    font-size: 4rem;
+                    -webkit-text-stroke: 0.2px $primary-yellow;
                 }
             }
         }
@@ -977,4 +1129,11 @@ footer {
 
 }
     
+}
+
+@media screen and (max-width: 375px){
+    .text-image-col {
+        padding-bottom: 40px;
+    }
+
 }

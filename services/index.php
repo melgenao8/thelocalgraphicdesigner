@@ -1,28 +1,15 @@
 <?php require_once("../header.php")?>
-
-<div class="container-fluid nav-banner">
+<div class="container-fluid nav-banner services-banner nav-banner-2">
     <?php require_once("../navigation.php") ?>
 
-    <!-- * ----------------------------------------
- * opening title
- * ---------------------------------------- -->
 
+    <!-- * ----------------------------------------
+    * opening title
+    * ---------------------------------------- -->
     <div class="opening fade-in">
         <div class="opening-title">
             <div class="bounce-in-top">
-                <!-- <h1 class="bebas-neue loose">DESIGN</h1><h1 class="sofia-sb-i">SERVICES</h1> -->
-                <h1 class="bebas-neue">DESIGN <span class="sofia-sb-i">Services</span></h1>
-                <!-- <h1 class="sofia-sb">Design Services</h1> -->
-                <!-- <p class="freight-i">great for bloggers, entrepreneurs, restaurants,
-                & the self-employed</p> -->
-            </div>
-        </div>
-        <div class="opening-text">
-            <div class="bounce-in-top-slower">
-                <p class="sofia-light">Investing in something unfamiliar is not a good feeling.
-                    Get acquianted with the branding process so that you
-                    feel confident in your decision to create an effective
-                    impression on your audience.</p>
+                <h1 class="bebas-neue lrg-outline">DESIGN <span class="bebas-neue lrg-outline">Services</span></h1>
             </div>
         </div>
     </div>
@@ -32,148 +19,247 @@
 <!-- * ----------------------------------------
  * packages
  * ---------------------------------------- -->
-
 <div class="packages">
 
-    <div class="title-headers">
-        <div class="header-1 freight-i">popular <span class="bebas-neue header-2">PACKAGES</span>
-    </div>
-
-    <p class="freight-i-lite title-body">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-    </h2>
-
-    <div class="cards">
-
-        <!-- BRANDING BASICS -- PACKAGE -->
-        <div class="card">
-            <div class="top-card top-card-bg">
-
-
-                <h2 class="bebas-neue">BRANDING <span class="sofia-sb-i">Basics</span></h2>
-               
-                <div class="middle-card">
-                <p>Perfect for new businesses, or
-                    brands in need of an identity refresh
-                </p>
+    <div class="two-text-col left-text">
+        <div class="title-col">
+            <div class="left-text-content">
+                <h2 class="freight-i-lite">Browse base services.</h2>
+                
+                <div class="arrow-right">
+                    <img src="img/icons/yellow-arrow-right.svg" alt="right arrow">
                 </div>
 
-                <div class="img-holder"></div>
-            </div>
+                <div class ="arrow-sub-text sackers-gothic">swipe cards</div>
 
-            <div class="bottom-card">
-                <p class="sackers-gothic">- package includes -</p>
-
-                <h3 class="bebas-neue">Strategy</h3>
-                <ul>
-                    <li>Business Goals</li>
-                    <li>Competitor Analysis</li>
-                    <li>Market & User Research</li>
-                    <li>Tagline</li>
-                    <li>Mission Statement</li>
-                    <li>Tone & Voice</li>
-                </ul>
-
-                <h3 class="bebas-neue">Identity</h3>
-                <ul>
-                    <li>Logo</li>
-                    <li>Supporting Logos</li>
-                    <li>Color Scheme</li>
-                    <li>Typography</li>
-                    <li>Style Boards</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- SOCIAL ENGAGEMENT -- PACKAGE -->
-        <div class="card">
-            <div class="top-card">
-
-                <h2 class="bebas-neue" id="social-txt-size">SOCIAL <span class="sofia-sb-i">ENGAGEMENT</span></h2>
-                
-                <div class="middle-card">
-                <p>Suggested for established businesses needing help with social growth
-                </p>
-            </div>
-
-                <div class="img-holder"></div>
-            </div>
-
-            <div class="bottom-card">
-                <p class="sackers-gothic">- package includes -</p>
-
-                <h3 class="bebas-neue">social strategy</h3>
-                <p class="social-strategy sofia-sb">Custom 18 Day Content Calendar</p>
-                <p class="includes">Includes:</p>
-                <ul>
-                    <li>Content Topics</li>
-                    <li>Templated Captions</li>
-                    <li>Researched Hashtags</li>
-                    <li>Posting Schedule</li>
-                </ul>
-
-
-                <h3 class="bebas-neue">templates</h3>
-                <ul>
-                    <li>Custom 15 Grid editable layouts</li>
-                    <li>Cover images for all social platforms</li>
-                    <li>Profile Thumbnail</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- WEBSITE -- PACKAGE -->
-
-        <div class="card">
-            <div class="top-card">
-                <h2 class="bebas-neue">THE <span class="sofia-sb-i">Website</span></h2>
-
-                <div class="middle-card">
-                <p>Strategically planned & custom designed to generate organic traffic
-                </p>
-            </div>
-            
-                <div class="img-holder"></div>
-            </div>
-            
-            <div class="bottom-card">
-                <p class="sackers-gothic">- package includes -</p>
-
-                <h3 class="bebas-neue">web strategy</h3>
-                <ul>
-                    <li>Competitor Analysis</li>
-                    <li>Mobile Responsive</li>
-                    <li>UI/UX Design</li>
-                    <li>Color Scheme</li>
-                    <li>Typography</li>
-                </ul>
-                <h3 class="bebas-neue">copywriting</h3>
-                <ul>
-                    <li>Tone/Voice/Messaging</li>
-                    <li>SEO Keyword Research</li>
-                    <li>SEO Headlines</li>
-                    <li>Body Copy Clarity</li>
-                    <li>Keyword Research</li>
-                </ul>
+                <p class="sofia-light">Packages are a great place to start.
+                                    These services can be combined and
+                                    tailored to your specific needs.
+                                    Take a look at what each package
+                                    offers, and deliverables provided.
+                </p>               
+                <!-- search button -->
+                <div class="main-btn-left-dark">
+                <a href="/services">view services</a>
             </div>
         </div>
     </div>
+    
+        <div class="text-col">
+
+        <div class="swiper-container services-swiper">
+    <div class="swiper-wrapper">
+    <div class="swiper-slide card">
+                    <div class="top-card top-card-bg">
+                        <div class="top-headers">
+                        <h2 class="bebas-neue">BRANDING</h2>
+                        <div class ="sub-text sackers-gothic">basics</div>
+                    </div>
+                        <div class="img-holder"></div>
+                    </div>
+
+                    <div class="bottom-card">
+                        <p class="sackers-gothic">description</p>
+                        <div class="card-description freight-i-lite">
+                        crafting your brand identity & personality
+                        targeted to your ideal customer
+                        </div>
+
+                    <p class="sackers-gothic">deliverables</p>
+                        <ul>
+                            <li>define business goals</li>
+                            <li>market & user research</li>
+                            <li>tone & voice</li>
+                            <li>mission statement</li>
+                            <li>logo + supporting logos</li>
+                            <li>color scheme</li>
+                            <li>font pairings</li>
+                            <li>style board</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+
+                    <div class="top-card">
+                        <div class="top-headers">
+                            <h2 class="bebas-neue">website</h2>
+                            <div class ="sub-text sackers-gothic">basics</div>
+                        </div>
+
+                        <div class="img-holder"></div>
+                    </div>
+
+                    <div class="bottom-card">
+                        <p class="sackers-gothic">description</p>
+                        <div class="card-description freight-i-lite">
+                        Strategically planned & custom
+                        designed to generate organic traffic
+                        </div>
+                    
+                        <p class="sackers-gothic">deliverables</p>
+                        <ul>
+                            <li>current brand audit</li>
+                            <li>sitemap + wireframe</li>
+                            <li>mobile responsive</li>
+                            <li>color scheme</li>
+                            <li>font pairings</li>
+                            <li>seo tagging</li>
+                            <li>font pairings</li>
+                            <li>copywriting</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide card">
+
+                    <div class="top-card">
+                        <div class="top-headers">
+                            <h2 class="bebas-neue">social</h2>
+                            <div class ="sub-text sackers-gothic">basics</div>
+                        </div>
+                        <div class="img-holder"></div>
+                    </div>
+
+                    <div class="bottom-card">
+                        <p class="sackers-gothic">description</p>
+                        <div class="card-description freight-i-lite">
+                        Suggested for established businesses
+                        needing help with social growth
+                        </div>
+       
+                        <p class="sackers-gothic">deliverables</p>
+                     <ul>
+                            <li>strategic content calendar</li>
+                            <li>16 designed IG posts</li>
+                            <li>caption per ig post</li>
+                            <li>hashtag research</li>
+                            <li>posting schedule</li>
+                            <li>4 ig story posts</li>
+                            <li>font selection</li>
+                            <li>color scheme</li>
+                        </ul>
+                    </div>
+                </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+            <!-- <div class="cards">
+
+    ------------ BRANDING -- package
+                <div class="card">
+                    <div class="top-card top-card-bg">
+                        <div class="top-headers">
+                        <h2 class="bebas-neue">BRANDING</h2>
+                        <div class ="sub-text sackers-gothic">basics</div>
+                    </div>
+                        <div class="img-holder"></div>
+                    </div>
+
+                    <div class="bottom-card">
+                        <p class="sackers-gothic">description</p>
+                        <div class="card-description freight-i-lite">
+                        crafting your brand identity & personality
+                        targeted to your ideal customer
+                        </div>
+
+                    <p class="sackers-gothic">deliverables</p>
+                        <ul>
+                            <li>define business goals</li>
+                            <li>market & user research</li>
+                            <li>tone & voice</li>
+                            <li>mission statement</li>
+                            <li>logo + supporting logos</li>
+                            <li>color scheme</li>
+                            <li>font pairings</li>
+                            <li>style board</li>
+                        </ul>
+                    </div>
+                </div>
+
+------------ WEBSITE -- package 
+                <div class="card">
+
+                    <div class="top-card">
+                        <div class="top-headers">
+                            <h2 class="bebas-neue">website</h2>
+                            <div class ="sub-text sackers-gothic">basics</div>
+                        </div>
+
+                        <div class="img-holder"></div>
+                    </div>
+
+                    <div class="bottom-card">
+                        <p class="sackers-gothic">description</p>
+                        <div class="card-description freight-i-lite">
+                        Strategically planned & custom
+                        designed to generate organic traffic
+                        </div>
+                    
+                        <p class="sackers-gothic">deliverables</p>
+                        <ul>
+                            <li>current brand audit</li>
+                            <li>sitemap + wireframe</li>
+                            <li>mobile responsive</li>
+                            <li>color scheme</li>
+                            <li>font pairings</li>
+                            <li>seo tagging</li>
+                            <li>font pairings</li>
+                            <li>copywriting</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+------------ SOCIAL-- package 
+
+                <div class="card">
+
+                    <div class="top-card">
+                        <div class="top-headers">
+                            <h2 class="bebas-neue">social</h2>
+                            <div class ="sub-text sackers-gothic">basics</div>
+                        </div>
+                        <div class="img-holder"></div>
+                    </div>
+
+                    <div class="bottom-card">
+                        <p class="sackers-gothic">description</p>
+                        <div class="card-description freight-i-lite">
+                        Suggested for established businesses
+                        needing help with social growth
+                        </div>
+       
+                        <p class="sackers-gothic">deliverables</p>
+                     <ul>
+                            <li>strategic content calendar</li>
+                            <li>16 designed IG posts</li>
+                            <li>caption per ig post</li>
+                            <li>hashtag research</li>
+                            <li>posting schedule</li>
+                            <li>4 ig story posts</li>
+                            <li>font selection</li>
+                            <li>color scheme</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>  -->
+        </div>
+    </div>
 </div>
-</div>
+
 
 <!-- * ----------------------------------------
  * instant download
  * ---------------------------------------- -->
-
-
 <div class="design-guide">
     <div class="download-form">
     <div class="title-headers">
         <div class="header-1 freight-i">instant download <span class="bebas-neue header-2">PRICING GUIDE</span>
     </div>
 </div>
-
-        <!-- <p class="plantin-i">includes packages faqs</p> -->
 
         <form action="" method="post">
             <input id="full-name" type="text" placeholder="FULL NAME">

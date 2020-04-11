@@ -1,23 +1,19 @@
 <?php require_once("../header.php")?>
 
-<div class="container-fluid nav-banner connect-banner">
-    <?php require_once("../navigation.php")?>
+<div class="container-fluid nav-banner nav-banner-2">
+    <?php require_once("../navigation.php") ?>
 
-    <div class="opening">
-    <div class="opening-title">
+    <!-- * ----------------------------------------
+ * opening title
+ * ---------------------------------------- -->
+
+    <div class="opening fade-in">
+        <div class="opening-title">
             <div class="bounce-in-top">
                 
-                <h1 class="bebas-neue">WORKING <span class="sofia-sb-i">Together</span></h1>
-
+            <h1 class="bebas-neue lrg-outline">LET'S <span class="bebas-neue lrg-outline">CONNECT</span></h1>
+                
             </div>
-        </div>
-
-        <div class="opening-text">
-        <div class="bounce-in-top-slower">
-            <p class="sofia-light">I’m excited to get to know your business a
-                little better. Responses to inquiries are within
-                48 business hours.</p>
-        </div>
         </div>
     </div>
 </div>
@@ -71,17 +67,6 @@
     </div>
 </div>
 
-<div class="instagram">
-    <!-- <p class="sofia-sb">Instagram</p> -->
 
-    <div class="gallery">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-</div>
 
 <?php require_once("../footer.php") ?>
