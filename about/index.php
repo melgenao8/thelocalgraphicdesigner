@@ -5,21 +5,21 @@
 
     <div class="opening">
 
-    <div class="opening-title">
-            <div class="bounce-in-top">     
+        <div class="opening-title">
+            <div class="bounce-in-top">
                 <h1 class="bebas-neue">THE <span class="sofia-sb-i">Studio</span></h1>
             </div>
         </div>
 
 
         <div class="opening-text">
-        <div class="bounce-in-top-slower">
-            <p class="sofia-light">Investing in something unfamiliar is not
-                a good feeling. Get acquianted with the
-                branding process so that you feel
-                confident in your decision to create an
-                effective impression on your audience.</p>
-        </div>
+            <div class="bounce-in-top-slower">
+                <p class="sofia-light">Investing in something unfamiliar is not
+                    a good feeling. Get acquianted with the
+                    branding process so that you feel
+                    confident in your decision to create an
+                    effective impression on your audience.</p>
+            </div>
         </div>
     </div>
 </div>
@@ -156,48 +156,19 @@
             <div class="box">
 
                 <div class="contact-headers">
-                <div class="contact-header-1 freight-i">let's work <span class="bebas-neue contact-header-2">TOGETHER</span>
-                </div>
+                    <div class="contact-header-1 freight-i">let's work <span
+                            class="bebas-neue contact-header-2">TOGETHER</span>
+                    </div>
                 </div>
 
-    
+
             </div>
             <a href="/connect" class="btn-wide sofia">INQUIRE ABOUT YOUR PROJECT</a>
         </div>
     </div>
 
     <!-- ==== formerly "CORE VALUES" ==== -->
-    <div class="core-values">
-
-        <!-- links to DESIGN PROCESS page -->
-        <div class="cards core-cards">
-
-            <a class="card" id="design-process-bg" href="/process">
-                <!-- <img src="img/process-bg-TEST.jpg" alt="The Design Process Picture"> -->
-                <!-- <h3 class="freight-i ">understanding</h3>
-            <h3 class="bebas-neue loose">THE</h3> -->
-
-                <h2 class="sofia-sb-i" id="search-design-text">design<BR></h2>
-                <h2 class="bebas-neue xtra-loose" id="processh2">PROCESS</h2>
-            </a>
-            <!-- links to SERVICES page -->
-            <a class="card" id="services-process-bg" href="/services">
-                <h2 class="bebas-neue loose">DESIGN</h2>
-                <h2 class="sofia-sb-i">SERVICES <BR></h2>
-                <!-- <h3 class="freight-i ">what we offer</h3> -->
-            </a>
-
-            <!-- links to ABOUT page -->
-            <a class="card" id="studio-process-bg" href="#">
-                <!-- <h3 class="freight-i ">who</h3>
-            <h3 class="bebas-neue loose">WE ARE</h3> -->
-                <h2 class="sofia-sb-i" id="the-small"> THE<BR></h2>
-                <h2 class="bebas-neue loose">STUDIO</h2>
-            </a>
-            <!-- 
-            <img src="img/search-btns-bg-TEST-03.jpg" alt="Search BG pic"> -->
-        </div>
-    </div>
+    <?php require_once("../navigation-cards.php");?>
 </div>
 
 

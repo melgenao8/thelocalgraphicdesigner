@@ -193,66 +193,7 @@
     }
 }
 
-.core-values {
 
-    padding: 250px 0 150px;
-
-     > p {
-        text-transform: uppercase;
-        color: $lighter-brown;
-        text-align: center;
-        font-size: 16px;
-        letter-spacing: 4px;
-        margin-bottom: 80px;
-    }
-
-    .core-cards {
-        align-items: stretch;
-
-        .card {
-            background-color: $light-brown;
-            max-width: 330px;
-            min-width: 330px;
-            padding: 170px 15px;
-            -webkit-box-shadow: 22px 21px 88px -36px rgba(0,0,0,1);
-            -moz-box-shadow: 22px 21px 88px -36px rgba(0,0,0,1);
-            box-shadow: 22px 21px 88px -36px rgba(0,0,0,1);
-
-
-            h2 {
-                color: $dark-brown;
-                font-size: 45px;
-                text-align: center;
-                // text-shadow: 2px 2px 30px $dark-brown;
-                // padding-bottom: 10px;
-            }
-
-            #processh2 {
-                font-size: 45px;
-            }
-            
-            h3 {
-                color: $dark-brown;
-                padding-right: 20px;
-                padding-bottom: 10px;
-                letter-spacing: 2px;
-                text-align: center;
-                font-size:13pt;
-            }
-
-            h4 {
-                color: $dark-brown;
-            }
-            #the-small{
-                font-size:18pt;
-            }
-            #search-design-text{
-                font-size:25pt;
-            }
-
-        }
-    }
-}
 
 .home-two-col {
 
@@ -284,7 +225,7 @@
 
     .services-col {
         display: flex;
-        align-items: center;
+        align-items: stretch;
         max-width: 1000px;
         margin: 0 auto;
         color: $darker-pink;
@@ -296,7 +237,7 @@
                 color: $lighter-brown;
                 padding:50px;
                 width: 30%;
-                height: 20%;
+                // height: 20%;
 
             .title {
                 margin-bottom: 10px;
@@ -379,12 +320,6 @@
     }
 }
 
-@media screen and (max-width: 1330px) {
-    .core-values {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-}
 
 @media screen and (max-width: 955px) {
     .homepage-banner {

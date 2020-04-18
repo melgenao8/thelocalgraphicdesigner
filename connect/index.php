@@ -1,21 +1,29 @@
 <?php 
 
-// $link = mysqli_connect("localhost", "root", "root", "thelocalgraphicdesigner");
+$link = mysqli_connect("localhost", "root", "root", "thelocalgraphicdesigner");
 
-// if (!$link) {
-//     echo "Error: Unable to connect to MySQL." . PHP_EOL;
-//     echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
-//     echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
-//     exit;
-// }
+if(isset($_POST['submit'])){
 
-// echo "Success: A proper connection to MySQL was made! The my_db database is great." . PHP_EOL;
-// echo "Host information: " . mysqli_get_host_info($link) . PHP_EOL;
+    $fullname = mysqli_real_escape_string($link, $_POST['fullname']);
+    $email = mysqli_real_escape_string($link, $_POST['businessemail']);
+    $businessname = mysqli_real_escape_string($link, $_POST['businessname']);
+    $industry = mysqli_real_escape_string($link, $_POST['businessindustry']);
+    $website = mysqli_real_escape_string($link, $_POST['businesswebsite']);
+    $instagram = mysqli_real_escape_string($link, $_POST['businessinstagram']);
+    $interested = mysqli_real_escape_string($link, $_POST['interested']);
+    $budget = mysqli_real_escape_string($link, $_POST['budget']);
+    $notes = mysqli_real_escape_string($link, $_POST['notes']);
+    
 
-// mysqli_close($link);
+    $sql = "INSERT INTO inquiries (fullname, email, businessname, industry, website, interested, instagram, budget, notes) VALUES('{$fullname}', '{$email}', '{$businessname}', '{$industry}', '{$website}', '{$interested}', '{$instagram}', '{$budget}', '{$notes}')";
 
-if(isset($_POST)){
-    print_r($_POST);
+    if (mysqli_query($link, $sql)) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($link);
+    }
+
+    mysqli_close($link);
 }
 
 ?>
@@ -26,20 +34,20 @@ if(isset($_POST)){
     <?php require_once("../navigation.php")?>
 
     <div class="opening">
-    <div class="opening-title">
+        <div class="opening-title">
             <div class="bounce-in-top">
-                
+
                 <h1 class="bebas-neue">WORKING <span class="sofia-sb-i">Together</span></h1>
 
             </div>
         </div>
 
         <div class="opening-text">
-        <div class="bounce-in-top-slower">
-            <p class="sofia-light">I’m excited to get to know your business a
-                little better. Responses to inquiries are within
-                48 business hours.</p>
-        </div>
+            <div class="bounce-in-top-slower">
+                <p class="sofia-light">I’m excited to get to know your business a
+                    little better. Responses to inquiries are within
+                    48 business hours.</p>
+            </div>
         </div>
     </div>
 </div>
@@ -62,14 +70,15 @@ if(isset($_POST)){
         </div>
 
         <select name="interested" id="">
-            <option value="" disabled selected>I am interested in...</option>
+            <option value="" selected=true>I am interested in...</option>
+            <option value="test">Test</option>
         </select>
 
         <input type="text" placeholder="Budget..." name="budget">
 
         <textarea name="notes" id="" cols="30" rows="6" placeholder="Other notes"></textarea>
 
-        <button class="sofia">Submit</button>
+        <button class="sofia" name="submit">Submit</button>
 
     </form>
 </div>
@@ -93,17 +102,10 @@ if(isset($_POST)){
     </div>
 </div>
 
-<div class="instagram">
-    <!-- <p class="sofia-sb">Instagram</p> -->
+<!------------------------------------------
+ * instagram plugin
+ * ---------------------------------------- -->
 
-    <div class="gallery">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-</div>
+<!-- <?php require_once("instagram.php")?> -->
 
 <?php require_once("../footer.php") ?>

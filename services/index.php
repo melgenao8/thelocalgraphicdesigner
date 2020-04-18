@@ -37,128 +37,129 @@
 
     <div class="title-headers">
         <div class="header-1 freight-i">popular <span class="bebas-neue header-2">PACKAGES</span>
-    </div>
+        </div>
 
-    <p class="freight-i-lite title-body">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-    </h2>
+        <p class="freight-i-lite title-body">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            </h2>
 
-    <div class="cards">
+            <div class="cards">
 
-        <!-- BRANDING BASICS -- PACKAGE -->
-        <div class="card">
-            <div class="top-card top-card-bg">
+                <!-- BRANDING BASICS -- PACKAGE -->
+                <div class="card">
+                    <div class="top-card top-card-bg">
 
 
-                <h2 class="bebas-neue">BRANDING <span class="sofia-sb-i">Basics</span></h2>
-               
-                <div class="middle-card">
-                <p>Perfect for new businesses, or
-                    brands in need of an identity refresh
-                </p>
+                        <h2 class="bebas-neue">BRANDING <span class="sofia-sb-i">Basics</span></h2>
+
+                        <div class="middle-card">
+                            <p>Perfect for new businesses, or
+                                brands in need of an identity refresh
+                            </p>
+                        </div>
+
+                        <div class="img-holder"></div>
+                    </div>
+
+                    <div class="bottom-card">
+                        <p class="sackers-gothic">- package includes -</p>
+
+                        <h3 class="bebas-neue">Strategy</h3>
+                        <ul>
+                            <li>Business Goals</li>
+                            <li>Competitor Analysis</li>
+                            <li>Market & User Research</li>
+                            <li>Tagline</li>
+                            <li>Mission Statement</li>
+                            <li>Tone & Voice</li>
+                        </ul>
+
+                        <h3 class="bebas-neue">Identity</h3>
+                        <ul>
+                            <li>Logo</li>
+                            <li>Supporting Logos</li>
+                            <li>Color Scheme</li>
+                            <li>Typography</li>
+                            <li>Style Boards</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div class="img-holder"></div>
+                <!-- SOCIAL ENGAGEMENT -- PACKAGE -->
+                <div class="card">
+                    <div class="top-card">
+
+                        <h2 class="bebas-neue" id="social-txt-size">SOCIAL <span class="sofia-sb-i">ENGAGEMENT</span>
+                        </h2>
+
+                        <div class="middle-card">
+                            <p>Suggested for established businesses needing help with social growth
+                            </p>
+                        </div>
+
+                        <div class="img-holder"></div>
+                    </div>
+
+                    <div class="bottom-card">
+                        <p class="sackers-gothic">- package includes -</p>
+
+                        <h3 class="bebas-neue">social strategy</h3>
+                        <p class="social-strategy sofia-sb">Custom 18 Day Content Calendar</p>
+                        <p class="includes">Includes:</p>
+                        <ul>
+                            <li>Content Topics</li>
+                            <li>Templated Captions</li>
+                            <li>Researched Hashtags</li>
+                            <li>Posting Schedule</li>
+                        </ul>
+
+
+                        <h3 class="bebas-neue">templates</h3>
+                        <ul>
+                            <li>Custom 15 Grid editable layouts</li>
+                            <li>Cover images for all social platforms</li>
+                            <li>Profile Thumbnail</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- WEBSITE -- PACKAGE -->
+
+                <div class="card">
+                    <div class="top-card">
+                        <h2 class="bebas-neue">THE <span class="sofia-sb-i">Website</span></h2>
+
+                        <div class="middle-card">
+                            <p>Strategically planned & custom designed to generate organic traffic
+                            </p>
+                        </div>
+
+                        <div class="img-holder"></div>
+                    </div>
+
+                    <div class="bottom-card">
+                        <p class="sackers-gothic">- package includes -</p>
+
+                        <h3 class="bebas-neue">web strategy</h3>
+                        <ul>
+                            <li>Competitor Analysis</li>
+                            <li>Mobile Responsive</li>
+                            <li>UI/UX Design</li>
+                            <li>Color Scheme</li>
+                            <li>Typography</li>
+                        </ul>
+                        <h3 class="bebas-neue">copywriting</h3>
+                        <ul>
+                            <li>Tone/Voice/Messaging</li>
+                            <li>SEO Keyword Research</li>
+                            <li>SEO Headlines</li>
+                            <li>Body Copy Clarity</li>
+                            <li>Keyword Research</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-
-            <div class="bottom-card">
-                <p class="sackers-gothic">- package includes -</p>
-
-                <h3 class="bebas-neue">Strategy</h3>
-                <ul>
-                    <li>Business Goals</li>
-                    <li>Competitor Analysis</li>
-                    <li>Market & User Research</li>
-                    <li>Tagline</li>
-                    <li>Mission Statement</li>
-                    <li>Tone & Voice</li>
-                </ul>
-
-                <h3 class="bebas-neue">Identity</h3>
-                <ul>
-                    <li>Logo</li>
-                    <li>Supporting Logos</li>
-                    <li>Color Scheme</li>
-                    <li>Typography</li>
-                    <li>Style Boards</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- SOCIAL ENGAGEMENT -- PACKAGE -->
-        <div class="card">
-            <div class="top-card">
-
-                <h2 class="bebas-neue" id="social-txt-size">SOCIAL <span class="sofia-sb-i">ENGAGEMENT</span></h2>
-                
-                <div class="middle-card">
-                <p>Suggested for established businesses needing help with social growth
-                </p>
-            </div>
-
-                <div class="img-holder"></div>
-            </div>
-
-            <div class="bottom-card">
-                <p class="sackers-gothic">- package includes -</p>
-
-                <h3 class="bebas-neue">social strategy</h3>
-                <p class="social-strategy sofia-sb">Custom 18 Day Content Calendar</p>
-                <p class="includes">Includes:</p>
-                <ul>
-                    <li>Content Topics</li>
-                    <li>Templated Captions</li>
-                    <li>Researched Hashtags</li>
-                    <li>Posting Schedule</li>
-                </ul>
-
-
-                <h3 class="bebas-neue">templates</h3>
-                <ul>
-                    <li>Custom 15 Grid editable layouts</li>
-                    <li>Cover images for all social platforms</li>
-                    <li>Profile Thumbnail</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- WEBSITE -- PACKAGE -->
-
-        <div class="card">
-            <div class="top-card">
-                <h2 class="bebas-neue">THE <span class="sofia-sb-i">Website</span></h2>
-
-                <div class="middle-card">
-                <p>Strategically planned & custom designed to generate organic traffic
-                </p>
-            </div>
-            
-                <div class="img-holder"></div>
-            </div>
-            
-            <div class="bottom-card">
-                <p class="sackers-gothic">- package includes -</p>
-
-                <h3 class="bebas-neue">web strategy</h3>
-                <ul>
-                    <li>Competitor Analysis</li>
-                    <li>Mobile Responsive</li>
-                    <li>UI/UX Design</li>
-                    <li>Color Scheme</li>
-                    <li>Typography</li>
-                </ul>
-                <h3 class="bebas-neue">copywriting</h3>
-                <ul>
-                    <li>Tone/Voice/Messaging</li>
-                    <li>SEO Keyword Research</li>
-                    <li>SEO Headlines</li>
-                    <li>Body Copy Clarity</li>
-                    <li>Keyword Research</li>
-                </ul>
-            </div>
-        </div>
     </div>
-</div>
 </div>
 
 <!-- * ----------------------------------------
@@ -168,10 +169,10 @@
 
 <div class="design-guide">
     <div class="download-form">
-    <div class="title-headers">
-        <div class="header-1 freight-i">instant download <span class="bebas-neue header-2">PRICING GUIDE</span>
-    </div>
-</div>
+        <div class="title-headers">
+            <div class="header-1 freight-i">instant download <span class="bebas-neue header-2">PRICING GUIDE</span>
+            </div>
+        </div>
 
         <!-- <p class="plantin-i">includes packages faqs</p> -->
 
@@ -276,50 +277,50 @@
 <div class="retainers">
 
 
-<div class="title-headers" id="dark-header">
+    <div class="title-headers" id="dark-header">
         <div class="header-1 freight-i">monthly <span class="bebas-neue header-2">Retainers</span>
+        </div>
+
+        <p class="freight-i-lite title-body">For those entrprenuers who need fresh
+            content every month, or need help keeping up with brand execution, this is perfect for you.
+            </h2>
+
+
+            <div class="retainer-cols">
+
+                <!-- ICON 1 -->
+                <div class="retainer-col">
+                    <div class="icon-img-holder">
+                        <img src="img/icons/social-media-content-icon.svg">
+                    </div>
+                    <p>Social Media<br>Content Creation</p>
+                </div>
+
+                <!-- ICON 2 -->
+                <div class="retainer-col">
+                    <div class="icon-img-holder">
+                        <img src="img/icons/website-maintenance-icon.svg">
+                    </div>
+                    <p>Website<br>Maintenance</p>
+                </div>
+
+                <!-- ICON 3 -->
+                <div class="retainer-col">
+                    <div class="icon-img-holder">
+                        <img src="img/icons/blog-writer-icon.svg">
+                    </div>
+                    <p>Blog/Article<br>Writting</p>
+                </div>
+
+                <!-- ICON 3 -->
+                <div class="retainer-col">
+                    <div class="icon-img-holder">
+                        <img src="img/icons/social-media-photographer-videographer.svg">
+                    </div>
+                    <p>Videography<br>And Photography</p>
+                </div>
+            </div>
     </div>
-
-    <p class="freight-i-lite title-body">For those entrprenuers who need fresh 
-        content every month, or need help keeping up with brand execution, this is perfect for you.
-    </h2>
-
-
-    <div class="retainer-cols">
-
-        <!-- ICON 1 -->
-        <div class="retainer-col">
-            <div class="icon-img-holder">
-                <img src="img/icons/social-media-content-icon.svg">
-            </div>
-            <p>Social Media<br>Content Creation</p>
-        </div>
-
-        <!-- ICON 2 -->
-        <div class="retainer-col">
-            <div class="icon-img-holder">
-                <img src="img/icons/website-maintenance-icon.svg">
-            </div>
-            <p>Website<br>Maintenance</p>
-        </div>
-
-        <!-- ICON 3 -->
-        <div class="retainer-col">
-            <div class="icon-img-holder">
-                <img src="img/icons/blog-writer-icon.svg">
-            </div>
-            <p>Blog/Article<br>Writting</p>
-        </div>
-
-        <!-- ICON 3 -->
-        <div class="retainer-col">
-            <div class="icon-img-holder">
-                <img src="img/icons/social-media-photographer-videographer.svg">
-            </div>
-            <p>Videography<br>And Photography</p>
-        </div>
-    </div>
-</div>
 
     <!-- * ----------------------------------------
  * pricing guide download
@@ -351,48 +352,19 @@
             <div class="box">
 
                 <div class="contact-headers">
-                <div class="contact-header-1 freight-i">let's work <span class="bebas-neue contact-header-2">TOGETHER</span>
-                </div>
+                    <div class="contact-header-1 freight-i">let's work <span
+                            class="bebas-neue contact-header-2">TOGETHER</span>
+                    </div>
                 </div>
 
-    
+
             </div>
             <a href="/connect" class="btn-wide sofia">INQUIRE ABOUT YOUR PROJECT</a>
         </div>
     </div>
 
     <!-- ==== formerly "CORE VALUES" ==== -->
-    <div class="core-values">
-
-        <!-- links to DESIGN PROCESS page -->
-        <div class="cards core-cards">
-
-            <a class="card" id="design-process-bg" href="/process">
-                <!-- <img src="img/process-bg-TEST.jpg" alt="The Design Process Picture"> -->
-                <!-- <h3 class="freight-i ">understanding</h3>
-            <h3 class="bebas-neue loose">THE</h3> -->
-
-                <h2 class="sofia-sb-i" id="search-design-text">design<BR></h2>
-                <h2 class="bebas-neue xtra-loose" id="processh2">PROCESS</h2>
-            </a>
-            <!-- links to SERVICES page -->
-            <a class="card" id="services-process-bg" href="/services">
-                <h2 class="bebas-neue loose">DESIGN</h2>
-                <h2 class="sofia-sb-i">SERVICES <BR></h2>
-                <!-- <h3 class="freight-i ">what we offer</h3> -->
-            </a>
-
-            <!-- links to ABOUT page -->
-            <a class="card" id="studio-process-bg" href="#">
-                <!-- <h3 class="freight-i ">who</h3>
-            <h3 class="bebas-neue loose">WE ARE</h3> -->
-                <h2 class="sofia-sb-i" id="the-small"> THE<BR></h2>
-                <h2 class="bebas-neue loose">STUDIO</h2>
-            </a>
-            <!-- 
-            <img src="img/search-btns-bg-TEST-03.jpg" alt="Search BG pic"> -->
-        </div>
-    </div>
+    <?php require_once("../navigation-cards.php");?>
 </div>
 
 
