@@ -145,7 +145,7 @@ mySwiper.on('slideChange', function (e) {
     $("#process-text").text(process[index].text);
 })
 
-var mySwiper = new Swiper('.services-swiper', {
+var servicesSwiper = new Swiper('.services-swiper', {
     // Optional parameters
     slidesPerView: 'auto',
     spaceBetween: 40,

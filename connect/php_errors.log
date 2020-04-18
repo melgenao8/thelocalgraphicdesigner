@@ -32,3 +32,5 @@ Stack trace:
 [08-Apr-2020 22:38:02 America/Chicago] PHP Notice:  Undefined index: interested in C:\projects\thelocalgraphicdesigner\connect\index.php on line 26
 [08-Apr-2020 22:44:59 America/Chicago] PHP Notice:  Undefined index: interested in C:\projects\thelocalgraphicdesigner\connect\index.php on line 26
 [08-Apr-2020 22:47:24 America/Chicago] PHP Notice:  Undefined index: interested in C:\projects\thelocalgraphicdesigner\connect\index.php on line 27
+[18-Apr-2020 10:47:24 America/Chicago] PHP Warning:  require_once(instagram.php): failed to open stream: No such file or directory in C:\projects\thelocalgraphicdesigner\connect\index.php on line 112
+[18-Apr-2020 10:47:24 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'instagram.php' (include_path='.;C:\Program Files (x86)\EasyPHP-Devserver-17\eds-binaries\php\php713vc14x86x181027195535\ext') in C:\projects\thelocalgraphicdesigner\connect\index.php on line 112
