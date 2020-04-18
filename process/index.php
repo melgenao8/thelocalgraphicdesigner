@@ -1,29 +1,21 @@
 <?php require_once("../header.php")?>
 
-<div class="container-fluid nav-banner about-banner">
-    <?php require_once("../navigation.php")?>
+<div class="container-fluid nav-banner nav-banner-2">
+    <?php require_once("../navigation.php") ?>
 
-    <div class="opening">
+    <!-- * ----------------------------------------
+ * opening title
+ * ---------------------------------------- -->
+
+    <div class="opening fade-in">
         <div class="opening-title">
             <div class="bounce-in-top">
-                <h1 class="bebas-neue">DESIGN <span class="sofia-sb-i">Process</span></h1>
-            </div>
-        </div>
 
+                <h1 class="bebas-neue lrg-outline">DESIGN <span class="bebas-neue lrg-outline">PROCESS</span></h1>
 
-        <div class="opening-text">
-            <div class="bounce-in-top-slower">
-                <p class="sofia-light">Get acquianted with the branding
-                    process so that you feel confident in
-                    your decision to create an effective
-                    impression on your audience.</p>
             </div>
         </div>
     </div>
-
-
-
-</div>
 </div>
 
 <div class="process">

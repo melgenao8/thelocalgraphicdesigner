@@ -1,10 +1,71 @@
 // @use "general.scss";
 
-
 .homepage-banner {
-    background-image: url("../img/bg/hm-pg-bg-text-banner.svg");
-    background-size: contain;
+    background-image: url("../img/bg/homepage-banner-min.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
+}
+
+.intro-banner {
+    background-image: url("../img/bg/intro-banner-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $dark-yellow;
+    padding: 100px;
+
+    .intro-banner-text {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        
+        .intro-banner-header{
+            color:$off-white;
+            font-size: 3rem;
+            line-height:3rem;
+        }
+        p{
+            font-size: 11pt;
+            margin-top: 40px;
+        }
+    }
+}
+
+.four-col{
+    width:90%;
+    margin: 0 auto;
+    margin-top:-60px;
+
+    .four-col-box {
+        .four-box{
+
+            .four-col-icon{
+                background-image: url("../img/icons/alert-icon.png");
+                width: 30px;
+                height: 30px;
+                background-size: cover;
+            }
+
+            
+            .four-box-title {
+                margin-bottom: 10px;
+                margin: 0 auto;
+                background-position: center;
+            
+            
+                h4{
+                    font-size: 7pt;
+                    text-transform: uppercase;
+                    text-align: center
+                }
+    
+                p{
+                    text-align: center;
+                    padding: 0px 20px;
+                    
+                }
+            }
+        }
+    }
 }
 
 // ==== FOUNDERS MESSAGE ====
@@ -19,8 +80,9 @@
 
             h4 {
                 color: $ash;
-                font-size: 17pt;
+                font-size: 30pt;
                 text-align: center;
+                padding:0px 30px;
             }
 
             h3 {
@@ -49,7 +111,7 @@
             }
 
             p {
-                color: $dark-blush;
+                color: $dark-brown;
 
             }
         }
@@ -60,25 +122,26 @@
 // the process - 3 columns - start
 
 .step-1-bg {
-    background-image: url("../img/bg/01-strategy-bg.svg");
+    background-image: url("../img/bg/01-step-brand-makeover.svg");
     background-size: contain;
     background-repeat: no-repeat;
+    padding-left: 20px;
 }
 
 .step-2-bg {
-    background-image: url("../img/bg/02-strategy-bg.svg");
+    background-image: url("../img/bg/02-step-brand-makeover.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .step-3-bg {
-    background-image: url("../img/bg/03-strategy-bg.svg");
+    background-image: url("../img/bg/03-step-brand-makeover.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .process-bg{
-    background-image: url("../img/bg/3-step-process-bg.jpg");
+    background-image: url("../img/bg/wet-paper-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -91,41 +154,53 @@
     width: 90%;
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 250px;
     
 
     h3,h2,p,.icon {
         text-align: center;
     }
 
+    // 3 columns - 3 steps strategy 
     .process-col {
         display: flex;
         align-items: center;
-        max-width: 1000px;
+        max-width: 1200px;
         margin: 0 auto;
-        color: $darker-pink;
         justify-content: space-between;
+        margin-bottom: 65px;
 
         .process-cols {
-            
-                background-color: $dark-yellow;
+        
                 color: $dark-brown;
-                padding:15px;
-                width: 30%;
-                height: 170px;
+                padding: 25px;
+                width: 33%;
+                height: 200px;
 
             .title {
                 margin-bottom: 10px;
                 margin: 0 auto;
                 background-position: center;
                 font-size:30px;
+                color: $dark-brown;
+                letter-spacing: 2.5px;
+                line-height:30px;
             }
 
+            .sub-title {
+                color: $lt-purple;
+                letter-spacing: 1.5px;
+                padding-top: 20px;
+                padding-bottom:10px;
+                font-size: 11px;
+             }
+
             p {
-                color: $cream;
-                font-family: "sofia-pro", sans-serif;
+                color: $dark-brown;
                 margin-top: 10px;
-                font-size: 11.5px;
-                line-height: 15px;
+                font-size: 8.75pt;
+                line-height: 18px;
+                
             }
         }
     }
@@ -135,8 +210,9 @@
 
             .btn-bg {
                     background-color: $light-brown;
-                    color: $dark-pink;
+                    color: $dark-brown;
                     padding: 80px;
+                    font-size: 12pt;
             }
         
     }
@@ -147,43 +223,28 @@
 
 
 .design-studio {
-    background-color: $lighter-brown;
+    background-image: url("../img/bg/small-business-impact-quote.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
     height: 500px;
     margin: 0 auto;
-    color: $cream;
-    
+    margin-bottom:175px;
+    color:$off-white;
 
     .design-title {
+        max-width:500px;
 
         h2 {
-            font-size: 28px;
-            letter-spacing: 3px;
-        }
-
-        h3 {
-            padding-right: 20px;
-            text-align: right;
-            font-size: 2rem;
-
-        }
-
-        #the-imp-txt{
-            font-size: 10px;
-            margin-top: 8px;
-            letter-spacing: 2px;
-        }
-
-        p{
-            color: $cream;
-            
-        }
-        
+            font-size: 3rem;
+            line-height:3rem;
+            text-align: left;
+        }        
     }
 
     .design-content {
         p {
-            color: $cream;
+
             text-align: left;
         }
 
@@ -320,12 +381,40 @@
     }
 }
 
+@media screen and (max-width: 1070px){
+    .hm-pg-process {
+        
+        .process-col {
+
+            .process-cols {
+                height: 220px;
+            }
+        }
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1330px) {
+    .core-values {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .hm-pg-process {
+        
+        .process-col {
+
+            .process-cols {
+                height: 220px;
+            }
+        }
+    }
+}
 
 @media screen and (max-width: 955px) {
-    .homepage-banner {
-        background-image: url("../img/bg/background-text-banner-tablet.svg");
-       
-    }
+
 
     .instagram {
         padding: 70px 15px 100px;
@@ -338,50 +427,137 @@
             justify-content: flex-start;
         }
     }
+    
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 890px){
     .hm-pg-process {
         
         .process-col {
-            flex-direction: column;
 
             .process-cols {
-                margin: 20px 0;
-                width: 50%;
+                height: 230px;
             }
         }
     }
 }
 
-@media screen and (max-width: 768px){
-    body {
-        background-image: url("../img/bg/bg-texture-mobile-600px-1333px.jpg");
-
-    }
-
-    .homepage-banner {
-        background-image: url("../img/bg/background-text-banner-mobile.svg");
-       
-    }
-
+@media screen and (max-width: 850px){
     
+    .hm-pg-process {
+        margin-top:0px;
+        margin-bottom: 100px;
+
+        .process-col {
+            flex-direction: column;
+
+            .process-cols {
+                margin: 20px 0;
+                width: 90%;
+
+                p {
+        
+                    font-size: 11.75pt;
+                    line-height: 21px;
+                    letter-spacing: .5px;
+                }
+            }
+        }
+    }
+
+    .design-studio {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+
+   
     .core-values {
         padding-top: 150px;
 
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 600px){
+
+    .hm-pg-process {
+        
+        .process-col {
+
+            .process-cols {
+
+                p {
+        
+            margin-bottom:10px;
+                }
+            }
+        }
+    }
+
+    .intro-banner {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 484px){
 
 
     .hm-pg-process {
             padding: 50px 15px;
-            width:100%;
+            width:90%;
         .process-col {
 
             .process-cols {
-                width: 70%;
+                width: 90%;
+                height: 245px;
+                .title{
+                    font-size: 33px;
+                }
+            }
+        }
+    }
+
+    .intro-banner {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 360px){
+
+
+    .hm-pg-process {
+            
+        .process-col {
+
+            .process-cols {
+
+                height:255px;
+
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 375px){
+
+
+    .hm-pg-process {
+        margin-top: 10px;
+        margin-bottom: 50px;
+        .process-btn{
+            margin-top:25px;
+        }
+        .process-col {
+
+            .process-cols {
+                
+                .title{
+                    font-size: 27px;
+                }
             }
         }
     }

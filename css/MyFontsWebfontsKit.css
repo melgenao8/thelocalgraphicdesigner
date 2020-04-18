@@ -31,3 +31,15 @@
 .sackers-gothic {
 	font-family: SackersGothicStd-Medium;
 }
+
+/* ===== SIMPLE MONO REGULAR ====== */
+
+@font-face {
+  font-family: "SimplonMono-Reg";
+  src: url("webFonts/SimplonMono-woff2/SimplonMono-Regular-WebTrial.woff2") format("woff2");
+       
+}
+
+.simple-mono-reg {
+	font-family: SimplonMono-Reg;
+}

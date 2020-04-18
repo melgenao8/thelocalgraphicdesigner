@@ -30,26 +30,30 @@ if(isset($_POST['submit'])){
 
 <?php require_once("../header.php")?>
 
-<div class="container-fluid nav-banner connect-banner">
-    <?php require_once("../navigation.php")?>
+<div class="container-fluid nav-banner nav-banner-2">
+    <?php require_once("../navigation.php") ?>
 
-    <div class="opening">
+    <!-- * ----------------------------------------
+ * opening title
+ * ---------------------------------------- -->
+
+    <div class="opening fade-in">
         <div class="opening-title">
             <div class="bounce-in-top">
 
-                <h1 class="bebas-neue">WORKING <span class="sofia-sb-i">Together</span></h1>
+                <h1 class="bebas-neue lrg-outline">LET'S <span class="bebas-neue lrg-outline">CONNECT</span></h1>
 
             </div>
         </div>
+    </div>
 
-        <div class="opening-text">
+    <!-- <div class="opening-text">
             <div class="bounce-in-top-slower">
                 <p class="sofia-light">I’m excited to get to know your business a
                     little better. Responses to inquiries are within
                     48 business hours.</p>
             </div>
-        </div>
-    </div>
+        </div> -->
 </div>
 
 <div class="connect-form">
@@ -102,10 +106,12 @@ if(isset($_POST['submit'])){
     </div>
 </div>
 
-<!------------------------------------------
- * instagram plugin
- * ---------------------------------------- -->
+<<<<<<< HEAD <!------------------------------------------ * instagram plugin * ----------------------------------------
+    -->
 
-<!-- <?php require_once("instagram.php")?> -->
+    <!-- <?php require_once("instagram.php")?> -->
+    =======
 
-<?php require_once("../footer.php") ?>
+    >>>>>>> 4348147d8a98dca9e33af701fad22eb9f1c4124e
+
+    <?php require_once("../footer.php") ?>
