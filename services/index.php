@@ -336,10 +336,10 @@
  * ---------------------------------------- -->
 <!-- <div class="design-guide">
     <div class="download-form">
-    <div class="title-headers">
-        <div class="header-1 freight-i">instant download <span class="bebas-neue header-2">PRICING GUIDE</span>
-    </div>
-</div>
+        <div class="title-headers">
+            <div class="header-1 freight-i">instant download <span class="bebas-neue header-2">PRICING GUIDE</span>
+            </div>
+        </div>
 
         <form action="" method="post">
             <input id="full-name" type="text" placeholder="FULL NAME">
@@ -418,39 +418,39 @@
 
     <div class="retainer-cols simplon-norm-reg">
 
-        <!-- ICON 1 -->
-        <div class="retainer-col">
-            <div class="icon-img-holder">
-                <img src="img/icons/social-media-content-icon.svg">
-            </div>
-            <p>Social Media<br>Content Creation</p>
-        </div>
+                <!-- ICON 1 -->
+                <div class="retainer-col">
+                    <div class="icon-img-holder">
+                        <img src="img/icons/social-media-content-icon.svg">
+                    </div>
+                    <p>Social Media<br>Content Creation</p>
+                </div>
 
-        <!-- ICON 2 -->
-        <div class="retainer-col">
-            <div class="icon-img-holder">
-                <img src="img/icons/website-maintenance-icon.svg">
-            </div>
-            <p>Website<br>Maintenance</p>
-        </div>
+                <!-- ICON 2 -->
+                <div class="retainer-col">
+                    <div class="icon-img-holder">
+                        <img src="img/icons/website-maintenance-icon.svg">
+                    </div>
+                    <p>Website<br>Maintenance</p>
+                </div>
 
-        <!-- ICON 3 -->
-        <div class="retainer-col">
-            <div class="icon-img-holder">
-                <img src="img/icons/blog-writer-icon.svg">
-            </div>
-            <p>Blog/Article<br>Writting</p>
-        </div>
+                <!-- ICON 3 -->
+                <div class="retainer-col">
+                    <div class="icon-img-holder">
+                        <img src="img/icons/blog-writer-icon.svg">
+                    </div>
+                    <p>Blog/Article<br>Writting</p>
+                </div>
 
-        <!-- ICON 3 -->
-        <div class="retainer-col">
-            <div class="icon-img-holder">
-                <img src="img/icons/social-media-photographer-videographer.svg">
+                <!-- ICON 3 -->
+                <div class="retainer-col">
+                    <div class="icon-img-holder">
+                        <img src="img/icons/social-media-photographer-videographer.svg">
+                    </div>
+                    <p>Videography<br>And Photography</p>
+                </div>
             </div>
-            <p>Videography<br>And Photography</p>
-        </div>
     </div>
-</div>
 
 <!-- * ----------------------------------------
  * pricing guide download

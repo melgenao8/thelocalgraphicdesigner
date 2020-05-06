@@ -448,7 +448,7 @@
 
     .services-col {
         display: flex;
-        align-items: center;
+        align-items: stretch;
         max-width: 1000px;
         margin: 0 auto;
         color: $darker-pink;
@@ -460,7 +460,7 @@
                 color: $lighter-brown;
                 padding:50px;
                 width: 30%;
-                height: 20%;
+                // height: 20%;
 
             .title {
                 margin-bottom: 10px;

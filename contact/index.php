@@ -1,3 +1,33 @@
+<?php 
+
+$link = mysqli_connect("localhost", "root", "root", "thelocalgraphicdesigner");
+
+if(isset($_POST['submit'])){
+
+    $fullname = mysqli_real_escape_string($link, $_POST['fullname']);
+    $email = mysqli_real_escape_string($link, $_POST['businessemail']);
+    $businessname = mysqli_real_escape_string($link, $_POST['businessname']);
+    $industry = mysqli_real_escape_string($link, $_POST['businessindustry']);
+    $website = mysqli_real_escape_string($link, $_POST['businesswebsite']);
+    $instagram = mysqli_real_escape_string($link, $_POST['businessinstagram']);
+    $interested = mysqli_real_escape_string($link, $_POST['interested']);
+    $budget = mysqli_real_escape_string($link, $_POST['budget']);
+    $notes = mysqli_real_escape_string($link, $_POST['notes']);
+    
+
+    $sql = "INSERT INTO inquiries (fullname, email, businessname, industry, website, interested, instagram, budget, notes) VALUES('{$fullname}', '{$email}', '{$businessname}', '{$industry}', '{$website}', '{$interested}', '{$instagram}', '{$budget}', '{$notes}')";
+
+    if (mysqli_query($link, $sql)) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . mysqli_error($link);
+    }
+
+    mysqli_close($link);
+}
+
+?>
+
 <?php require_once("../header.php")?>
 
 <div class="container-fluid nav-banner process-banner nav-banner-2">
@@ -10,6 +40,14 @@
             
         </div>
     </div>
+
+    <!-- <div class="opening-text">
+            <div class="bounce-in-top-slower">
+                <p class="sofia-light">I’m excited to get to know your business a
+                    little better. Responses to inquiries are within
+                    48 business hours.</p>
+            </div>
+        </div> -->
 </div>
 
 <div class="connect-form">
@@ -64,6 +102,12 @@
     </div>
 </div>
 
+<<<<<<< HEAD <!------------------------------------------ * instagram plugin * ----------------------------------------
+    -->
 
+    <!-- <?php require_once("instagram.php")?> -->
+    =======
 
-<?php require_once("../footer.php") ?>
+    >>>>>>> 4348147d8a98dca9e33af701fad22eb9f1c4124e
+
+    <?php require_once("../footer.php") ?>

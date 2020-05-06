@@ -199,9 +199,9 @@
         }
     }
 
-    .core-values {
-        padding: 150px 10px 0;
-    }
+    // .core-values {
+    //     padding: 150px 10px 0;
+    // }
 }
 
 @media screen and (max-width: 850px) {
@@ -225,17 +225,6 @@
 }
 
 @media screen and (max-width: 400px){
-
-    .about-values {
-        .cards {
-            .card {
-                min-width: 300px;
-                max-width: 300px;
-                padding-left: 20px;
-                padding-right: 20px;
-            }
-        }
-    }
 
     .founder {
         .image-col {
