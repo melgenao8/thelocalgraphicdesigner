@@ -1,10 +1,10 @@
 <footer>
 <!-- <div class="footer-banner"> -->
-    <div>
+    <!-- <div> -->
 
         
         <!-- SOCIAL MEDIA ICONS -->
-        <div class="footer-social">
+        <!-- <div class="footer-social">
             <div class="social-icon icon-1" >
             </div>
             <div class="social-icon icon-2" >
@@ -14,29 +14,45 @@
 
         <div></div>
         <div></div>
-    </div>
-    <!-- SERVICE LINKS -->
+    </div> -->
+<!-- SOCIAL LINKS -->
+    <div>
         <ul class="footer-links">
-            <li><a href="/about" class="sofia-sb">About</a></li>
-            <li><a href="/services" class="sofia-sb">Services</a></li>
-            <li><a href="#" class="sofia-sb">Pricing</a></li>
-            <li><a href="/connect" class="sofia-sb">Contact</a></li>
-            <li><a href="#" class="sofia-sb">FAQ</a></li>
+            <p class="simplon-mono-lite-i">social</p>
+            <div class="simplon-mono-lite">
+                <li><a href="/about">instagram</a></li>
+                <li><a href="/services">linkedin</a></li>
+                <li><a href="/pricing">pinterest</a></li>       
+            </div>
         </ul>
-        
-        <p class="sofia-sb">©2020 THE LOCAL GRAPHIC DESIGNER</p>
-
     </div>
+
+<!-- CENTER FOOTER -->
+
     <!-- SYMBOL --> 
-    <div class="footer-logo">
-    <h2 class="bebas-neue footer-link-2"> strategic branding and
-        web development <br>for the self-employed<BR></h2>
+    <!-- <div class="footer-logo"> -->
+    <div class="footer-text">
+        <div class="simplon-mono-bold text-1">the local graphic designer<BR></div>
+        <div class="bebas-neue text-2">brand + web design<br> for self-made businesses<BR></div>
+        <div class="simplon-mono-bold text-3">est. dallas, texas<BR></div>
         <!-- <img src="img/logo/the-local-graphic-designer-SYMBOL-green.png" alt="secondary-logo-TLGC"> -->
     </div>
 
 <!-- </div> -->
 
 </div>
+
+    <div>
+        <ul class="footer-links">
+            <p class="simplon-mono-lite-i">quick links</p>
+            <li><a href="/connect">contact</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="/services">services</a></li>
+            <li><a href="/faq">FAQ</a></li>       
+            </div>
+        </ul>
+    </div>
+
 </footer>
 
 

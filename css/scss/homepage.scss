@@ -1,69 +1,259 @@
 // @use "general.scss";
 
 .homepage-banner {
-    background-image: url("../img/bg/homepage-banner-min.jpg");
+    background-image: url("../img/bg/home-banner-collage-8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.intro-banner {
-    background-image: url("../img/bg/intro-banner-bg.svg");
+.who-we-are-banner {
+    padding: 100px 34px 100px 20px;
+    background-color: $cream;
+    color: $black;
+    margin: 0 auto;
+    text-align: center;    
+        
+        .text{
+           
+            h1{
+                color:$brandblack;
+                text-transform: uppercase;
+                font-size: 37pt;
+                line-height: 36pt;
+                letter-spacing: 1.5px;
+                margin-bottom: 28px;
+            }
+            .sub-title-1{
+                text-transform: uppercase;
+                font-size: 24px;
+                letter-spacing:2px;
+                padding-bottom: 20px;
+            }
+            .sub-title-2{
+                color: $brandgreen;
+                font-size: 27px;
+                padding-bottom: 28px;
+            }
+            
+        }
+
+}
+
+.not-a-luxury-banner {
+    background-color: $nav-text;
+    background-image: url("../img/bg/stars-bg-tan.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: $dark-yellow;
-    padding: 100px;
+    color:$brandblack;
+    padding: 250px 30px 180px 30px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center; 
 
-    .intro-banner-text {
-        max-width: 600px;
-        margin: 0 auto;
-        text-align: center;
-        
-        .intro-banner-header{
-            color:$off-white;
-            font-size: 3rem;
-            line-height:3rem;
+        .sub-titles{
+            color:$greygreen;
+            font-size: 26pt;
         }
-        p{
-            font-size: 11pt;
-            margin-top: 40px;
+        .sub-title{
+        
+        letter-spacing:2px;
+        
+         }
+        .title-1{
+            color:$brandgreen;
+            font-size: 13pt;
+            letter-spacing:2px;
+            margin-bottom:0px;
+
+        }
+        .title-2{
+           font-size:22pt;
+           line-height: 27pt;
+           letter-spacing: 2px;
+           margin: 10px 0px;
+           color: $cream;
+           font-family: SimplonMono-Reg;
+        }
+
+}
+
+
+.livelyhood-banner{
+    padding: 200px 30px 200px 30px;
+    background-color: $greygreen;
+    text-align: center;
+    color:$cream;
+
+    .title-1{
+        font-size: 14pt;
+        letter-spacing:2px;
+        margin-bottom:20px; 
+        text-transform: uppercase;
+    }
+
+
+    .header-2{
+        font-size: 3rem;
+        line-height: 2.75rem;
+        color: $brandgreen;
+        margin-bottom:25px;
+        margin-top:10px;
+    }
+
+    // p{
+    //     font-size:15pt;
+    //     text-transform: uppercase;
+    //     letter-spacing: 1px;
+    //     color:$offgrey;
+    //     padding-top:40px;
+    // }
+
+    .five-col{
+
+        width:80%;
+        margin-top:50px;
+    
+        .five-col-box {
+    
+            .five-box{
+                margin: 0 auto;
+                padding: 20px 20px;
+    
+                .five-col-icon{
+                    background-image: url("../img/icons/alert-icon-red.svg");
+                    width: 30px;
+                    height: 30px;
+                    margin: 15px;
+                    background-size: cover;
+                }
+               
+                .five-box-title {
+    
+                    margin-bottom: 10px;
+                    margin: 0 auto;
+                    background-position: center;
+                    text-align: center;
+                    color:$brandblack;
+                
+                    h4{
+                        font-size: 10pt;
+                        text-transform: uppercase;  
+                    }
+        
+                    p{
+                        color:$brandblack;
+                        font-size: 11pt;
+                        line-height:13pt;
+                        padding: 0px 10px;
+                        margin-top:20px;
+                        letter-spacing: 0px;
+                        text-transform: none;
+                        
+                    }
+                }
+            }
         }
     }
+
+    // .four-col{
+
+    //     width:80%;
+    //     margin-top:50px;
+    
+    //     .four-col-box {
+    
+    //         .four-box{
+    //             margin: 0 auto;
+    //             padding: 20px 20px;
+
+    //             .four-col-icon{
+    //                 background-image: url("../img/icons/alert-icon-red.svg");
+    //                 width: 30px;
+    //                 height: 30px;
+    //                 margin: 15px;
+    //                 background-size: cover;
+    //             }
+               
+    //             .four-box-title {
+
+    //                 margin-bottom: 10px;
+    //                 margin: 0 auto;
+    //                 background-position: center;
+    //                 text-align: center;
+    //                 color:$brandblack;
+                
+    //                 h4{
+    //                     font-size: 10pt;
+    //                     text-transform: uppercase;  
+    //                 }
+        
+    //                 p{
+    //                     color:$brandblack;
+    //                     font-size: 11pt;
+    //                     line-height:13pt;
+    //                     padding: 0px 10px;
+    //                     margin-top:20px;
+    //                     letter-spacing: 0px;
+    //                     text-transform: none;
+                        
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 }
 
-.four-col{
-    width:90%;
+
+.green-bg-banner{
+    background-color: $liteblue;
+    // background-image: url("../img/bg/stars-bg-avg-blue.png");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    padding: 420px 30px 100px 30px;
     margin: 0 auto;
-    margin-top:-60px;
+    margin-top:-510px;
+    text-align: center;
+}
 
-    .four-col-box {
-        .four-box{
 
-            .four-col-icon{
-                background-image: url("../img/icons/alert-icon.png");
-                width: 30px;
-                height: 30px;
-                background-size: cover;
-            }
 
-            
-            .four-box-title {
-                margin-bottom: 10px;
-                margin: 0 auto;
-                background-position: center;
-            
-            
-                h4{
-                    font-size: 7pt;
-                    text-transform: uppercase;
-                    text-align: center
-                }
-    
-                p{
-                    text-align: center;
-                    padding: 0px 20px;
-                    
-                }
-            }
+.local-bus-banner {
+   
+    background-image: url("../img/bg/texture-bg-dark-min.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    padding: 150px 0px 200px 0px;
+    margin: 0 auto;
+    color:$off-white;
+
+    .local-bus-title {
+        max-width:500px;
+
+        // h2 {
+        //     font-size: 3.5rem;
+        //     line-height:3.75rem;
+        //     text-align: left;
+        //     padding-left:20px;
+        //     padding-right:20px;
+        //     padding-bottom: 20px;
+        // }        
+    }
+
+    .local-bus-content {
+
+
+        .sub-title{
+            text-transform: uppercase;
+            font-size: 12pt;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+        }
+
+
+        a {
+            color: $white;
         }
     }
 }
@@ -222,98 +412,11 @@
 // the process - 3 columns - end
 
 
-.design-studio {
-    background-image: url("../img/bg/small-business-impact-quote.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 500px;
-    margin: 0 auto;
-    margin-bottom:175px;
-    color:$off-white;
-
-    .design-title {
-        max-width:500px;
-
-        h2 {
-            font-size: 3rem;
-            line-height:3rem;
-            text-align: left;
-        }        
-    }
-
-    .design-content {
-        p {
-
-            text-align: left;
-        }
-
-        a {
-            color: $white;
-        }
-    }
-}
-
-.core-values {
-
-    padding: 250px 0 150px;
-
-     > p {
-        text-transform: uppercase;
-        color: $lighter-brown;
-        text-align: center;
-        font-size: 16px;
-        letter-spacing: 4px;
-        margin-bottom: 80px;
-    }
-
-    .core-cards {
-        align-items: stretch;
-
-        .card {
-            background-color: $light-brown;
-            max-width: 330px;
-            min-width: 330px;
-            padding: 170px 15px;
-            -webkit-box-shadow: 22px 21px 88px -36px rgba(0,0,0,1);
-            -moz-box-shadow: 22px 21px 88px -36px rgba(0,0,0,1);
-            box-shadow: 22px 21px 88px -36px rgba(0,0,0,1);
 
 
-            h2 {
-                color: $dark-brown;
-                font-size: 45px;
-                text-align: center;
-                // text-shadow: 2px 2px 30px $dark-brown;
-                // padding-bottom: 10px;
-            }
 
-            #processh2 {
-                font-size: 45px;
-            }
-            
-            h3 {
-                color: $dark-brown;
-                padding-right: 20px;
-                padding-bottom: 10px;
-                letter-spacing: 2px;
-                text-align: center;
-                font-size:13pt;
-            }
 
-            h4 {
-                color: $dark-brown;
-            }
-            #the-small{
-                font-size:18pt;
-            }
-            #search-design-text{
-                font-size:25pt;
-            }
 
-        }
-    }
-}
 
 .home-two-col {
 
@@ -457,9 +560,10 @@
 
 
 @media screen and (max-width: 1330px) {
+
     .core-values {
-        padding-left: 15px;
-        padding-right: 15px;
+        // padding-left: 15px;
+        // padding-right: 15px;
     }
     .hm-pg-process {
         
@@ -490,6 +594,16 @@
 }
 
 @media screen and (max-width: 890px){
+
+    .livelyhood-banner{
+        padding: 100px 20px 100px 20px;
+        .five-col{
+            width:100%;
+
+        }
+    }
+
+    
     .hm-pg-process {
         
         .process-col {
@@ -531,12 +645,37 @@
 
 @media screen and (max-width: 768px){
 
+    .local-bus-banner {
+        padding: 0px 0px 150px 0px;
 
-   
-    .core-values {
-        padding-top: 150px;
+        .local-bus-title {
+            max-width: 90%;
+            margin: 0 auto;
+    
+            h2 {
+                font-size: 2.5rem;
+                line-height:2.5rem;
 
+            }        
+        }
+    
     }
+
+    .livelyhood-banner{
+        
+        .five-col{
+        
+            .five-col-box {
+        
+                .five-box{
+                    padding: 5px 20px;
+
+                }
+            }
+        }
+    
+    }
+
 }
 
 @media screen and (max-width: 600px){
@@ -563,6 +702,7 @@
 @media screen and (max-width: 484px){
 
 
+    
     .hm-pg-process {
             padding: 50px 15px;
             width:90%;
@@ -580,22 +720,6 @@
 
     .intro-banner {
         padding: 30px;
-    }
-}
-
-@media screen and (max-width: 360px){
-
-
-    .hm-pg-process {
-            
-        .process-col {
-
-            .process-cols {
-
-                height:255px;
-
-            }
-        }
     }
 }
 
@@ -617,6 +741,22 @@
                 .title{
                     font-size: 27px;
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 360px){
+
+
+    .hm-pg-process {
+            
+        .process-col {
+
+            .process-cols {
+
+                height:255px;
+
             }
         }
     }

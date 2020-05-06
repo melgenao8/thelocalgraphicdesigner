@@ -32,14 +32,65 @@
 	font-family: SackersGothicStd-Medium;
 }
 
-/* ===== SIMPLE MONO REGULAR ====== */
-
+@font-face {
+  font-family: "SimplonMono-Lite";
+  src: url("webFonts/SimplonMono-woff2/SimplonMono-Light-WebTrial.woff2") format("woff2");
+       
+}
+@font-face {
+  font-family: "SimplonMono-Lite-I";
+  src: url("webFonts/SimplonMono-woff2/SimplonMono-LightItalic-WebTrial.woff2") format("woff2");
+       
+}
 @font-face {
   font-family: "SimplonMono-Reg";
   src: url("webFonts/SimplonMono-woff2/SimplonMono-Regular-WebTrial.woff2") format("woff2");
        
 }
+@font-face {
+  font-family: "SimplonMono-Bold";
+  src: url("webFonts/SimplonMono-woff2/SimplonMono-Bold-WebTrial.woff2") format("woff2");
+       
+}
+@font-face {
+  font-family: "SimplonNorm-Lite";
+  src: url("webFonts/SimplonNorm-woff2/SimplonNorm-Light-WebTrial.woff2") format("woff2");
+       
+}
+@font-face {
+  font-family: "SimplonNorm-Reg";
+  src: url("webFonts/SimplonNorm-woff2/SimplonNorm-Regular-WebTrial.woff2") format("woff2");
+       
+}
+@font-face {
+  font-family: "SimplonNorm-Bold";
+  src: url("webFonts/SimplonNorm-woff2/SimplonNorm-Bold-WebTrial.woff2") format("woff2");
+       
+}
 
-.simple-mono-reg {
+
+
+.simplon-mono-lite {
+	font-family: SimplonMono-Lite;
+}
+.simplon-mono-lite-i {
+  font-family: SimplonMono-Lite-I;
+}
+.simplon-mono-reg {
 	font-family: SimplonMono-Reg;
 }
+.simplon-mono-bold {
+	font-family: SimplonMono-Bold;
+}
+.simplon-norm-lite {
+	font-family: SimplonNorm-Lite;
+}
+.simplon-norm-reg {
+	font-family: SimplonNorm-Reg;
+}
+.simplon-norm-bold {
+	font-family: SimplonNorm-Bold;
+}
+
+
+

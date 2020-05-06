@@ -1,33 +1,79 @@
 <div class="core-values">
+
+    <!-- 3 NAVIGATION PICTURES -->
+    <div class="cards service-nav-cards">
+
+        <!-- CARD #1 -->
+        <div>
+        
+            <a class="card" id="branding-nav-bg" href="services/">
+            </a>
+
+            <!-- TEXT UNDER GRAPHIC -->
+            <div class="text">
+                <div class="sub-text simplon-mono-reg">your personality</div>
+                <h2 class="bebas-neue" id="search-design-text">brand<BR>identity</h2>
+            </div>
+        </div>
+        
+       
+       <!-- CARD #2 -->
+        <div>
+            <a class="card" id="website-nav-bg" href="services/">
+            </a>
+                <!-- TEXT UNDER GRAPHIC -->
+                <div class="text">
+                    <div class="sub-text simplon-mono-reg">digital experience</div>
+                    <h2 class="bebas-neue" id="search-design-text">website<BR>design</h2>
+                </div>
+        </div>
+
+
+        <!-- CARD #3 -->
+        <div>
+            <a class="card" id="social-nav-bg" href="services/">
+            </a>
+
+                <!-- TEXT UNDER GRAPHIC -->
+                <div class="text">
+                    <div class="sub-text simplon-mono-reg">engage with clients</div>
+                    <h2 class="bebas-neue" id="search-design-text">social<BR>media</h2>
+                </div>
+        </div>
+
+
+    </div>
+</div>
+        <div>
+            <div class="wide-btn simplon-mono-bold">
+                <a href="/services">to services</a>
+        </div>
+</div>
+
+
+<div class="green-bg-banner"></div>
+ 
+<!-- BANNER TO CONTACT PAGE -->
+<div class="two-col two-col-contact contact-footer-banner">
     
-    <!-- <p class="sofia-sb">FIND WHAT YOU'RE LOOKING FOR</p> -->
+    <div class="two-col-box">
+        <div class="box">
+            <div class="title-col">
 
-    <!-- links to DESIGN PROCESS page -->
-    <div class="cards core-cards">
+                <div class="left-col">
+                    <h2 class="left-col bebas-neue">convert visitors to customers
+                    </h2>
+                </div>
 
-        <a class="card" id="design-process-bg" href="process/">
-            <!-- <img src="img/process-bg-TEST.jpg" alt="The Design Process Picture"> -->
-            <!-- <h3 class="freight-i ">understanding</h3>
-            <h3 class="bebas-neue loose">THE</h3> -->
+            </div>
+        </div>
+    </div>
 
-            <h2 class="sofia-sb-i" id="search-design-text">design<BR></h2>
-            <h2 class="bebas-neue xtra-loose" id="processh2">PROCESS</h2>
-        </a>
-        <!-- links to SERVICES page -->
-        <a class="card" id="services-process-bg" href="services/">
-            <h2 class="bebas-neue loose">DESIGN</h2>
-            <h2 class="sofia-sb-i">SERVICES <BR></h2>
-            <!-- <h3 class="freight-i ">what we offer</h3> -->
-        </a>
-
-        <!-- links to ABOUT page -->
-        <a class="card" id="studio-process-bg" href="#">
-            <!-- <h3 class="freight-i ">who</h3>
-            <h3 class="bebas-neue loose">WE ARE</h3> -->
-            <h2 class="sofia-sb-i" id="the-small"> THE<BR></h2>
-            <h2 class="bebas-neue loose">STUDIO</h2>
-        </a>
-        <!-- 
-            <img src="img/search-btns-bg-TEST-03.jpg" alt="Search BG pic"> -->
+    <div class="two-col-box">
+        <div class="box">
+        <div class="main-btn-left-lite ">
+                <a href="/contact">CONTACT US</a>
+        </div>
+       
     </div>
 </div>

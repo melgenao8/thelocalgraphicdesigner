@@ -1,0 +1,85 @@
+.two-col-text-pricing {
+    background: $cream;
+    // padding: 100px 0;
+
+    .two-col-box:first-child {
+       
+        text-align: center;
+
+        h2{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 50pt;
+        line-height: 45pt;
+        letter-spacing: 5px;
+        color:$brandblack;
+        text-transform: uppercase;
+        padding-top: 50px;
+        }
+
+        
+        h3{
+            font-family: freight-text-pro, serif;
+            font-style: italic;
+            font-weight: 300;
+            color:$brandgreen;
+            font-size: 23pt;
+            line-height: 23pt;
+            padding: 15px 10px;
+            }
+
+        .hr-text {
+            border: 1px solid $brandgreen;
+            max-width: 360px;
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .spacer-div{
+        margin-top:40px;
+    }
+
+    .two-col-box:last-child {
+
+        .sub-title{
+            text-transform: uppercase;
+            font-size: 16pt;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        .bullet-pts{
+            font-size: 8pt;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    }
+}
+
+
+.pricing-pg-title {
+
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+
+    .title-headers {
+        color:$cream;
+        text-align: center;
+    
+
+        .header-1 {
+            font-family: freight-text-pro, serif;
+            font-style: italic;
+            font-weight: 300;
+            font-size: 20pt;
+            letter-spacing: 1px;
+            color:$off-white;
+           padding:0px;
+           margin:0px;
+        }
+    
+
+    }
+}

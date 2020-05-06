@@ -1,15 +1,23 @@
 
+.process-banner {
+    background-image: url("../img/bg/PROCESS-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .process {
     width: 90%;
     margin: 0 auto 100px;
-    padding: 100px 20px;
-    background: $dark-brown;
-    border: 1px solid $primary-yellow;
+    padding: 20px 20px;
+    background: $greygreen;
+    margin-top: 20px;
+    // border: 1px solid $primary-yellow;
 
     .process-title {
         display: flex;
-        max-width: 550px;
+        max-width: 700px;
         margin: 0 auto;
+        margin-top: 50px;
 
         .process-step {
             margin-right: 40px;
@@ -26,16 +34,13 @@
                 margin-bottom: 10px;
                 font-size: 36px;
 
-                span {
-                    text-transform: uppercase;
-                    letter-spacing: 2px;
-                    font-style: normal;
-                    font-size: 30px;
-                }
             }
 
             p {
-                color: $taupe;
+                color: $cream;
+                font-family: SimplonNorm-Lite;
+                font-size:15pt;
+            
             }
         }
 

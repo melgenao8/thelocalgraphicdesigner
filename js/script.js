@@ -106,7 +106,7 @@ const process = [
     },
     {
         step: "04",
-        title: "Application",
+        title: "Apply",
         text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim"
     },
     {
@@ -140,7 +140,7 @@ mySwiper.on('slideChange', function (e) {
     $("#process-text").text(process[index].text);
 })
 
-var mySwiper = new Swiper('.services-swiper', {
+var servicesSwiper = new Swiper('.services-swiper', {
     // Optional parameters
     slidesPerView: 'auto',
     spaceBetween: 40,

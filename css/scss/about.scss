@@ -1,69 +1,100 @@
+
+.about-banner {
+    background-image: url("../img/bg/ABOUT-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 .mission-statement {
     text-align: center;
     background: $nav-text;
-    padding: 150px 30px;
+    padding: 150px 00px;
 
     h2 {
         color: $white;
-        font-size: 42px;
-        margin-bottom: 0;
+        font-size: 35px;
+        margin-bottom:-30px;
     }
 
     h3 {
-        font-size: 40px;
-        margin-bottom: 60px;
+        font-size: 60px;
+        line-height:60px;
+        color:$cream;
     }
 
     p {
         max-width: 650px;
         margin: 0 auto;
-        font-size: 28px;
+        font-size: 25px;
         line-height: 1.2;
+        padding:0px 20px;
     }
 }
 
 .about-values {
-    padding: 150px 20px;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../img/design-picture.png);
+    padding: 150px 0px 150px 20px;
+    background-image: url("../img/bg/services-carousel-bg-dark-3.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
 
-    > p {
-        color: $white;
+    p {
+        color: $brandblack;
+    }
+
+    h3{
+        text-align: center;
+        margin: 0 auto;
+        color: $cream;
+        margin-bottom: 30px;
     }
 
     .cards {
         align-items: stretch;
 
         .card {
-            background: $dark-pink;
-            padding: 80px 40px 40px;
+            background: $cream;
+            padding: 70px 40px 60px;
             max-width: 350px;
             min-width: 350px;
             border-radius: 0;
+            
 
             h2 {
                 font-size: 18px;
                 text-transform: uppercase;
                 margin: 0;
-                color: #000;
                 padding: 0;
                 letter-spacing: 3px;
-            }
-
-            h4 {
-                font-size: 20px;
-                margin: 15px 0 5px;
-                color: #000;
+                color:$brandblack;
             }
 
             h3 {
-                font-size: 24px;
-                margin: 0 0 40px;
-                color: #000;
+                font-size: 34px;
+                margin: 0 0 25px;
                 padding: 0;
                 letter-spacing: 0;
+                color:$brandblack;
             }
+            .text-1{
+                font-size: 24px;
+                margin: 0 0 10px;
+                padding: 0;
+                letter-spacing: 0;
+                color:$brandblack;
+                text-transform: uppercase;
+                margin: 0 auto;
+            }
+
+            .text-2 {
+                font-size: 20px;
+                margin: 0px 0 5px;
+                color:$brandblack;
+                margin: 0 auto;
+            }
+
+
 
             p{
                 margin: 0;
@@ -123,10 +154,9 @@
 }
 
 .founder {
-    background: $dark-brown;
 
     .founder-content {
-        background: $primary-yellow;
+        background: $liteblue;
         order: 1;
         margin: 0 0 0 20px;
 
