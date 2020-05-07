@@ -20,10 +20,9 @@
                 <a class="nav-link  bebas-neue" href="/process">The Process</a>
             </li>
             <li class="nav-item nav-logo">
-
-                    <a class="nav-link" href="/"><img src="img/logo/the-local-graphic-designer-logo-yellow.png"></a>
-            
-
+                <a class="nav-link" href="/">
+                    <img src="img/logo/the-local-graphic-designer-logo-yellow.png">
+                </a>
             </li>
             <!-- <li class="nav-item">
                 <a class="nav-link sofia-sb" href="learn.html">Learn</a>

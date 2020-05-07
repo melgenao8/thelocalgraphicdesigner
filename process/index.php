@@ -60,47 +60,49 @@
 </div>
 
 <!-- PROCESS CARUSEL : SECTION -->
-<div class="process">
-<!-- <div class="service-cards-bg"> -->
-    <div class="process-title">
-        <div class="process-step">
-            <h2 class="bebas-neue" id="process-step">01</h2>
+<div class="process-container">
+    <div class="process">
+    <!-- <div class="service-cards-bg"> -->
+        <div class="process-title">
+            <div class="process-step">
+                <h2 class="bebas-neue" id="process-step">01</h2>
+            </div>
+            <div class="process-content">
+                <h3 class="bebas-neue" id="process-title">the Discovery</h3>
+                <p id="process-text" class="simplon-norm-lite">Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit, sed diam nonummy nibh
+                    euismod tincidunt ut laoreet dolore magna
+                    aliquam erat volutpat. Ut wisi enim ad minim </p>
+            </div>
+            
         </div>
-        <div class="process-content">
-            <h3 class="bebas-neue" id="process-title">the Discovery</</h3>
-            <p id="process-text" class="simplon-norm-lite">Lorem ipsum dolor sit amet, consectetuer
-                adipiscing elit, sed diam nonummy nibh
-                euismod tincidunt ut laoreet dolore magna
-                aliquam erat volutpat. Ut wisi enim ad minim </p>
+
+        <div class="arrow">
+            <img src="img/yellow-right-arrow.png" alt="Right Arrow">
         </div>
-        
-    </div>
 
-    <div class="arrow">
-        <img src="img/yellow-right-arrow.png" alt="Right Arrow">
-    </div>
+        <!-- Slider main container -->
+        <div class="swiper-container process-swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
 
-    <!-- Slider main container -->
-    <div class="swiper-container process-swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
-            ...
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
     </div>
 </div>
 

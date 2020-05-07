@@ -17,13 +17,11 @@
     </div> -->
 <!-- SOCIAL LINKS -->
     <div>
-        <ul class="footer-links">
-            <p class="simplon-mono-lite-i">social</p>
-            <div class="simplon-mono-lite">
-                <li><a href="/about">instagram</a></li>
-                <li><a href="/services">linkedin</a></li>
-                <li><a href="/pricing">pinterest</a></li>       
-            </div>
+        <p class="simplon-mono-lite-i">social</p>
+        <ul class="footer-links simplon-mono-lite">
+            <li><a href="/about">instagram</a></li>
+            <li><a href="/services">linkedin</a></li>
+            <li><a href="/pricing">pinterest</a></li>       
         </ul>
     </div>
 
@@ -43,8 +41,8 @@
 </div>
 
     <div>
+        <p class="simplon-mono-lite-i">quick links</p>
         <ul class="footer-links">
-            <p class="simplon-mono-lite-i">quick links</p>
             <li><a href="/connect">contact</a></li>
             <li><a href="/pricing">Pricing</a></li>
             <li><a href="/services">services</a></li>

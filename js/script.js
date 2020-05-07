@@ -88,6 +88,7 @@ function debounce(func, wait, immediate) {
     };
 };
 
+//Array for process slider, substitute wanted text in text key
 const process = [
     {
         step: "01",
@@ -116,6 +117,7 @@ const process = [
     }
 ]
 
+//Process Slider
 var mySwiper = new Swiper('.process-swiper', {
     // Optional parameters
     slidesPerView: 'auto',
@@ -130,6 +132,10 @@ var mySwiper = new Swiper('.process-swiper', {
         type: 'bullets',
         clickable: true
     },
+
+    navigation: {
+        nextEl: ".arrow img"
+    }
 })
 
 mySwiper.on('slideChange', function (e) {
@@ -140,19 +146,20 @@ mySwiper.on('slideChange', function (e) {
     $("#process-text").text(process[index].text);
 })
 
-var servicesSwiper = new Swiper('.services-swiper', {
-    // Optional parameters
-    slidesPerView: 'auto',
-    spaceBetween: 40,
-    // centeredSlides: true,
-    initialSlide: 0,
-    // loop: true,
+//Switched services slider back to Jarrell's code
+// var servicesSwiper = new Swiper('.services-swiper', {
+//     // Optional parameters
+//     slidesPerView: 'auto',
+//     spaceBetween: 40,
+//     // centeredSlides: true,
+//     initialSlide: 0,
+//     // loop: true,
 
-    // Navigation dots
-    pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-        clickable: true
-    },
-})
+//     // Navigation dots
+//     pagination: {
+//         el: '.swiper-pagination',
+//         type: 'bullets',
+//         clickable: true
+//     },
+// })
 

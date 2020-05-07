@@ -25,7 +25,7 @@
         console.log(subscriber);
 
         if(!subscriber) {
-            window.location.href = 'http://localhost:3000/pricing';
+            // window.location.href = 'http://localhost:3000/pricing';
         }
     </script>
 </head>

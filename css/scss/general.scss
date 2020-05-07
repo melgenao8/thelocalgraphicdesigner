@@ -1401,6 +1401,10 @@ footer {
         color:$cream;
         }
 
+        a {
+            color:#fff;
+        }
+
     .footer-social {
         display: flex;
         margin-top: 20px;
@@ -1530,7 +1534,7 @@ footer {
 
         div:first-of-type {
             order: 1;
-            margin-top: 20px;
+            // margin-top: 20px;
         }
 
         h2{
@@ -1548,7 +1552,8 @@ footer {
         .footer-links {
             display: flex;
             align-items: flex-start;
-            margin-top:20px;
+            // margin-top:20px;
+            flex-direction: row;
 
             p {
                 text-align: center;

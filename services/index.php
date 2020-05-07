@@ -149,11 +149,13 @@
         
             <div class="text-col"> -->
 
-        <div class="swiper-container services-swiper">
-            <div class="swiper-wrapper">
+        <!-- <div class="swiper-container services-swiper">
+            <div class="swiper-wrapper"> -->
+                <div class="cards">
 
                 <!-- BRANDING BASICS -->
-                <div class="swiper-slide card">
+                <div>
+                <div class="card">
 
                     <div class="top-card top-card-bg">
                         
@@ -191,9 +193,11 @@
                     </div>
 
                 </div>
+                </div>
 
                 <!-- WEBSITE BASICS -->
-                <div class="swiper-slide card">
+                <div>
+                <div class="card">
 
                     <div class="top-card top-card-bg">
                         
@@ -230,9 +234,11 @@
                     </div>
                     
                 </div>
+                </div>
 
                 <!-- SOCIAL BASICS -->
-                <div class="swiper-slide card">
+                <div>
+                <div class="card">
 
                     <div class="top-card top-card-bg">
                         
@@ -270,10 +276,11 @@
                     </div>
 
                 </div>
+                </div>
 
-            </div>
+            <!-- </div> -->
         <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
+        <!-- <div class="swiper-pagination"></div> -->
     </div>
     </div>
         
