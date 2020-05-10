@@ -24,7 +24,7 @@
         const subscriber = localStorage.getItem('subscribed');
 
         console.log(subscriber);
-
+        //Testing
         if(!subscriber) {
             window.location.href = 'http://localhost:3000/pricing';
         }
