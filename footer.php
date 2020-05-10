@@ -1,10 +1,10 @@
 <footer>
-<!-- <div class="footer-banner"> -->
+    <!-- <div class="footer-banner"> -->
     <!-- <div> -->
 
-        
-        <!-- SOCIAL MEDIA ICONS -->
-        <!-- <div class="footer-social">
+
+    <!-- SOCIAL MEDIA ICONS -->
+    <!-- <div class="footer-social">
             <div class="social-icon icon-1" >
             </div>
             <div class="social-icon icon-2" >
@@ -15,19 +15,19 @@
         <div></div>
         <div></div>
     </div> -->
-<!-- SOCIAL LINKS -->
+    <!-- SOCIAL LINKS -->
     <div>
         <p class="simplon-mono-lite-i">social</p>
         <ul class="footer-links simplon-mono-lite">
             <li><a href="/about">instagram</a></li>
             <li><a href="/services">linkedin</a></li>
-            <li><a href="/pricing">pinterest</a></li>       
+            <li><a href="/pricing">pinterest</a></li>
         </ul>
     </div>
 
-<!-- CENTER FOOTER -->
+    <!-- CENTER FOOTER -->
 
-    <!-- SYMBOL --> 
+    <!-- SYMBOL -->
     <!-- <div class="footer-logo"> -->
     <div class="footer-text">
         <div class="simplon-mono-bold text-1">the local graphic designer<BR></div>
@@ -36,9 +36,7 @@
         <!-- <img src="img/logo/the-local-graphic-designer-SYMBOL-green.png" alt="secondary-logo-TLGC"> -->
     </div>
 
-<!-- </div> -->
-
-</div>
+    <!-- </div> -->
 
     <div>
         <p class="simplon-mono-lite-i">quick links</p>
@@ -46,9 +44,9 @@
             <li><a href="/connect">contact</a></li>
             <li><a href="/pricing">Pricing</a></li>
             <li><a href="/services">services</a></li>
-            <li><a href="/faq">FAQ</a></li>       
-            </div>
+            <li><a href="/faq">FAQ</a></li>
         </ul>
+
     </div>
 
 </footer>
