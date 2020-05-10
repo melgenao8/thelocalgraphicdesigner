@@ -101,7 +101,6 @@
     <div class="center-container-cards">
         <div class="packages">
 
-<<<<<<< HEAD
         <!-- <div class="two-text-col left-text">
             <div class="title-col">
                 <div class="left-text-content">
@@ -131,10 +130,6 @@
         <!-- <div class="swiper-container services-swiper">
             <div class="swiper-wrapper"> -->
                 <div class="cards">
-=======
-        <div class="swiper-container services-swiper">
-            <div class="swiper-wrapper">
->>>>>>> d2f8be50332a7db02e36e041cc1320385981a800
 
                 <!-- BRANDING BASICS -->
                 <div>
