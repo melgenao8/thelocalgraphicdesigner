@@ -1,4 +1,4 @@
-<?php require_once("../header.php")?>
+<?php require_once("../header-no-pricing.php")?>
 <div class="container-fluid nav-banner process-banner nav-banner-2">
     <?php require_once("../navigation.php") ?>
 
@@ -21,7 +21,8 @@
             <div class="title-col">
 
                 <div class="left-col">
-                    <h3>the process</h3>
+                    <h3>Process</h3>
+                    <h4>design on purpose</h4>
                     <h2>improve 
                         your customer experience + accomplish your business goals
                     </h2>
@@ -36,20 +37,21 @@
 <!-- RIGHT COLUMN -->
     <div class="two-col-box">
         <div class="box">
-        <h3>here's how it's done</h3>
+        <div class="hr-line"></div>
+
         <div class="sub-title simplon-norm-reg">know your dream client
         </div>
-            <p class="simplon-norm-lite">Purposefully tailoring your messaging, services, and products directly to your target client is a game changer. Knowing what your client needs makes it easier to solve common pain points they may be experiencing. This method helsp you to be seen as an authentic expert in your field.
+            <p class="simplon-norm-lite">Purposefully tailoring your messaging, services, and products directly to your target client is a game changer. Knowing what your client needs makes it easier to solve common pain points they may be experiencing. This method helps you to be seen as an authentic expert in your field, and adds value to your audience.
             </p>
 
-
+        <div class="hr-line"></div>
         <div class="sub-title simplon-norm-reg">clear customer journey
         </div>
             <p class="simplon-norm-lite">Your brand/website does more than just look good. Crafting a hassle-free journey anticipates your clients’ needs and is also designed to meet your business goals. Giving your visitors a well-organized experience creates an authentic connection, which really helps to establish trust for potential new leads.
         </p>
 
     
-
+        <div class="hr-line"></div>
         <div class="sub-title simplon-norm-reg">memorable messaging
         </div>
             <p class="simplon-norm-lite">Since your brand is most likely the first point of contact with your clients, what you say and how you say it is significant. The first impression should leave your audience excited and engaged with your brand. The relevant information provided should also add value to their experience and turn browsing visitors into paying customers.
@@ -117,7 +119,7 @@
 
                     <div class="left-col">
                         <h3>working together</h3>
-                        <h2>Organized and Efficient
+                        <h2>Organized and Efficient collaboration
                         </h2>
 
                         <div class="hr-text"></div>
@@ -134,20 +136,20 @@
             </p>
 
             <div class="bullet-pts simplon-mono-bold ">
-                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="right arrow"></div>
                check off on designs</div>
             <div class="bullet-pts simplon-mono-bold">
-                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="right arrow"></div>
                 messaging</div>
             <div class="bullet-pts simplon-mono-bold">
-                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="right arrow"></div>
                 unique proposition</div>
             <div class="bullet-pts simplon-mono-bold">
-                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="right arrow"></div>
             tone and voice</div>
 
             <div class="bullet-pts simplon-mono-bold">
-                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="right arrow"></div>
             mission statement</div>
             </div>
         
@@ -165,11 +167,12 @@
             <div class="box">
 
                 <div class="contact-headers">
-                <div class="contact-header-1 freight-i">let's work <span class="bebas-neue contact-header-2">TOGETHER</span>
-                </div>
+                    <div class="contact-header-1 freight-i">let's work <span
+                            class="trade-gothic contact-header-2">TOGETHER</span>
+                    </div>
                 </div>
 
-    
+
             </div>
             <a href="/connect" class="btn-wide sofia">INQUIRE ABOUT YOUR PROJECT</a>
         </div>

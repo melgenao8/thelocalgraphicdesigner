@@ -33,13 +33,11 @@
             }
         }
 
-        check();
-        
-        
-       
+        check();     
 
     </script>
 
+    
 
 </head>
 

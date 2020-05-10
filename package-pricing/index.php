@@ -13,6 +13,7 @@
     </div>
 </div>
 
+<!-- PAGE TITLE -->
 <div class="pricing-pg-title">
     <div class="download-form">
         
@@ -26,7 +27,7 @@
     </div>
 </div>
 
-<!-- BRANDING : SECTION -->
+<!-- BRAND : SECTION -->
 <div class="two-col two-col-text-pricing">
     
     <!-- LEFT COLUMN -->
@@ -36,15 +37,20 @@
 
                 <div class="left-col">
                     <!-- <h3>title goes here</h3> -->
-                    <h2>BRANDING
+                    <h2>branding
                     </h2>
 
-                    <div class="hr-text"></div>
+                    <div class="sub-title">
+                    INVESTMENT STARTING AT
+                    </div>
 
-                    <div class="bullet-pts simplon-mono-lite">
-            
-            INVESTMENT STARTING AT</div>
-            <h3>$2000</h3>
+                    <h3>$3000</h3>
+
+                    <div class="sub-title">expected timeline</div>
+
+                    <h3>4-6 weeks</h3>
+                    
+
                 </div>
 
             </div>
@@ -54,89 +60,81 @@
     <!-- RIGHT COLUMN -->
     <div class="two-col-box">
         <div class="box">
+        <div class="hr-line"></div>
+            <div class="sub-title">WHAT TO EXPECT
+            </div>
         
-            <p class="simplon-norm-lite">Elevate your brand with a strategically created identity system. 
-            </p>
+            <div class="bc">In this two-part process, we start by <strong>(1) defining who you are as a business.</strong> Diving deep into strategy gives us direction behind every design decision made. This helps to clearly define your purpose and authentically connect with your audience. Next, we <strong>(2) design your brand.</strong> Most design decisions are centered around capturing your target audience. While you’ll be proud to show off and grow with your fresh new brand, your audience will feel excited to do business with you (which is really the whole point of this process!). 
+            </div>
 
 
-        <div class="spacer-div"></div>
+            <div class="spacer-div"></div>
+            <div class="hr-line"></div>
+            <div class="sub-title">WHAT YOU GET
+            </div>
+            
+            <div class="sub-title-2">(1) brand audit
+            </div>
 
-        <div class="sub-title simplon-norm-reg">WHAT YOU GET
+            <div class="bc-sm">We evaluate your current brand, and establish a new foundation</div>
+
+                <div class="bullet-pts simplon-mono-bold">
+                    <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                define business goals</div>
+
+                <div class="bullet-pts simplon-mono-bold">
+                    <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                market + user research</div>
+
+                <div class="bullet-pts simplon-mono-bold">
+                    <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                unique proposition</div>
+
+                <div class="bullet-pts simplon-mono-bold">
+                    <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                brand voice</div>
+
+                <div class="bullet-pts simplon-mono-bold">
+                    <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                mission statement</div>
+
+                <div class="bullet-pts simplon-mono-bold">
+                    <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                who we are statement</div>
+
+                            
+            <div class="sub-title-2">(2) brand deliverables
+            </div>
+
+            <div class="bc-sm">These are the visual elements that make up your strategically crafted brand</div>
+
+                <div class="bullet-pts simplon-mono-bold">
+                    <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                Logo + supporting elements</div>
+
+                <div class="bullet-pts simplon-mono-bold">
+                    <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                Color scheme</div>
+
+                <div class="bullet-pts simplon-mono-bold">
+                    <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                Font pairings</div>
+
+                <div class="bullet-pts simplon-mono-bold">
+                    <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                Visual style board</div>
+
+                <div class="spacer-div"></div>
         </div>
-           
-        </p>
-
-        <div class="bullet-pts simplon-mono-bold ">
-            <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            expected timelines</div>
-        <div class="bullet-pts simplon-mono-bold">
-            <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            client homework</div>
-        <div class="bullet-pts simplon-mono-bold">
-            <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            my responsibilities</div>
-        <div class="bullet-pts simplon-mono-bold">
-            <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            final deliverables</div>
+        </div>        
         </div>
-       
-        <div class="spacer-div"></div>
     </div>
+
 </div>
 
 
 <!-- WEBSITE : SECTION -->
-<div class="two-col brand-audit-two-col">
-        
-        <div class="two-col-box">
-            <div class="box">
-                <div class="title-col">
-
-                    <div class="left-col">
-                        <!-- <h3>working together</h3> -->
-                        <h2>Website
-                        </h2>
-
-                        <div class="hr-text"></div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="two-col-box">
-            <div class="box">
-            
-                <p class="simplon-norm-lite">I wouldn't be able to design your dream brand without your help. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
-            </p>
-
-            
-        <div class="sub-title simplon-norm-reg">WHAT YOU GET
-        </div>
-            <div class="bullet-pts simplon-mono-bold ">
-                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-               check off on designs</div>
-            <div class="bullet-pts simplon-mono-bold">
-                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-                messaging</div>
-            <div class="bullet-pts simplon-mono-bold">
-                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-                unique proposition</div>
-            <div class="bullet-pts simplon-mono-bold">
-                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            tone and voice</div>
-
-            <div class="bullet-pts simplon-mono-bold">
-                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            mission statement</div>
-            </div>
-        
-        </div>
-    </div>
-
-
-    <!-- SOCIAL : SECTION -->
-<div class="two-col two-col-text-pricing">
+<div class="two-col two-col-text-pricing pricing-website-bg">
     
     <!-- LEFT COLUMN -->
     <div class="two-col-box">
@@ -145,15 +143,107 @@
 
                 <div class="left-col">
                     <!-- <h3>title goes here</h3> -->
-                    <h2>SOCIAL
+                    <h2>WEBSITE
                     </h2>
 
-                    <div class="hr-text"></div>
+                    <div class="sub-title">
+                    INVESTMENT STARTING AT
+                    </div>
 
-                    <div class="bullet-pts simplon-mono-bold ">
+                    <h3>$4000</h3>
+
+                    <div class="sub-title">expected timeline</div>
+
+                    <h3>8-12 weeks</h3>
+                    
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <!-- RIGHT COLUMN -->
+    <div class="two-col-box">
+        <div class="box">
+        <div class="hr-line"></div>
+            <div class="sub-title">WHAT TO EXPECT
+            </div>
+        
+            <div class="bc">Your website is your most valuable brand ambassador. It should clearly communicate who you are, the products you sell, and the services you provide. In order to make your website work for you, we focus on providing a clear customer journey that leads to your desired goals (which are usually signing up for a newsletter, booking a service, selling a product).
+            </div>
+
+
+            <div class="spacer-div"></div>
+            <div class="hr-line"></div>
+            <div class="sub-title">WHAT YOU GET
+            </div>
             
-            INVESTMENT STARTING AT</div>
-            <h3>$2000</h3>
+            <div class="sub-title-2">(1) brand audit
+            </div>
+
+            <div class="bc-sm">We evaluate your current brand, and establish a new foundation (see branding audit above)</div>
+
+                            
+            <div class="sub-title-2">(2) website deliverables
+            </div>
+
+            <div class="bc-sm">These are the elements that make up your strategically planned website</div>
+
+                
+            <div class="bullet-pts simplon-mono-bold">
+                    <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+               mobile responsive</div>
+
+                <div class="bullet-pts simplon-mono-bold">
+                    <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                sitemap + wireframe</div>
+
+                <div class="bullet-pts simplon-mono-bold">
+                    <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                colors + fonts</div>
+
+                <div class="bullet-pts simplon-mono-bold">
+                    <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                Google friendly seo tagging</div>
+
+                <div class="bullet-pts simplon-mono-bold">
+                    <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+                copywriting (add-on)</div>
+
+                <div class="spacer-div"></div>
+        </div>
+        </div>        
+        </div>
+    </div>
+
+</div>
+
+
+<!-- SOCIAL : SECTION -->
+<div class="two-col two-col-text-pricing pricing-social-bg">
+    
+    <!-- LEFT COLUMN -->
+    <div class="two-col-box">
+        <div class="box">
+            <div class="title-col">
+
+            <div class="left-col">
+
+                    <h2>social
+                    </h2>
+
+                    <div class="sub-title">
+                    INVESTMENT STARTING AT
+                    </div>
+
+                    <h3>$2500</h3>
+
+                    <div class="sub-title">expected timeline</div>
+
+                    <h3>4 weeks</h3>
+                    
+
                 </div>
 
             </div>
@@ -164,29 +254,40 @@
     <div class="two-col-box">
         <div class="box">
         
-            <p class="simplon-norm-lite">Packages are tailored specifically to what your business needs. We start from the basic packages below, and build from there.
-            </p>
+        <div class="hr-line"></div>
+        <div class="sub-title simplon-norm-reg">what to expect
+        </div>
+            <div class="bc">When done correctly, social media has the power to help your business grow. But there is so much more to it than posting regular content. From hashtags, keywords, to a clear bio description – we define a clear path for better audience engagement. Using automatic posting platforms, we schedule a months worth of content in order to make this process less time consuming for you. You’ll be able to modify this templated calendar for continual monthly use.
+            </div>
 
 
         <div class="spacer-div"></div>
+        <div class="hr-line"></div>
+        <div class="sub-title">WHAT YOU GET
+            </div>
+            
+            <div class="sub-title-2">(1) brand audit
+            </div>
+            <div class="bc-sm">We evaluate your current Instagram, and make appropriate improvements</div>
 
-        <div class="sub-title simplon-norm-reg">WHAT YOU GET
-        </div>
+            
+            <div class="sub-title-2">(2) 20 day reusable content calendar
+                            </div>
            
-        </p>
+            <div class="bc-sm">By using Canva we can create graphics that are reusable and easily editable. We also use a separate platform to schedule all your Instagram posts.</div>
 
         <div class="bullet-pts simplon-mono-bold ">
             <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            expected timelines</div>
+            templated instagram posts</div>
         <div class="bullet-pts simplon-mono-bold">
             <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            client homework</div>
+            hashtag research</div>
         <div class="bullet-pts simplon-mono-bold">
             <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            my responsibilities</div>
+            posting schedule</div>
         <div class="bullet-pts simplon-mono-bold">
             <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            final deliverables</div>
+            best practices guide</div>
         </div>
        
         <div class="spacer-div"></div>
@@ -195,22 +296,20 @@
 
 
 
-<!-- BANNER TO CONTACT PAGE -->
+<!-- BANNER TO services PAGE -->
 <div>
-<div class="one-col two-col-contact contact-footer-banner">
-    
-    <div class="one-col-box">
-        <div class="box">
-        <div class="main-btn-left-lite ">
-                <a href="/services">BACK TO SERVICES</a>
+    <div class="one-col two-col-contact contact-footer-banner">
+        
+        <div class="one-col-box">
+            <div class="box">
+            <div class="main-btn-left-lite ">
+                    <a href="/services">BACK TO SERVICES</a>
+            </div>
+        
         </div>
-       
     </div>
 </div>
-</div>
 
 
-<!-- NAVIGATION CARDS : SECTION -->
-<?php require_once("../navigation-cards-2.php")?>
 
-<?php require_once("../footer.php") ?>
+

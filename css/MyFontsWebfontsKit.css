@@ -67,6 +67,12 @@
   src: url("webFonts/SimplonNorm-woff2/SimplonNorm-Bold-WebTrial.woff2") format("woff2");
        
 }
+@font-face {
+  font-family: "Trade-Gothic-Bold20";
+  src: url("webFonts/TradeGothic/TradeGothicLTStd-BdCn20.otf") format("woff2");
+       
+}
+
 
 
 
@@ -90,6 +96,9 @@
 }
 .simplon-norm-bold {
 	font-family: SimplonNorm-Bold;
+}
+.trade-gothic{
+  font-family: "Trade-Gothic-Bold20";
 }
 
 

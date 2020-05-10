@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bounce-in-top">
 
-    <a class="nav-brand" href="/"><img src="img/logo/the-local-graphic-designer-logo-yellow.png" /></a>
+    <a class="nav-brand" href="/"><img src="img/logo/the-local-graphic-designer-green-logo.png" /></a>
     
     <button class="navbar-toggler" type="button" data-toggle="slide-collapse" data-target="#menu" aria-controls="menu"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -20,9 +20,10 @@
                 <a class="nav-link  bebas-neue" href="/process">The Process</a>
             </li>
             <li class="nav-item nav-logo">
-                <a class="nav-link" href="/">
-                    <img src="img/logo/the-local-graphic-designer-logo-yellow.png">
-                </a>
+
+                    <a class="nav-link" href="/"><img src="img/logo/the-local-graphic-designer-green-logo.png"></a>
+            
+
             </li>
             <!-- <li class="nav-item">
                 <a class="nav-link sofia-sb" href="learn.html">Learn</a>

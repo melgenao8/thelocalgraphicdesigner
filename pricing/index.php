@@ -19,6 +19,9 @@
 <!-- * ----------------------------------------
  * instant download
  * ---------------------------------------- -->
+
+
+
 <div class="pricing-guide">
     <div class="download-form">
         
@@ -50,31 +53,12 @@
 
 
 
-
-
-<!-- * ----------------------------------------
- * pricing guide download
- * ---------------------------------------- -->
-
-
-    <!-- <div class="retainer-form">
-        <div class="download-form">
-            <h2 class="plantin-i">download</h2>
-            <h3 class="sofia-sb">Pricing Guide</h3>
-
-            <form action="" method="post">
-                <input id="full-name" type="text" placeholder="FULL NAME">
-                <input id="email" type="text" placeholder="EMAIL">
-                <input id="download" type="submit" value="DOWNLOAD">
-            </form>
-        </div>
-    </div> -->
 </div>
 
 
 
 
 <!-- NAVIGATION CARDS : SECTION -->
-<?php require_once("../navigation-cards-2.php")?>
+<!-- <?php require_once("../navigation-cards-2.php")?> -->
 
 <?php require_once("../footer.php") ?>

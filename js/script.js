@@ -92,28 +92,28 @@ function debounce(func, wait, immediate) {
 const process = [
     {
         step: "01",
-        title: "Discovery",
-        text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim"
+        title: "Discovery Meeting",
+        text: "The purpose of this call is for us to get to know each other. While I discover what makes your business great, I’ll also give you more insight on what you can expect from me when we work together."
     },
     {
         step: "02",
-        title: "Strategy",
-        text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim"
+        title: "On Boarding",
+        text: "Now that we’ve met, I’ll draft up a design proposal for you. A design proposal lists out the design services I think would be best for your business’s success. Next, a signed contract and deposit secures your spot on my calendar. With the logistics out of the way, you’ll receive an email with hassle-free online tools that keep this process easy, enjoyable and organized."
     },
     {
         step: "03",
-        title: "Design",
-        text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim"
+        title: "Strategy",
+        text: "The design strategy focuses on helping you to know exactly who you are as a company. We dive deep into understanding who your customer is so that you can become a trusted source in your industry. Solving your customers most common pain-points creates an authentic connection, which helps your visitors to feel secure doing business with you."
     },
     {
         step: "04",
-        title: "Apply",
-        text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim"
+        title: "Design",
+        text: "Once we clearly understand how to target your ideal audience, we can then start the design process(yay!). When designing, I keep your ideal client in mind and make sure to create graphics that will attract them to your products and services. And of course, we’ll create a visual language you’ll feel confidant and proud to share."
     },
     {
         step: "05",
-        title: "Launch",
-        text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim"
+        title: "Apply",
+        text: "Having a thoroughly thought out brand means applying it to real-world situations. Weather designing your website or creating social media graphics, your visual identity is applied to the content that matters most for your business. To me, seeing your brand in action is the most exciting part!"
     }
 ]
 
@@ -125,6 +125,7 @@ var mySwiper = new Swiper('.process-swiper', {
     centeredSlides: true,
     initialSlide: 0,
     loop: true,
+    slideToClickedSlide: true,
 
     // Navigation dots
     pagination: {

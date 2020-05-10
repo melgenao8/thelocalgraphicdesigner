@@ -1,4 +1,4 @@
-<?php require_once("../header.php")?>
+<?php require_once("../header-no-pricing.php")?>
 <div class="container-fluid nav-banner services-banner nav-banner-2">
     <?php require_once("../navigation.php") ?>
 
@@ -24,13 +24,10 @@
             <div class="title-col">
 
                 <div class="left-col">
-                    <h3>elevated design can</h3>
-                    <h2>turn
-                         your business into a credible, authentic brand
+                    <h3>Services</h3>
+                    <h4>your image makes an impact</h4>
+                    <h2>Let design work for you. Turn those casual visitors into loyal customers.
                     </h2>
-
-                    <div class="hr-text"></div>
-                   
                 </div>
 
             </div>
@@ -41,59 +38,40 @@
     <div class="two-col-box">
         <div class="box">
  
-            <h3>things to know:</h3>
-
+        <div class="hr-line"></div>
             
         <div class="sub-title">the packages
         </div>
-            <p class="simplon-norm-lite">Packages are tailored specifically to what your business needs. We start from the basic packages below, and build from there. If you don't find exactly what you need,
-                contact us with your idea.
+            <p>Packages are tailored specifically to what your business needs. We start from the basic packages below, and build from there.
             </p>
 
-            <div class="bullet-pts simplon-mono-bold">
+            <div class="bullet-pts">
                 <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg"></div>
-                can combine packages</div>
-            <div class="bullet-pts simplon-mono-bold">
+                Can combine packages</div>
+            <div class="bullet-pts">
                 <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg"></div>
-                can include add-ons</div>
+                Can include add-ons</div>
 
         <div class="spacer-div"></div>
-        <div class="sub-title simplon-mono-bold">collab with you
+        
+
+        <div class="hr-line"></div>
+        <div class="sub-title">passionate about you
         </div>
-            <p class="simplon-norm-lite">This process requires your participation. I love to include you through every step of the process, making this a fun and overwhelm-free journey to your dream brand.
+            <p>I’m excited to know everything and anything about your business. All the reasons you’re passionate about your business can set the tone for your visuals. We will thoroughly go over your goals, and back all of our design decisions with intention.
         </p>
 
-        <div class="bullet-pts simplon-mono-bold ">
-        <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            fill out brand questionnaire</div>
-            
-        <div class="bullet-pts simplon-mono-bold">
-            <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            approve designs</div>
-        <div class="bullet-pts simplon-mono-bold">
-        <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-          attend virtual presentations</div>
-        </div>
+            <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg"></div>
+                Feel confident growing your bus</div>
+            <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg"></div>
+                Target your dream client</div>
+            <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg"></div>
+                Clear customer communication</div>  
+            </div>
       
-
-        <!-- <div class="sub-title simplon-mono-bold">design proposal
-        </div>
-            <p class="simplon-norm-lite">Before you commit to anything, I will send over a proposal detailing what you can expect for your brand during the design process
-        </p>
-
-        <div class="bullet-pts simplon-mono-bold ">
-            <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            expected timelines</div>
-        <div class="bullet-pts simplon-mono-bold">
-            <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            client homework</div>
-        <div class="bullet-pts simplon-mono-bold">
-            <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            my responsibilities</div>
-        <div class="bullet-pts simplon-mono-bold">
-            <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            final deliverables</div>
-        </div> -->
        
         <div class="spacer-div"></div>
 
@@ -172,8 +150,8 @@
 
                         <div class="descrp-title">description</div>
                         <div class="card-description">
-                        designing your brand identity & personality, strategically
-                        targeted to your ideal customer
+                        Designing your brand identity & personality, strategically
+                        targeted to your ideal customer.
                         </div>
 
                         <div class="descrp-title">deliverables</div>
@@ -187,7 +165,7 @@
 
                         <div class="descrp-title">typical timeline</div>
                         <div class="card-description">
-                        4 weeks
+                        4-6 weeks
                         </div>
 
                     </div>
@@ -214,7 +192,7 @@
 
                         <div class="descrp-title">description</div>
                         <div class="card-description">
-                        mobile optimized & google friendly website that generates organic traffic
+                        Mobile optimized & Google friendly website that generates organic traffic.
                         </div>
 
                         <div class="descrp-title">deliverables</div>
@@ -228,7 +206,7 @@
 
                         <div class="descrp-title">typical timeline</div>
                         <div class="card-description">
-                        8 weeks
+                        8-12 weeks
                         </div>
 
                     </div>
@@ -255,22 +233,22 @@
 
                         <div class="descrp-title">description</div>
                         <div class="card-description">
-                    custom 30-day reusable content calendar tailored to invigorate
-                        social media growth
+                    Custom 30-day reusable content calendar tailored to invigorate
+                        social media growth.
                         </div>
 
                         <div class="descrp-title">deliverables</div>
                         <ul>
                             <li>brand audit</li>
-                            <li>templated instagram posts</li>
                             <li>templated captions</li>
                             <li>hashtag research</li>
                             <li>posting schedule</li>
+                            <li>best practices guide</li>
                         </ul>
 
                         <div class="descrp-title">typical timeline</div>
                         <div class="card-description">
-                        4 weeks
+                        5 weeks
                         </div>
 
                     </div>
@@ -297,8 +275,9 @@
 
                     <div class="left-col">
                         <h3>success by strategy</h3>
-                        <h2>Design Proposal
+                        <h2>Brand Audit
                         </h2>
+                        <div class="hr-text"></div>
                     </div>
 
                 </div>
@@ -308,71 +287,46 @@
         <div class="two-col-box">
             <div class="box">
             
+                <div class="bc-dark">No matter what you need for your brand, we always start off with a strategic process that evaluates your current brand, and focuses on targeting your dream client. This brand audit sets the tone for all design decisions.
+                </div>
 
-            <!-- <div class="sub-title simplon-norm-reg">STRATEGIC SUCCESS
-            </div> -->
-                <p class="simplon-norm-lite">No matter what you need for your brand, we always start off with a strategic process that evaluates your current brand, and focuses on targeting your dream client.
-            </p>
+            <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
+                review current brand</div>
 
-            <div class="bullet-pts simplon-mono-bold ">
-                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
+            <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
                 define business goals</div>
-            <div class="bullet-pts simplon-mono-bold">
-                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-                market and user research</div>
-            <div class="bullet-pts simplon-mono-bold">
-                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-                unique proposition</div>
-            <div class="bullet-pts simplon-mono-bold">
-                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            tone and voice</div>
 
-            <div class="bullet-pts simplon-mono-bold">
-                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg" alt="down arrow"></div>
-            mission statement</div>
+            <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
+                market and user research</div>
+
+                <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
+                unique proposition</div>
+
+                <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
+                brand voice</div>
+
+                <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
+                mission statement</div>
+
+                <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
+                who we are statement</div>
+                
+
             </div>
         
         </div>
     </div>
 
 
-    
-
-<!-- * ----------------------------------------
- * instant download
- * ---------------------------------------- -->
-<!-- <div class="design-guide">
-    <div class="download-form">
-    <div class="title-headers">
-        <div class="header-1 freight-i">instant download <span class="bebas-neue header-2">PRICING GUIDE</span>
-    </div>
-</div>
-
-        <form action="" method="post">
-            <input id="full-name" type="text" placeholder="FULL NAME">
-            <input id="email" type="text" placeholder="EMAIL">
-            <input id="download" type="submit" value="DOWNLOAD">
-        </form>
-    </div>
-</div> -->
-
-
-<!-- BANNER TO PRICING PAGE -->
-<div>
-<div class="one-col two-col-contact contact-footer-banner">
-    
-    <div class="one-col-box">
-        <div class="box">
-        <div class="main-btn-left-lite ">
-                <a href="/package-pricing">view prices</a>
-        </div>
-       
-    </div>
-</div>
-</div>
 
 <!-- BRANDED CONTENT : SECTION -->
-
 <div class="branded-content">
 
         <div class="sub-titles">
@@ -406,9 +360,23 @@
 
 </div>
 
+<!-- TO PRICING -->
+<div>
+    <div class="one-col two-col-contact pricing-banner">
+        
+        <div class="one-col-box">
+            <div class="box">
+            <div class="to-price-btn">
+                    <a href="/package-pricing">view prices + package descriptions</a>
+            </div>
+        
+        </div>
+    </div>
+</div>
+
 
 <!-- RETAINERS : SECTION -->
-<div class="retainers">
+<!-- <div class="retainers">
         <h3>popular reoccuring projects:</h3>
         <div class="sub-titles">
             monthly retainers
@@ -418,70 +386,49 @@
     content or need help keeping up with brand execution.
         </div>    
 
-    
-
-
-
-
     <div class="retainer-cols simplon-norm-reg">
 
-        <!-- ICON 1 -->
-        <div class="retainer-col">
-            <div class="icon-img-holder">
-                <img src="img/icons/social-media-content-icon.svg">
-            </div>
-            <p>Social Media<br>Content Creation</p>
-        </div>
+              
+                <div class="retainer-col">
+                    <div class="icon-img-holder">
+                        <img src="img/icons/social-media-content-icon.svg">
+                    </div>
+                    <p>Social Media<br>Content Creation</p>
+                </div>
 
-        <!-- ICON 2 -->
-        <div class="retainer-col">
-            <div class="icon-img-holder">
-                <img src="img/icons/website-maintenance-icon.svg">
-            </div>
-            <p>Website<br>Maintenance</p>
-        </div>
+         
+                <div class="retainer-col">
+                    <div class="icon-img-holder">
+                        <img src="img/icons/website-maintenance-icon.svg">
+                    </div>
+                    <p>Website<br>Maintenance</p>
+                </div>
 
-        <!-- ICON 3 -->
-        <div class="retainer-col">
-            <div class="icon-img-holder">
-                <img src="img/icons/blog-writer-icon.svg">
-            </div>
-            <p>Blog/Article<br>Writting</p>
-        </div>
+               
+                <div class="retainer-col">
+                    <div class="icon-img-holder">
+                        <img src="img/icons/blog-writer-icon.svg">
+                    </div>
+                    <p>Blog/Article<br>Writting</p>
+                </div>
 
-        <!-- ICON 3 -->
-        <div class="retainer-col">
-            <div class="icon-img-holder">
-                <img src="img/icons/social-media-photographer-videographer.svg">
+               
+                <div class="retainer-col">
+                    <div class="icon-img-holder">
+                        <img src="img/icons/social-media-photographer-videographer.svg">
+                    </div>
+                    <p>Videography<br>And Photography</p>
+                </div>
             </div>
-            <p>Videography<br>And Photography</p>
-        </div>
     </div>
-</div>
-
-<!-- * ----------------------------------------
- * pricing guide download
- * ---------------------------------------- -->
-
-
-    <!-- <div class="retainer-form">
-        <div class="download-form">
-            <h2 class="plantin-i">download</h2>
-            <h3 class="sofia-sb">Pricing Guide</h3>
-
-            <form action="" method="post">
-                <input id="full-name" type="text" placeholder="FULL NAME">
-                <input id="email" type="text" placeholder="EMAIL">
-                <input id="download" type="submit" value="DOWNLOAD">
-            </form>
-        </div>
-    </div> -->
-</div>
-
+</div> -->
 
 
 
 <!-- NAVIGATION CARDS : SECTION -->
-<?php require_once("../navigation-cards-2.php")?>
 
-<?php require_once("../footer.php") ?>
+
+<?php require_once("../navigation-cards.php")?>
+</div>
+
+<?php require_once("../footer.php")?>
