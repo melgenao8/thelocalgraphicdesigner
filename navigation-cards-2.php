@@ -15,7 +15,7 @@
             <!-- TEXT UNDER GRAPHIC -->
             <div class="text">
                 <!-- <div class="sub-text simplon-mono-reg">your personality</div> -->
-                <h2 class="bebas-neue" id="search-design-text">process</h2>
+                <h2 id="search-design-text">process</h2>
             </div>
 
             <a class="card" id="process-nav-bg" href="services/">
@@ -33,7 +33,7 @@
             <!-- TEXT UNDER GRAPHIC -->
             <div class="text">
                 <!-- <div class="sub-text simplon-mono-reg">your personality</div> -->
-                <h2 class="bebas-neue" id="">about</h2>
+                <h2 id="">about</h2>
             </div>
 
             <a class="card" id="about-nav-bg" href="services/">
@@ -52,7 +52,7 @@
             <!-- TEXT UNDER GRAPHIC -->
             <div class="text">
                 <!-- <div class="sub-text simplon-mono-reg">your personality</div> -->
-                <h2 class="bebas-neue" id="search-design-text">faq</h2>
+                <h2 id="search-design-text">faq</h2>
             </div>
 
             <a class="card" id="faq-nav-bg" href="services/">
@@ -69,7 +69,7 @@
             <!-- TEXT UNDER GRAPHIC -->
             <div class="text">
                 <!-- <div class="sub-text simplon-mono-reg">your personality</div> -->
-                <h2 class="bebas-neue" id="search-design-text">pricing</h2>
+                <h2 id="search-design-text">pricing</h2>
             </div>
 
             <a class="card" id="pricing-nav-bg" href="services/">
@@ -91,10 +91,13 @@ S<div class="nav-bg-banner-2"></div>
     <div class="two-col-box">
         <div class="box">
             <div class="title-col">
+   
+            <h2 class="left-col">ready to turn those visitors into customers?</h2>
 
-                <div class="left-col">
-                    <h2 class="left-col bebas-neue">convert visitors to customers
-                    </h2>
+            <h4>Fill out the project inquiry form to get started</h4>
+
+                <div class="left-col">                   
+                    <!-- convert visitors to customers -->
                 </div>
 
             </div>
@@ -104,9 +107,9 @@ S<div class="nav-bg-banner-2"></div>
     <div class="two-col-box">
         <div class="box">
         <div class="main-btn-left-lite simplon-mono-bold">
-                <a href="/contact">CONTACT US</a>
+                <a href="/contact">project inquiry</a>
         </div>
        
     </div>
 </div>
-</DIV>
+</div>

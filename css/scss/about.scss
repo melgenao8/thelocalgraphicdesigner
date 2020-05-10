@@ -18,18 +18,21 @@
     }
 
     h3 {
-        font-size: 60px;
-        line-height:60px;
-        color:$cream;
+        font-size: 42px;
+        line-height:41px;
+        color:$brandblack;
+        max-width: 600px;
+        margin:0 auto;
     }
+    h4{
+        font-family: SimplonMono-Bold;
+        text-transform: uppercase;
+        color:$brandblack;
+        font-size: 8.5pt;
+        letter-spacing: 1.5px;
+        padding-bottom: 10px;
+        }
 
-    p {
-        max-width: 650px;
-        margin: 0 auto;
-        font-size: 25px;
-        line-height: 1.2;
-        padding:0px 20px;
-    }
 }
 
 .about-values {
@@ -38,6 +41,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    color: $cream;
 
     p {
         color: $brandblack;
@@ -46,20 +50,22 @@
     h3{
         text-align: center;
         margin: 0 auto;
-        color: $cream;
+
         margin-bottom: 30px;
     }
 
     .cards {
         align-items: stretch;
+        color: $cream;
 
         .card {
-            background: $cream;
+            
             padding: 70px 40px 60px;
             max-width: 350px;
             min-width: 350px;
             border-radius: 0;
-            
+            color: $cream;
+
 
             h2 {
                 font-size: 18px;
@@ -67,7 +73,6 @@
                 margin: 0;
                 padding: 0;
                 letter-spacing: 3px;
-                color:$brandblack;
             }
 
             h3 {
@@ -75,14 +80,12 @@
                 margin: 0 0 25px;
                 padding: 0;
                 letter-spacing: 0;
-                color:$brandblack;
             }
             .text-1{
                 font-size: 24px;
                 margin: 0 0 10px;
                 padding: 0;
                 letter-spacing: 0;
-                color:$brandblack;
                 text-transform: uppercase;
                 margin: 0 auto;
             }
@@ -90,11 +93,8 @@
             .text-2 {
                 font-size: 20px;
                 margin: 0px 0 5px;
-                color:$brandblack;
                 margin: 0 auto;
             }
-
-
 
             p{
                 margin: 0;
@@ -159,24 +159,45 @@
         background: $liteblue;
         order: 1;
         margin: 0 0 0 20px;
+        color: $cream;
 
         .content {
-            max-width: 310px;
+           
+            text-align: left;
 
             h3 {
-                font-size: 34px;
+                font-family: SimplonMono-Bold;
+                text-transform: uppercase;
+                font-size: 8.5pt;
+                letter-spacing: 1.5px;
+                padding-bottom: 10px;
             }
 
             h2 {
-                font-size: 38px;
-                margin-bottom: 40px;
+                font-family: "Trade-Gothic-Bold20";
+                font-size: 33pt;
+                line-height: 41pt;
+                letter-spacing: 4px;
+                text-transform: uppercase;
+                max-width: 500px;
             }
 
-            p {
-                font-size: 17px;
+            
+            p{
+                font-size: 11.5pt;
+                line-height: 18pt;
+                letter-spacing: 1.2px;
+                font-family: SimplonNorm-Lite;
+                margin-bottom:20px;
+            }
+            
+            .bullet-pts{
+                font-family: SimplonMono-Lite;
+                font-size: 7.2pt;
+                text-transform: uppercase;
+                letter-spacing: 2.1px;
             }
         }
-
     }
 }
 

@@ -1,4 +1,4 @@
-<?php require_once("../header.php")?>
+<?php require_once("../header-no-pricing.php")?>
 
 <div class="container-fluid nav-banner about-banner nav-banner-2">
     <?php require_once("../navigation.php") ?>
@@ -17,28 +17,30 @@
 <!-- TOP HEADER : SECTION -->
 <div class="two-col two-col-text">
     
+    <!-- LEFT COL -->
     <div class="two-col-box">
         <div class="box">
             <div class="title-col">
 
                 <div class="left-col">
-                    <h3>title goes here</h3>
-                    <h2>Small businesses are the 
-                        backbone of any economy
+                    <h3>About</h3>
+                    <h4>work with someone you trust</h4>
+                    <h2>integrity and honesty at the core of every decision
                     </h2>
-                    <div class="hr-text"></div>
                 </div>
-
             </div>
         </div>
     </div>
 
+    <!-- RIGHT COL -->
     <div class="two-col-box">
         <div class="box">
         <!-- <div class="spacer-div"></div> -->
-        <div class="sub-title simplon-norm-reg">title goes here
+        <div class="hr-line"></div>
+            
+        <div class="sub-title simplon-norm-reg">do it right, or not at all
         </div>
-            <p class="simplon-norm-lite">Purposefully tailoring your messaging, services, and products directly to your target client is a game changer. Knowing what your dream client needs makes it easier to solve common pain points they may be experiencing. In turn, this will also help you with better marketing strategies.
+            <p>This simple motto has always stuck with me. It's the foundation of who I am as a designer, friend, and entrepreneur. I'm excited at the opportunity to help your business make a lasting impression on the community you serve. Let's put the power back into the local community, one brand at a time.
             </p>
 
         <div class="spacer-div"></div>
@@ -47,13 +49,15 @@
 </div>
 </div>
 
+
+<div class="brand-symbol-bg">
+</div>
+
 <!-- MISSION STATEMENT : SECTION -->
 <div class="mission-statement">
     <div class="col-title-dark-2">
-    <h2>the</h2>
-    <h3>Mission Statement</h3>
-
-    <p class="simplon-norm-lite">Working with small business owners to clearly define their digital presence, in order to grow their business and work with their dream client.</p>
+    <h4>my mission</h4>
+    <h3>Empower local business owners to grow their company with confidence and start doing business with their dream clients.</h3>
 </div>
 </div>
 
@@ -67,8 +71,8 @@
             <div class="text-2 simplon-mono-lite">with</div>
             <h3 class="freight-i-lite">Courage</h3>
 
-            <p class="simplon-norm-lite">push the limits wheather
-                gentely or fiercefully</p>
+            <!-- <p class="simplon-norm-lite">push the limits wheather
+                gentely or fiercefully</p> -->
         </div>
 
         <div class="card">
@@ -76,8 +80,8 @@
             <div class="text-2 simplon-mono-lite">with</div>
             <h3 class="freight-i-lite">Integrity</h3>
 
-            <p class="simplon-norm-lite">push the limits wheather
-                gentely or fiercefully</p>
+            <!-- <p class="simplon-norm-lite">push the limits wheather
+                gentely or fiercefully</p> -->
         </div>
 
         <div class="card">
@@ -85,8 +89,8 @@
             <div class="text-2 simplon-mono-lite">with</div>
             <h3 class="freight-i-lite">Confidence</h3>
 
-            <p class="simplon-norm-lite">push the limits wheather
-                gentely or fiercefully</p>
+            <!-- <p class="simplon-norm-lite">push the limits wheather
+                gentely or fiercefully</p> -->
         </div>
     </div>
 </div>
@@ -132,30 +136,37 @@
 </div> -->
 
 
+
 <!-- MEET THE FOUNDER : SECTION -->
 <div class="text-image-col founder">
     <div class="text-col founder-content">
 
         <div class="content">
-            <h3 class="sub-title simplon-norm-reg">meet</h3>
-            <h2 class="freight-i-lite">Melissa</h2>
+            <h3>get to know</h3>
+            <h2>Melissa</h2>
 
-            <p class="simplon-norm-lite">i am a southern girl. traditional values
-                with trailblazing aspirations. i played
-                golf in college. this tought me how to be a
-                team player and work hard. practice does
-                make perfect. discipline makes perfect.
+            <p class="simplon-norm-lite">I am a southern girl with traditional values and trailblazing aspirations. After leaving my position at a well reputable design firm, I decided to take the leap of faith and start my own business. Since then, I’ve been passionate about helping small business owners use design to transform their company.
             </p>
 
-            <p class="simplon-norm-lite">i love working with small businesses to
-                feel like they can compete with the big
-                dogs in their industry.
+            <p class="simplon-norm-lite">I'm also a dog mom to a fluffy 80lb goldendoodle boy named Hercules. You can follow his adventures on Instagram <a href="https://www.instagram.com/hercadude/" target="_blank">@Hercadude.</a>
             </p>
+
+            <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg"></div>
+                I received a golf scholarship in college</div>
+            <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg"></div>
+                I lived in san Francisco for 7 years</div>
+            <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg"></div>
+                I've worked in the NFL</div>
+            <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg"></div>
+                I’ve won awards in package design</div>
+                
         </div>
     </div>
-    <div class="image-col">
-        <img src="img/design-picture.png" alt="Design Picture">
-    </div>
+
 
     <div class="image-col">
         <img src="img/design-picture.png" alt="Design Picture">

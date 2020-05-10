@@ -61,7 +61,7 @@
 }
 
 .packages {
-    padding: 80px 0 100px;
+    padding: 20px 0 100px;
     overflow: hidden;
 
     // .cards {
@@ -94,7 +94,7 @@
                     
                     h2 {
                         font-family: SimplonNorm-Bold;
-                        font-size:30px;
+                        font-size:25px;
                         letter-spacing: 2.75px;
                         margin-bottom: 0px;
                         margin-top: 15px;
@@ -136,33 +136,37 @@
                 color: $cream;
                 margin-bottom: 35px;
                 text-align: center;
-                text-transform: uppercase;
+                
                 font-size:10.5px;
 
                 .card-description{
-                    font-size:11px;
-                    letter-spacing:2px;
+                    font-family: SimplonNorm-Lite;
+                    font-size:15px;
+                    letter-spacing: .5px;
                     padding: 0px 25px;
                 }
                 .descrp-title {
+                    text-transform: uppercase;
                     color:$dark-yellow;
                     letter-spacing: 1px;
                     margin: 16px 0;
                 }
 
                 ul {
+                    text-transform: uppercase;
                     margin: 0 0 12px;
                     padding: 0;
                     list-style: none;
 
                     li {
-                        font-size: 12px;
+                        font-size: 11px;
                         letter-spacing: 2px;
                         margin: 2px 0;
                     }
                 }
 
                 p,li {
+                    text-transform: uppercase;
                     font-size: 9px;
                     text-transform: uppercase;
                 }
@@ -185,7 +189,7 @@
     height: 600px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 140px;
+    padding-top: 70px;
 
     .sub-title-2{
         color:$off-white;
@@ -199,30 +203,32 @@
 .brand-audit-two-col {
     color: $cream;
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    border: .25px solid $brandgreen;
+    margin:20px;
+    padding: 20px 0px;
+
     .two-col-box:first-child {
        
         text-align: center;
 
             h3{
-            font-family: 'Bebas Neue', cursive;
-            color:$brandgreen;
-            font-size: 14pt;
-            letter-spacing: 2.3px;
-            line-height: 19pt;
-            padding: 10px 20px;
-           
+                font-family: SimplonMono-Bold;
+                text-transform: uppercase;
+                font-size: 8.5pt;
+                letter-spacing: 1.5px;
+                padding-bottom: 10px;       
             }
 
             h2{
-            font-family: freight-text-pro, serif;
-            font-style: italic;
-            font-weight: 300;
-            font-size: 45pt;
-            line-height: 47pt;
-            letter-spacing: 1px;
-            color:$off-white;
-            padding-bottom: 30px;
+                font-family: "Trade-Gothic-Bold20";
+                font-size: 32pt;
+                line-height: 44pt;
+                letter-spacing: 4px;
+                color:$cream;
+                text-transform: uppercase;
+                max-width: 500px;
+                margin-bottom:20px;
             }
 
             .hr-text {
@@ -230,6 +236,7 @@
                 max-width: 360px;
                 margin: 0 auto;
                 margin-top: 30px;
+                margin-bottom:30px;
             }
     }
 
@@ -239,7 +246,6 @@
 
     .two-col-box:last-child {
 
-        
 
         .sub-title{
             text-transform: uppercase;
@@ -249,22 +255,23 @@
         }
 
         .bullet-pts{
-            font-size: 8pt;
+            font-family: SimplonMono-Lite;
+            font-size: 7.2pt;
             text-transform: uppercase;
-            letter-spacing: 2px;
+            letter-spacing: 2.1px;
         }
     }
 }
 
 
 .branded-content {
-    background-image: url("../img/bg/stars-bg-blue.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    // background-image: url("../img/bg/stars-bg-blue.png");
+    // background-size: cover;
+    // background-repeat: no-repeat;
     padding-top: 100px;
     padding-bottom: 100px;
     margin-top:120px;
-    background-color:$liteblue;
+    background-color:$brandbrown;
     margin: 0 auto;
     color: $cream;
 
@@ -274,7 +281,7 @@
         max-width: 800px;
         margin:0 auto;
         padding-top:30px;
-        color:$brandblack;
+        color:$cream;
 
         ul {
             margin: 0 auto;
@@ -356,15 +363,14 @@
     padding: 200px 30px;
     text-align: center;
     margin: 0 auto;
+    color:$cream;
 
     h3{
-        font-family: freight-text-pro, serif;
-        font-style: italic;
-        font-weight: 300;
-        color:$brandgreen;
-        font-size: 23pt;
-        line-height: 23pt;
-        margin:30px 0px;
+        font-family: SimplonMono-Bold;
+        text-transform: uppercase;
+        font-size: 8.5pt;
+        letter-spacing: 1.5px;
+        padding-bottom: 10px; 
     }
     p{
         font-size: 14px;

@@ -8,9 +8,10 @@
 .process {
     width: 90%;
     margin: 0 auto 100px;
-    padding: 20px 20px;
-    background: $greygreen;
-    margin-top: 20px;
+    border: .25px solid $brandgreen;
+    margin:20px;
+    padding: 20px 0px;
+
     // border: 1px solid $primary-yellow;
 
     .process-title {
@@ -18,28 +19,32 @@
         max-width: 700px;
         margin: 0 auto;
         margin-top: 50px;
+        color: $cream;
 
         .process-step {
             margin-right: 40px;
+
             h2 {
-                color: $light-brown;
-                font-size: 170px;
+                font-size: 70px;
                 line-height: .9;
             }
         }
 
         .process-content {
             h3 {
-                color: $primary-yellow;
-                margin-bottom: 10px;
-                font-size: 36px;
+           
+                margin-bottom: 20px;
+                font-size: 28px;
+                text-transform: uppercase;
 
             }
 
             p {
-                color: $cream;
+                text-transform: none;
                 font-family: SimplonNorm-Lite;
-                font-size:15pt;
+                font-size:10pt;
+                line-height:18pt;
+                padding-top: 20px;
             
             }
         }
