@@ -16,6 +16,7 @@
         .text{
            
             h1{
+                font-family: "Trade-Gothic-Bold20";
                 color:$brandblack;
                 text-transform: uppercase;
                 font-size: 37pt;
@@ -34,6 +35,15 @@
                 font-size: 27px;
                 padding-bottom: 28px;
             }
+            .sub-title-3{
+                text-transform: uppercase;
+                font-size:9pt;
+                line-height: 17pt;
+                letter-spacing: 2px;
+                margin: 10px 0px;
+                color: $brandblack;
+                font-family: SimplonMono-Reg;
+             }
             
         }
 
@@ -45,14 +55,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     color:$brandblack;
-    padding: 250px 30px 180px 30px;
+    padding: 150px 30px 150px 30px;
     text-transform: uppercase;
     margin: 0 auto;
     text-align: center; 
 
-        .sub-titles{
-            color:$greygreen;
-            font-size: 26pt;
+        .title-3{
+            text-transform: uppercase;
+            font-size:9pt;
+            line-height: 17pt;
+            letter-spacing: 2px;
+            color: $black;
+            font-family: SimplonMono-Reg;
         }
         .sub-title{
         
@@ -60,53 +74,71 @@
         
          }
         .title-1{
-            color:$brandgreen;
-            font-size: 13pt;
+            color:$black;
+            font-size: 12pt;
             letter-spacing:2px;
             margin-bottom:0px;
 
         }
         .title-2{
-           font-size:22pt;
+           font-size:15pt;
            line-height: 27pt;
            letter-spacing: 2px;
-           margin: 10px 0px;
-           color: $cream;
+           color: $brandblack;
            font-family: SimplonMono-Reg;
         }
 
 }
 
 
+
+
 .livelyhood-banner{
-    padding: 200px 30px 200px 30px;
-    background-color: $greygreen;
+    // background-image: url("../img/bg/texture-bg-dark-min.png");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    padding: 150px 30px 120px 30px;
     text-align: center;
     color:$cream;
 
     .title-1{
-        font-size: 14pt;
-        letter-spacing:2px;
-        margin-bottom:20px; 
-        text-transform: uppercase;
+        font-size: 27px;
     }
 
+
+    h3{
+        font-family: SimplonMono-Bold;
+        text-transform: uppercase;
+        font-size: 8.5pt;
+        line-height: 20px;
+        letter-spacing: 1.5px;
+        padding-bottom: 10px;
+        width:70%;
+        margin:0 auto;     
+    }
 
     .header-2{
-        font-size: 3rem;
-        line-height: 2.75rem;
-        color: $brandgreen;
-        margin-bottom:25px;
-        margin-top:10px;
+        color:$nav-text;
+        font-family: "Trade-Gothic-Bold20";
+        font-size: 30pt;
+        line-height: 41pt;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        max-width:500px;
+        margin:0 auto;
+        margin-bottom:20px;
     }
 
-    // p{
-    //     font-size:15pt;
-    //     text-transform: uppercase;
-    //     letter-spacing: 1px;
-    //     color:$offgrey;
-    //     padding-top:40px;
-    // }
+    .sub-title{
+        font-family: SimplonNorm-Bold;
+        text-transform: uppercase;
+        font-size: 11pt;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+        max-width: 500px;
+        margin: 0 auto;
+        
+    }
 
     .five-col{
 
@@ -121,8 +153,8 @@
     
                 .five-col-icon{
                     background-image: url("../img/icons/alert-icon-red.svg");
-                    width: 30px;
-                    height: 30px;
+                    width: 20px;
+                    height: 20px;
                     margin: 15px;
                     background-size: cover;
                 }
@@ -146,8 +178,9 @@
                         line-height:13pt;
                         padding: 0px 10px;
                         margin-top:20px;
-                        letter-spacing: 0px;
+                        letter-spacing: .5px;
                         text-transform: none;
+                        font-family: SimplonNorm-Lite;
                         
                     }
                 }
@@ -155,6 +188,10 @@
         }
     }
 
+
+
+
+    
     // .four-col{
 
     //     width:80%;
@@ -204,41 +241,28 @@
 }
 
 
-.green-bg-banner{
-    background-color: $liteblue;
+.carousel-bg{
+    background-color: $taupe;
     // background-image: url("../img/bg/stars-bg-avg-blue.png");
     // background-size: cover;
     // background-repeat: no-repeat;
-    padding: 420px 30px 100px 30px;
+    padding: 265px 30px 95px 30px;
     margin: 0 auto;
-    margin-top:-510px;
+    margin-top:-370px;
     text-align: center;
 }
 
 
 
 .local-bus-banner {
-   
-    background-image: url("../img/bg/texture-bg-dark-min.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-
     width: 100%;
     padding: 150px 0px 200px 0px;
     margin: 0 auto;
-    color:$off-white;
+    color:$brandblack;
+    background-color: $cream;
 
     .local-bus-title {
-        max-width:500px;
-
-        // h2 {
-        //     font-size: 3.5rem;
-        //     line-height:3.75rem;
-        //     text-align: left;
-        //     padding-left:20px;
-        //     padding-right:20px;
-        //     padding-bottom: 20px;
-        // }        
+        max-width:500px;      
     }
 
     .local-bus-content {
@@ -448,7 +472,7 @@
 
     .services-col {
         display: flex;
-        align-items: center;
+        align-items: stretch;
         max-width: 1000px;
         margin: 0 auto;
         color: $darker-pink;
@@ -460,7 +484,7 @@
                 color: $lighter-brown;
                 padding:50px;
                 width: 30%;
-                height: 20%;
+                // height: 20%;
 
             .title {
                 margin-bottom: 10px;
@@ -596,7 +620,7 @@
 @media screen and (max-width: 890px){
 
     .livelyhood-banner{
-        padding: 100px 20px 100px 20px;
+        padding: 50px 20px 30px 20px;
         .five-col{
             width:100%;
 

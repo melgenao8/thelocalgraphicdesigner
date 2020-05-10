@@ -1,0 +1,158 @@
+.nav{
+    margin-bottom:50px;
+}
+
+.accordion-section{
+    .panel-title{
+        padding: 10px 20px;
+    }
+    h2{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 50pt;
+        line-height: 45pt;
+        letter-spacing: 5px;
+        color:$cream;
+        text-transform: uppercase;
+        text-align: center;
+        }
+
+    h3, a{
+        font-family: SimplonMono-Reg;
+        background-color:$cream;
+        color:$brandblack;
+        font-size: 12pt;
+        line-height: 23pt;
+
+        }
+
+    .panel-body{
+        font-family: SimplonNorm-Lite;
+        color:$cream;
+        font-size: 12pt;
+        line-height: 23pt;
+        margin:0 auto;
+        max-width:90%;
+    }
+}
+
+
+.tab-content{
+    .panel-title{
+        padding: 10px 20px;
+    }
+    h2{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 50pt;
+        line-height: 45pt;
+        letter-spacing: 5px;
+        color:$cream;
+        text-transform: uppercase;
+        text-align: center;
+        }
+
+    h3, a{
+        font-family: SimplonMono-Reg;
+        background-color:$cream;
+        color:$brandblack;
+        font-size: 12pt;
+        line-height: 23pt;
+
+        }
+
+    .panel-body{
+        font-family: SimplonNorm-Lite;
+        color:$cream;
+        font-size: 12pt;
+        line-height: 23pt;
+        margin:0 auto;
+        max-width:90%;
+    }
+}
+
+.md-pills{
+
+    .nav-link{
+        margin:10px;
+        background-color:$brandgreen;
+    }
+    .nav-link.active{
+        background-color:$brandblack;
+        border: 1.5px solid $brandgreen;
+        color:$cream;
+    }
+    .panel-title{
+        padding: 10px 20px;
+        border-radius: 0px;
+    }
+    h2{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 50pt;
+        line-height: 45pt;
+        letter-spacing: 5px;
+        color:$cream;
+        text-transform: uppercase;
+        text-align: center;
+        }
+
+    h3, a{
+        font-family: SimplonMono-Reg;
+        background-color:$cream;
+        color:$brandblack;
+        font-size: 12pt;
+        line-height: 23pt;
+
+        }
+
+    .panel-body{
+        font-family: SimplonNorm-Lite;
+        color:$cream;
+        font-size: 12pt;
+        line-height: 23pt;
+        margin:0 auto;
+        max-width:90%;
+    }
+
+}
+
+.card-body{
+    font-family: SimplonNorm-Lite;
+    color:$cream;
+    background-color:$brandblack;
+    font-size: 12pt;
+    line-height: 23pt;
+    margin:0 auto;
+}
+
+.card-header{
+    font-family: SimplonMono-Reg;
+    background-color:$cream;
+    color:$brandblack;
+    font-size: 12pt;
+    line-height: 23pt;
+    padding:10px 5px 0px 5px;
+    }
+
+.btn-link{
+    color:$brandblack;
+}
+
+.card{
+    background-color: $brandblack !important;
+    border-radius: 0px !important;
+    border: 0px solid rgba(0,0,0,0) !important;
+    border-radius:0rem;
+    margin-bottom:5px;
+
+
+.accordian{
+        .card-header{
+        font-family: SimplonMono-Reg;
+        background-color:$cream;
+        color:$brandblack;
+        font-size: 12pt;
+        line-height: 23pt;
+        }
+    }
+}
+
+

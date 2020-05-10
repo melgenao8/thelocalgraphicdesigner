@@ -1,0 +1,36 @@
+[31-Mar-2020 20:31:35 America/Chicago] PHP Notice:  Array to string conversion in C:\projects\thelocalgraphicdesigner\connect\index.php on line 18
+[31-Mar-2020 20:32:57 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in C:\projects\thelocalgraphicdesigner\connect\index.php on line 19
+[08-Apr-2020 22:33:58 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in C:\projects\thelocalgraphicdesigner\connect\index.php on line 20
+[08-Apr-2020 22:33:58 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in C:\projects\thelocalgraphicdesigner\connect\index.php on line 21
+[08-Apr-2020 22:33:58 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in C:\projects\thelocalgraphicdesigner\connect\index.php on line 22
+[08-Apr-2020 22:33:58 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in C:\projects\thelocalgraphicdesigner\connect\index.php on line 23
+[08-Apr-2020 22:33:58 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in C:\projects\thelocalgraphicdesigner\connect\index.php on line 24
+[08-Apr-2020 22:33:58 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in C:\projects\thelocalgraphicdesigner\connect\index.php on line 25
+[08-Apr-2020 22:33:58 America/Chicago] PHP Notice:  Undefined index: interested in C:\projects\thelocalgraphicdesigner\connect\index.php on line 26
+[08-Apr-2020 22:33:58 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in C:\projects\thelocalgraphicdesigner\connect\index.php on line 26
+[08-Apr-2020 22:33:58 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in C:\projects\thelocalgraphicdesigner\connect\index.php on line 27
+[08-Apr-2020 22:33:58 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in C:\projects\thelocalgraphicdesigner\connect\index.php on line 28
+[08-Apr-2020 22:33:58 America/Chicago] PHP Notice:  Undefined variable: conn in C:\projects\thelocalgraphicdesigner\connect\index.php on line 33
+[08-Apr-2020 22:33:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\projects\thelocalgraphicdesigner\connect\index.php:33
+Stack trace:
+#0 {main}
+  thrown in C:\projects\thelocalgraphicdesigner\connect\index.php on line 33
+[08-Apr-2020 22:34:58 America/Chicago] PHP Notice:  Undefined index: interested in C:\projects\thelocalgraphicdesigner\connect\index.php on line 26
+[08-Apr-2020 22:34:58 America/Chicago] PHP Notice:  Undefined variable: conn in C:\projects\thelocalgraphicdesigner\connect\index.php on line 33
+[08-Apr-2020 22:34:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\projects\thelocalgraphicdesigner\connect\index.php:33
+Stack trace:
+#0 {main}
+  thrown in C:\projects\thelocalgraphicdesigner\connect\index.php on line 33
+[08-Apr-2020 22:35:48 America/Chicago] PHP Notice:  Undefined index: interested in C:\projects\thelocalgraphicdesigner\connect\index.php on line 26
+[08-Apr-2020 22:35:48 America/Chicago] PHP Notice:  Undefined variable: conn in C:\projects\thelocalgraphicdesigner\connect\index.php on line 33
+[08-Apr-2020 22:35:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\projects\thelocalgraphicdesigner\connect\index.php:33
+Stack trace:
+#0 {main}
+  thrown in C:\projects\thelocalgraphicdesigner\connect\index.php on line 33
+[08-Apr-2020 22:36:56 America/Chicago] PHP Notice:  Undefined index: interested in C:\projects\thelocalgraphicdesigner\connect\index.php on line 26
+[08-Apr-2020 22:37:53 America/Chicago] PHP Notice:  Undefined index: interested in C:\projects\thelocalgraphicdesigner\connect\index.php on line 26
+[08-Apr-2020 22:38:02 America/Chicago] PHP Notice:  Undefined index: interested in C:\projects\thelocalgraphicdesigner\connect\index.php on line 26
+[08-Apr-2020 22:44:59 America/Chicago] PHP Notice:  Undefined index: interested in C:\projects\thelocalgraphicdesigner\connect\index.php on line 26
+[08-Apr-2020 22:47:24 America/Chicago] PHP Notice:  Undefined index: interested in C:\projects\thelocalgraphicdesigner\connect\index.php on line 27
+[18-Apr-2020 10:47:24 America/Chicago] PHP Warning:  require_once(instagram.php): failed to open stream: No such file or directory in C:\projects\thelocalgraphicdesigner\connect\index.php on line 112
+[18-Apr-2020 10:47:24 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'instagram.php' (include_path='.;C:\Program Files (x86)\EasyPHP-Devserver-17\eds-binaries\php\php713vc14x86x181027195535\ext') in C:\projects\thelocalgraphicdesigner\connect\index.php on line 112

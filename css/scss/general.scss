@@ -7,7 +7,7 @@ $light-brown: #47403F;
 $light-tan: #EDE5E2;
 $dark-pink: #D3B7B0;
 //new colors
-$taupe:#938A7D;
+
 $dark-blush:#A58984;
 $ash:#58595B;
 $footer-brown: #2D2B2B;
@@ -16,8 +16,9 @@ $lt-purple:#99908F;
 $off-white:#EAEAEA;
 
 // NEW NEW colors
+$taupe:#DBD5C8;
 $cream:#FBF9F2;
-$nav-text: #B5AC95;
+$nav-text: #BCB4A2;
 $white: #fff;
 $black: black;
 $brandblack:#1E1D1E;
@@ -29,6 +30,9 @@ $primary-yellow: #ECE850;
 $brandred:#FF0000;
 $dark-brown: #272927;
 $liteblue:#6a7B84;
+$oat:#d6d0c4;
+$darkblack:#23221F;
+$brandbrown: #3f3934;
 
 
 
@@ -61,6 +65,9 @@ p, h2, h3, h4, a {
     margin: 0 auto;
 }
 
+.m-b-250{
+    margin-bottom:250px;
+}
 
 //fonts
 
@@ -75,6 +82,7 @@ p, h2, h3, h4, a {
     font-style: italic;
     font-weight: 300;
 }
+
 
 .bebas-neue {
     font-family: 'Bebas Neue', cursive;
@@ -114,7 +122,7 @@ p, h2, h3, h4, a {
     }
 
     h2{
-        font-family: 'Bebas Neue', cursive;
+        font-family: "Trade-Gothic-Bold20";
         font-size: 50pt;
         line-height: 45pt;
         letter-spacing: 5px;
@@ -134,24 +142,23 @@ p, h2, h3, h4, a {
     text-align: center;
 
     h3{
-    font-family: 'Bebas Neue', cursive;
-    color:$brandgreen;
-    font-size: 23pt;
-    letter-spacing: 2px;
-    line-height: 23pt;
-    padding: 0px 20px;
-    margin:30px;
-    }
+        font-family: SimplonMono-Bold;
+            text-transform: uppercase;
+            color:$brandblack;
+            font-size: 8.5pt;
+            letter-spacing: 1.5px;
+            padding-bottom: 10px;
+        }
 
     h2{
-    font-family: freight-text-pro, serif;
-    font-style: italic;
-    font-weight: 300;
-    font-size: 45pt;
-    line-height: 47pt;
-    letter-spacing: 1px;
-    color:$brandblack;
-    }
+        font-family: "Trade-Gothic-Bold20";
+        font-size: 34pt;
+        line-height: 44pt;
+        letter-spacing: 4px;
+        color:$brandblack;
+        text-transform: uppercase;
+        max-width: 500px;
+        }
 
     .hr-text {
         border: 1.5px solid $brandgreen;
@@ -166,20 +173,20 @@ p, h2, h3, h4, a {
     text-align: center;
 
     h3{
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Trade-Gothic-Bold20";
     color:$brandgreen;
-    font-size: 23pt;
+    font-size: 18pt;
     letter-spacing: 2px;
     line-height: 23pt;
-    margin:30px;
+    padding-bottom:10px;
     }
 
     h2{
     font-family: freight-text-pro, serif;
     font-style: italic;
     font-weight: 300;
-    font-size: 45pt;
-    line-height: 47pt;
+    font-size: 36pt;
+    line-height: 43pt;
     letter-spacing: 1px;
     color:$off-white;
     }
@@ -197,24 +204,25 @@ p, h2, h3, h4, a {
     text-align: center;
 
     h3{
-    font-family: freight-text-pro, serif;
-    font-style: italic;
-    font-weight: 300;
-    color:$brandgreen;
-    font-size: 23pt;
-    line-height: 23pt;
-    padding: 0px 20px;
-    margin:30px;
-    }
+        font-family: freight-text-pro, serif;
+        font-style: italic;
+        font-weight: 300;
+        color:$brandblack;
+        font-size: 15pt;
+        line-height: 23pt;
+        letter-spacing: .5px;
+        margin:30px 0px 20px 0px;
+        padding-bottom:30px;
+        }
 
-    h2{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 50pt;
-    line-height: 45pt;
-    letter-spacing: 5px;
-    color:$off-white;
-    text-transform: uppercase;
-    }
+    h2 {
+        font-family: "Trade-Gothic-Bold20";
+        font-size: 50pt;
+        line-height: 45pt;
+        letter-spacing: 5px;
+        color:$off-white;
+        text-transform: uppercase;
+        }
 
     .hr-text {
         border: 1.5px solid $brandgreen;
@@ -222,8 +230,32 @@ p, h2, h3, h4, a {
         margin: 0 auto;
         margin-top: 30px;
       }
+
+      
+    .sub-title{
+        font-family: SimplonNorm-Bold;
+        text-transform: uppercase;
+        font-size: 13pt;
+        letter-spacing: 2px;
+        margin-bottom: 30px;
+        
+    }
+    
 }
 
+.brand-symbol-bg{
+    background-color: #897E6e;
+    background-image: url("../img/bg/symbol-bg-image.jpg");;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:$cream;
+    padding: 75px 0px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center; 
+
+    }
+    
 
 .title-headers {
     color:$dark-brown;
@@ -245,7 +277,7 @@ p, h2, h3, h4, a {
     }
 
     .header-2 {
-        font-family: 'Bebas Neue', cursive;
+        font-family: "Trade-Gothic-Bold20";
         color:$brandgreen;
         font-size: 23pt;
         letter-spacing: 2px;
@@ -266,9 +298,9 @@ p, h2, h3, h4, a {
 
 .sub-titles{
     text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Trade-Gothic-Bold20";
     text-align: center;
-    font-size: 34pt;
+    font-size: 27pt;
     letter-spacing:3px;
     line-height: 36pt;
     color:$cream;
@@ -297,10 +329,28 @@ p, h2, h3, h4, a {
 
 // body copy
 .bc{
-    font-size: 12.5pt;
+    font-size: 11.5pt;
     line-height: 18pt;
     letter-spacing: 1.2px;
     font-family: SimplonNorm-Lite;
+    margin-bottom:20px;
+}
+
+.bc-sm{
+    font-size: 9.5pt;
+    line-height: 15pt;
+    letter-spacing: 1.2px;
+    font-family: SimplonNorm-Lite;
+    margin-bottom:20px;
+}
+
+.bc-dark{
+    font-size: 11.5pt;
+    line-height: 18pt;
+    letter-spacing: 1.2px;
+    font-family: SimplonNorm-Lite;
+    margin-bottom:20px;
+    color:$cream;
 }
 
 
@@ -388,8 +438,8 @@ p, h2, h3, h4, a {
 // left align dark btn
 .main-btn-left-dark  {
     font-family: SimplonMono-Bold;
-    font-size: 14px;
-    letter-spacing: 2.5px;
+    font-size: 12px;
+    letter-spacing: 3.5px;
     text-transform: uppercase;
     background-color: transparent;
     color: $off-white;
@@ -410,22 +460,47 @@ p, h2, h3, h4, a {
   // left align dark btn
 .main-btn-left-lite  {
     font-family: SimplonMono-Bold;
-    font-size: 14px;
-    letter-spacing: 2.5px;
+    font-size: 12px;
+    letter-spacing: 3.5px;
     text-transform: uppercase;
-    background-color: $cream;
+    background-color:$brandgreen;
     display: block;
-    color: $brandblack;
     padding: 15px 0;
     width: 250px;
     text-align: center;
     text-decoration: none;
+
 }
 
 .main-btn-left-lite:hover {
-    background-color:$brandgreen;
+    background-color: transparent;
     color: $cream;
+    border: 1px solid $dark-yellow;
   }
+
+
+
+.to-price-btn  {
+    font-family: SimplonMono-Bold;
+    font-size: 12px;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    background-color: $cream;
+    color:$brandgreen;
+    display: block;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid $dark-yellow;
+}
+
+.to-price-btn:hover  {
+    
+    background-color: $brandgreen;
+    color:$cream;
+
+}
+
 
 //reusable classes
 
@@ -469,17 +544,23 @@ p, h2, h3, h4, a {
         justify-content: center;
 
         .box {
-            // display: flex;
             align-items: center;
-            // margin-bottom:50px;
 
             h3 {
                 margin-right: 20px;
                 font-size: 50px;
             }
 
-            h4 {
-                font-size: 40px;
+            h4{
+                font-family: SimplonMono-Bold;
+                text-transform: uppercase;
+                color:$cream;
+                font-size: 8.5pt;
+                line-height: 20px;
+                letter-spacing: 1.5px;
+                padding-bottom: 10px;
+                margin:0 auto;
+                text-align: center;
             }
         }
 
@@ -507,32 +588,36 @@ p, h2, h3, h4, a {
         text-align: center;
 
         h2{
-        font-family: 'Bebas Neue', cursive;
-        font-size: 34pt;
-        line-height: 44pt;
+        font-family: "Trade-Gothic-Bold20";
+        font-size: 33pt;
+        line-height: 41pt;
         letter-spacing: 4px;
         color:$brandblack;
         text-transform: uppercase;
+        max-width: 500px;
         }
-
         
         h3{
             font-family: freight-text-pro, serif;
             font-style: italic;
             font-weight: 300;
-            color:$brandgreen;
-            font-size: 23pt;
+            color:$brandblack;
+            font-size: 15pt;
             line-height: 23pt;
+            letter-spacing: .5px;
             margin:30px 0px 20px 0px;
             }
 
-        .hr-text {
-            border: 1px solid $brandgreen;
-            max-width: 360px;
-            margin: 0 auto;
-            margin-top: 30px;
-            margin-bottom: 30px;
+        h4{
+            font-family: SimplonMono-Bold;
+            text-transform: uppercase;
+            color:$brandblack;
+            font-size: 8.5pt;
+            letter-spacing: 1.5px;
+            padding-bottom: 10px;
         }
+
+ 
     }
 
     .spacer-div{
@@ -541,35 +626,40 @@ p, h2, h3, h4, a {
 
     .two-col-box:last-child {
 
+        color:$brandblack;
+
         .sub-title{
-            font-family: SimplonMono-Bold;
+            font-family: SimplonNorm-Bold;
             text-transform: uppercase;
-            font-size: 16pt;
-            letter-spacing: 2.2px;
+            font-size: 13pt;
+            letter-spacing: 2px;
             margin-bottom: 10px;
-            color:$brandgreen;
+            
+        }
+
+        p{
+            font-size: 11.5pt;
+            line-height: 18pt;
+            letter-spacing: 1.2px;
+            font-family: SimplonNorm-Lite;
+            margin-bottom:20px;
         }
 
         .bullet-pts{
-            font-size: 7pt;
+            font-family: SimplonMono-Lite;
+            font-size: 7.2pt;
             text-transform: uppercase;
             letter-spacing: 2.1px;
-            color:#585858;
         }
 
-        h3{
-            font-family: freight-text-pro, serif;
-            font-style: italic;
-            font-weight: 300;
-            color:$cream;
-            background-color: $brandblack;
-            font-size: 13pt;
-            line-height: 23pt;
-            padding: 1px 10px;
-            margin-bottom:20px;
-            margin-left:-8px;
-            text-align: left;
-            }
+        .hr-line {
+            border: .75px solid $brandgreen;
+            max-width: 100%;
+            margin: 0 auto;
+            margin-top: 30px;
+            margin-bottom: 10px;
+           }
+
     }
 }
 
@@ -604,7 +694,7 @@ p, h2, h3, h4, a {
 
     .five-col-box {
         background-color: $cream;
-        border: .25px solid $dark-brown;
+        border: 2px solid $dark-brown;
         width: 20%;
         display: flex;
 
@@ -663,10 +753,7 @@ p, h2, h3, h4, a {
 
             p {
                 margin-top: 25px;
-                line-height: 1.35;
-                font-size: 14px;
-                font-weight: 300;
-                text-align: center;
+
             }
         }
     }
@@ -714,11 +801,9 @@ p, h2, h3, h4, a {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-x: auto;
 
     .card {
-        // max-width: 400px;
-        // min-width: 400px;
+
         margin: 0 20px;
         padding: 120px 70px;
         border-style: solid;
@@ -728,44 +813,44 @@ p, h2, h3, h4, a {
 
 
         &#process-nav-bg{
-            background-image: url("../img/3-nav-imgs/carousel-test-img-01.jpg");
+            background-image: url("../img/3-nav-imgs/carousel-test-img.jpg");
             background-size: cover;
             background-position: center;
         }
 
         &#about-nav-bg{
-            background-image: url("../img/3-nav-imgs/carousel-test-img-01.jpg");
+            background-image: url("../img/3-nav-imgs/carousel-test-img.jpg");
             background-size: cover;
             background-position: center;
         }
 
         
         &#faq-nav-bg{
-            background-image:url("../img/3-nav-imgs/carousel-test-img-01.jpg");
+            background-image:url("../img/3-nav-imgs/carousel-test-img.jpg");
             background-size: cover;
             background-position: center;
         }
 
         &#pricing-nav-bg{
-            background-image:url("../img/3-nav-imgs/carousel-test-img-01.jpg");
+            background-image:url("../img/3-nav-imgs/carousel-test-img.jpg");
             background-size: cover;
             background-position: center;
         }
 
         &#branding-nav-bg{
-            background-image:url("../img/3-nav-imgs/carousel-test-img-01.jpg");
+            background-image:url("../img/3-nav-imgs/carousel-test-img.jpg");
             background-size: cover;
             background-position: center;
         }
 
         &#website-nav-bg{
-            background-image:url("../img/3-nav-imgs/carousel-test-img-01.jpg");
+            background-image:url("../img/3-nav-imgs/carousel-test-img.jpg");
             background-size: cover;
             background-position: center;
         }
 
         &#social-nav-bg{
-            background-image:url("../img/3-nav-imgs/carousel-test-img-01.jpg");
+            background-image:url("../img/3-nav-imgs/carousel-test-img.jpg");
             background-size: cover;
             background-position: center;
         }
@@ -862,10 +947,12 @@ p, h2, h3, h4, a {
             text-align: center;
 
             h2 {
-                letter-spacing: 2px;
-                font-size: 20pt;
-                line-height:18pt;
+                font-family: "Trade-Gothic-Bold20";
+                letter-spacing: 1.5px;
+                font-size: 16pt;
+                line-height:16pt;
                 text-align: center;
+                padding:10px 0px 30px 0px;
             }
             .sub-text {
                 font-size: 12px;
@@ -902,6 +989,7 @@ p, h2, h3, h4, a {
             text-align: center;
 
             h2 {
+                font-family: "Trade-Gothic-Bold20";
                 color: $cream;
                 font-size: 16pt;
                 line-height:16pt;
@@ -930,13 +1018,18 @@ p, h2, h3, h4, a {
 }
 
 .arrow-down-white{
-    width:8px;
+    width:5px;
     margin:0 auto;
     padding-bottom:40px;
 }
 
+.arrow-down-nav{
+    width:5px;
+    margin:0 auto;
+}
+
 .arrow-right{
-    width:20px;
+    width:15px;
     display:inline-block;
 }
 
@@ -951,7 +1044,7 @@ p, h2, h3, h4, a {
     }
 
     h3{
-        font-family: 'Bebas Neue', cursive;
+        font-family: "Trade-Gothic-Bold20";
         color:$brandgreen;
         font-size: 23pt;
         letter-spacing: 2px;
@@ -1339,14 +1432,24 @@ p, h2, h3, h4, a {
 
 .contact-footer-banner {
     margin: 0 auto;
-    height: 200px;
-    // padding: 600px 15px 15px;
-     background-image:  url("../img/bg/contact-page-footer-banner.jpg");
+    background-image:  url("../img/bg/contact-us-bg-2.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
 }
 
+.pricing-banner {
+    background-image:  url("../img/bg/pricing-packages-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height: 200px;
+    margin-bottom:130px;
+}
+
+
 .nav-bg-banner-2{
-    background-color: $brandgreen;
+    background-color: $liteblue;
     padding: 275px 30px 0px 30px;
     margin: 0 auto;
     margin-top:-300px;
@@ -1359,14 +1462,19 @@ p, h2, h3, h4, a {
     justify-content: center;
     align-items: center;
     color: $cream !important;
-
+    
     .left-col {
+
+        font-family: "Trade-Gothic-Bold20";
         display: flex;
+        text-transform: uppercase;
         align-items: center;
-        font-size: 30pt;
+        font-size: 24pt;
         line-height:30pt;
         letter-spacing: 2.5px;
         text-align: center;
+        max-width: 390px;
+        
     }
 
     .right-col {
@@ -1384,7 +1492,7 @@ footer {
     background-repeat: no-repeat;
     background-position: right;
     position: relative;
-    background-color:$black;
+    background-color:$darkblack;
 
     h2{
     font-size: 11pt;
@@ -1511,15 +1619,19 @@ footer {
     }
 
     .cards {
-        justify-content: flex-start;
+        // justify-content: flex-start;
 
         .card {
 
             &:first-child {
-                margin-left: 0;
+                // margin-left: 0;
             }
         }
     }
+}
+
+@media screen and (max-width: 1130px) {
+
 }
 
 @media screen and (max-width: 1000px){
@@ -1576,6 +1688,14 @@ footer {
             top: unset;
             left: unset;
             transform: translate(0);
+        }
+    }
+
+    .core-values {
+        .cards {
+            .card {
+                height: 300px;
+            }
         }
     }
 }
@@ -1721,7 +1841,7 @@ footer {
 
         .two-col-box {
             width: 100%;
-            padding: 0px 20px;
+            padding: 0px 30px;
         }
     }
 
@@ -1766,6 +1886,20 @@ footer {
             }
         }
     }
+
+    .core-values {
+        .cards {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .card {
+                margin: 20px 0;
+                width: 100%;
+                height: 300px;
+                flex: unset;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -1799,7 +1933,7 @@ footer {
         flex-direction: column;
 
         .title-col {
-            margin: 80px 30px;
+            margin: 80px 30px 30px 30px;
         }
 
         .text-col {
@@ -1856,6 +1990,18 @@ footer {
 
 @media screen and (max-width: 450px){
 
+    .two-col-text {
+
+        .two-col-box:first-child {
+           
+            h2{
+            font-size: 33pt;
+            line-height: 41pt;
+            }
+
+        }
+    
+    }
 
     .text-image-col {
         .text-col {
@@ -1886,10 +2032,17 @@ footer {
     }
 
     .cards {
+        flex-direction: column;
+        align-items: center !important;
+
         .card {
-            margin: 0 7px;
-            padding: 90px 15px;
+            margin: 10px 0;
+            padding: 15px;
             min-width: 310px;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 
