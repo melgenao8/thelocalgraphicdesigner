@@ -72,10 +72,10 @@
         <!-- <div class="service-cards-bg"> -->
         <div class="process-title">
             <div class="process-step">
-                <h2 class="bebas-neue" id="process-step">01</h2>
+                <h2 class="trade-gothic" id="process-step">01</h2>
             </div>
             <div class="process-content">
-                <h3 class="bebas-neue" id="process-title">the Discovery</h3>
+                <h3 class="trade-gothic" id="process-title">the Discovery</h3>
                 <p id="process-text" class="simplon-norm-lite">Lorem ipsum dolor sit amet, consectetuer
                     adipiscing elit, sed diam nonummy nibh
                     euismod tincidunt ut laoreet dolore magna
@@ -193,5 +193,7 @@
 </div>
 
 
+<?php require_once("../navigation-cards.php")?>
+</div>
 
 <?php require_once("../footer.php");?>

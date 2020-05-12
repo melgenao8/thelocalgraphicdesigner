@@ -14,16 +14,19 @@
 </div>
 
 
+<div class="two-col two-col-text-home">
+    
+    <!-- LEFT COLUMN -->
+    <div class="two-col-box">
+        <div class="box">
+            <div class="title-col">
 
- <!-- WHO WE ARE : SECTION -->
- <div class="who-we-are-banner">
-    <div class="text">
+                <div class="left-col">
+                <div class="text">
         <div class="sub-title-1 simplon-mono-bold">welcome to<br> the local graphic designer
         </div>
         <div class="sub-title-2 freight-i-lite">specializing in strategic
         </div>
-        <!-- <div class="sub-title-2 freight-i-lite">audience focused
-        </div> -->
         <h1>brand + web design<br> for the local <br> self-made business        
         </h1>
 
@@ -31,7 +34,64 @@
         </div>
         
     </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <!-- RIGHT COLUMN -->
+    <div class="two-col-box">
+        <div class="box">
+ 
+      
+
+        <!-- <div class="spacer-div"></div>
+        
+
+        <div class="hr-line"></div>
+        <div class="sub-title">passionate about you
+        </div>
+            <p>I’m excited to know everything and anything about your business. All the reasons you’re passionate about your business can set the tone for your visuals. We will thoroughly go over your goals, and back all of our design decisions with intention.
+        </p>
+
+            <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg"></div>
+                Feel confident growing your bus</div>
+            <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg"></div>
+                Target your dream client</div>
+            <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg"></div>
+                Clear customer communication</div>  
+            </div>
+      
+       
+        <div class="spacer-div"></div> -->
 </div>
+
+    </div>
+</div>
+
+
+
+
+
+ <!-- ORIG WHO WE ARE : SECTION -->
+ <!-- <div class="who-we-are-banner">
+    <div class="text">
+        <div class="sub-title-1 simplon-mono-bold">welcome to<br> the local graphic designer
+        </div>
+        <div class="sub-title-2 freight-i-lite">specializing in strategic
+        </div>
+        <h1>brand + web design<br> for the local <br> self-made business        
+        </h1>
+
+        <div class="sub-title-2 freight-i-lite">all so you can start booking those clients!
+        </div>
+        
+    </div>
+</div> -->
 
 <div class="news-bg">
 </div>
@@ -43,6 +103,8 @@
     <h3>When you're passionate about growing your business and making authentic connections strategic branding and web design is no longer a luxury.</h3>
 </div>
 </div>
+
+
 
  <!-- LUXURY : SECTION -->
  <!-- <div class="not-a-luxury-banner simplon-norm-bold">

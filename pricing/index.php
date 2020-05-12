@@ -59,6 +59,8 @@
 
 
 <!-- NAVIGATION CARDS : SECTION -->
-<!-- <?php require_once("../navigation-cards-2.php")?> -->
+<?php require_once("../navigation-cards.php")?>
+</div>
+
 
 <?php require_once("../footer.php") ?>

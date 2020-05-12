@@ -49,7 +49,7 @@
                     </a>
                     <a href="#tab4" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab4"
                         aria-selected="false">
-                        Other
+                       General
                     </a>
 
                 </div>
@@ -269,14 +269,13 @@
                                     <h5>
                                         <button class="btn btn-link" type="button" data-toggle="collapse"
                                             data-target="#accordion-tab-4-content-1" aria-expanded="false"
-                                            aria-controls="accordion-tab-4-content-1">Will I be able to edit the social
-                                            media templates you create?</button>
+                                            aria-controls="accordion-tab-4-content-1">Do you offer payment plans?</button>
                                     </h5>
                                 </div>
                                 <div class="collapse" id="accordion-tab-4-content-1"
                                     aria-labelledby="accordion-tab-4-heading-1" data-parent="#accordion-tab-4">
                                     <div class="card-body">
-                                        <p>Yes. Templates are created through Canva.</p>
+                                        <p>Yes, we offer payment plans. All remaining invoices are to be paid in full upon project completion.</p>
                                     </div>
                                 </div>
                             </div>
@@ -287,20 +286,13 @@
                                     <h5>
                                         <button class="btn btn-link" type="button" data-toggle="collapse"
                                             data-target="#accordion-tab-4-content-2" aria-expanded="false"
-                                            aria-controls="accordion-tab-4-content-2">How do you create the custom
-                                            content
-                                            calendar?</button>
+                                            aria-controls="accordion-tab-4-content-2">How much do your packages cost?</button>
                                     </h5>
                                 </div>
                                 <div class="collapse" id="accordion-tab-4-content-2"
                                     aria-labelledby="accordion-tab-4-heading-2" data-parent="#accordion-tab-4">
                                     <div class="card-body">
-                                        <p>For me to create a complete social media content calendar I ask my clients to
-                                            sign up with the Later and Canva platforms. Later is an social media
-                                            scheduling
-                                            and planning tool. The Canva platform enables me to create custom graphics.
-                                            Both
-                                            platforms are free but offer upgraded packages.</p>
+                                        <p>All package pricing can be found here.</p>
                                     </div>
                                 </div>
                             </div>
@@ -399,6 +391,8 @@
 
 
 <!-- NAVIGATION CARDS : SECTION -->
-<?php require_once("../navigation-cards-2.php")?>
+<?php require_once("../navigation-cards.php")?>
+</div>
+
 
 <?php require_once("../footer.php") ?>

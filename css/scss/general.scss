@@ -593,6 +593,97 @@ p, h2, h3, h4, a {
     }
 }
 
+.two-col-text-home {
+    background: $cream;
+
+    .two-col-box:first-child {
+       
+        text-align: center;
+
+        .text{
+           
+            h1{
+                font-family: "Trade-Gothic-Bold20";
+                color:$brandblack;
+                text-transform: uppercase;
+                font-size: 34pt;
+                line-height: 38pt;
+                letter-spacing: 1.5px;
+                margin-bottom: 18px;
+            }
+            .sub-title-1{
+                text-transform: uppercase;
+                font-size: 14px;
+                letter-spacing:2px;
+                padding-bottom: 8px;
+                padding-top:20px;
+            }
+            .sub-title-2{
+                font-size: 22px;
+                padding-bottom: 16px;
+            }
+            .sub-title-3{
+                text-transform: uppercase;
+                font-size:9pt;
+                line-height: 17pt;
+                letter-spacing: 2px;
+                margin: 10px 0px;
+                color: $brandblack;
+                font-family: SimplonMono-Reg;
+             }
+            
+        }
+    }
+
+
+    .two-col-box:last-child {
+
+        background-image: url("../img/home-about-me-pic-sq.jpg");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;  
+        color:$brandblack;
+        height:550px;
+
+
+    }
+}
+
+.two-col-home {
+    display: flex;
+
+    .two-col-box {
+        padding: 275px 100px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .box {
+            align-items: center;
+
+            h3 {
+                margin-right: 20px;
+                font-size: 50px;
+            }
+
+            h4{
+                font-family: SimplonMono-Bold;
+                text-transform: uppercase;
+                color:$cream;
+                font-size: 8.5pt;
+                line-height: 20px;
+                letter-spacing: 1.5px;
+                padding-bottom: 10px;
+                margin:0 auto;
+                text-align: center;
+            }
+        }
+
+    }
+}
+
 .two-col-text {
     background: $cream;
 
@@ -675,6 +766,9 @@ p, h2, h3, h4, a {
 
     }
 }
+
+
+
 
 .four-col{
     display: flex;
@@ -856,8 +950,8 @@ p, h2, h3, h4, a {
             background-position: center;
         }
 
-        &#website-nav-bg{
-            background-image:url("../img/3-nav-imgs/carousel-test-img.jpg");
+        &#about-nav-bg{
+            background-image:url("../img/3-nav-imgs/nav-about-img-2.jpg");
             background-size: cover;
             background-position: center;
         }
@@ -1100,12 +1194,11 @@ p, h2, h3, h4, a {
 }
 
 .nav-banner {
-
     // padding-bottom: 180px;
     position: relative;
     
     nav {
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.95);
         position: absolute;
         padding-top: 25px;
         padding-bottom: 30px;
@@ -1126,10 +1219,10 @@ p, h2, h3, h4, a {
             }
 
             .nav-brand {
-                top: 5px;
+                // top: 5px;
 
                 img {
-                    max-width: 80px;
+                    max-width: 50px;
                     margin-top: 15px;
                 }
             }
@@ -1439,7 +1532,7 @@ p, h2, h3, h4, a {
     position: relative;
     
     nav {
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.95);
         position: absolute;
         padding-bottom: 15px;
         padding-top:10px;
@@ -2153,7 +2246,6 @@ footer {
         }
 
     }
-
 
 
     footer {

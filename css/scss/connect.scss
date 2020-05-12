@@ -43,6 +43,22 @@
     }
 }
 
+
+.contact-form-container {
+
+    .contact-form {
+
+        .block-component{
+
+            .hbui-input{
+                font-family: SimplonMono-Reg;
+            font-size: 14px;
+            }
+        }
+    }
+}
+
+
 .stay-connected {
     text-align: center;
     background: $nav-text;
@@ -73,7 +89,7 @@
 }
 
 .connect-form {
-    padding: 50px 20px;
+    // padding: 50px 20px;
     margin: 0 auto;
 
     .bc{
@@ -85,13 +101,14 @@
     }
 
     h2{
-        font-family: 'Bebas Neue', cursive;
-        font-size: 50pt;
+        font-family: "Trade-Gothic-Bold20";
+        font-size: 40pt;
         line-height: 45pt;
         letter-spacing: 5px;
         color:$cream;
         text-transform: uppercase;
         text-align: center;
+        padding-top:30px;
         }
 
         h3{
@@ -99,7 +116,7 @@
             font-style: italic;
             font-weight: 300;
             color:$brandgreen;
-            font-size: 23pt;
+            font-size: 13pt;
             line-height: 23pt;
             padding: 0px 20px;
             margin:30px;
@@ -114,6 +131,7 @@
 
         div {
             display: flex;
+            align-items: center;
 
             input {
                 flex: 1;
@@ -171,6 +189,16 @@
         }
     }
 }
+ 
+.checkbox-container {
+    background: $cream;
+    display: block !important;
+
+    input {
+        margin: 0 !important;
+    }
+}
+
 
 @media screen and (max-width: 600px){
     .connect-form{

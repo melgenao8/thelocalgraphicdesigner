@@ -4,7 +4,8 @@
 
 // if(isset($_POST['submit'])){
 
-//     $fullname = mysqli_real_escape_string($link, $_POST['fullname']);
+//     $firstname = mysqli_real_escape_string($link, $_POST['firstname']);
+//     $lastname = mysqli_real_escape_string($link, $_POST['lastname']);
 //     $email = mysqli_real_escape_string($link, $_POST['businessemail']);
 //     $businessname = mysqli_real_escape_string($link, $_POST['businessname']);
 //     $industry = mysqli_real_escape_string($link, $_POST['businessindustry']);
@@ -15,7 +16,7 @@
 //     $notes = mysqli_real_escape_string($link, $_POST['notes']);
     
 
-//     $sql = "INSERT INTO inquiries (fullname, email, businessname, industry, website, interested, instagram, budget, notes) VALUES('{$fullname}', '{$email}', '{$businessname}', '{$industry}', '{$website}', '{$interested}', '{$instagram}', '{$budget}', '{$notes}')";
+//     $sql = "INSERT INTO inquiries (firstname, lastname, email, businessname, industry, website, interested, instagram, budget, notes) VALUES('{$firstname}', '{$lastname}' ,'{$email}', '{$businessname}', '{$industry}', '{$website}', '{$interested}', '{$instagram}', '{$budget}', '{$notes}')";
 
 //     if (mysqli_query($link, $sql)) {
 //         echo "New record created successfully";
@@ -50,27 +51,30 @@
         </div> -->
 </div>
 
+
+<!-- CONTACT FORM -->
 <div class="connect-form">
     <form action="" method="post">
-        <h3>please fill out form below</h3>
+        
         <h2>i'm so excited to learn more about your project</h2>
-        <div class="bc">Responses are within 48 hours</div>
+        <h3>please fill out form below</h3>
 
-        <div>
+        <!-- <div>
             <input type="text" placeholder="First Name*" name="firstname" required>
             <input type="text" placeholder="Last Name*" name="lastname" required>
-            <input type="text" placeholder="Business Email*" name="businessemail" required>
         </div>
 
-        <input type="text" placeholder="Business Name*" name="businessname">
-        <input type="text" placeholder="Business Industry*" name="businessindustry">
+        <input type="text" placeholder="Business Email*" name="businessemail" required>
+
+        <input type="text" placeholder="Business Name*" name="businessname" required>
+        <input type="text" placeholder="Business Industry*" name="businessindustry" required>
 
         <div>
             <input type="text" placeholder="Business Website" name="businesswebsite">
             <input type="text" placeholder="Business Instagram" name="businessinstagram">
         </div>
 
-        <select name="interested" id="">
+        <select name="budget" id="" required>
 
             <option value="" selected>$2000-$4000</option>
             <option value="" selected>$4000-$6000</option>
@@ -81,28 +85,44 @@
             
             </select>
         
-        <div>    
+        <div class="checkbox-container">        
+            <p>I'm interested in...(Select all that apply)</p>
             
-            I'm interested in...(Select all that apply)
-            <span style="white-space:nowrap; display:inline-block;line-height:2em;">
-                <input type="checkbox" name="type" value="branding" />&nbsp; Branding &nbsp;&nbsp;</span>
-                <span style="white-space:nowrap; display:inline-block">
-                <input type="checkbox" name="type" value="website" />&nbsp; Website &nbsp;&nbsp;</span>
-                <span style="white-space:nowrap; display:inline-block">
-                <input type="checkbox" name="type" value="social media" />&nbsp; Social Media &nbsp;&nbsp;</span>
-                <span style="white-space:nowrap; display:inline-block">
-                <input type="checkbox" name="type" value="add-on services" />&nbsp; Add-On Services &nbsp;&nbsp;</span>
-                <span style="white-space:nowrap; display:inline-block">
-                <input type="checkbox" name="type" value="other" />&nbsp; Other</span>
+            <div>
+                
+                <span style="white-space:nowrap; display:inline-block;line-height:2em;">
+                    <input type="checkbox" name="interested" value="branding" />&nbsp; Branding &nbsp;&nbsp;</span>
+                    <span style="white-space:nowrap; display:inline-block">
+                    <input type="checkbox" name="interested" value="website" />&nbsp; Website &nbsp;&nbsp;</span>
+                    <span style="white-space:nowrap; display:inline-block">
+                    <input type="checkbox" name="interested" value="social media" />&nbsp; Social Media &nbsp;&nbsp;</span>
+                    <span style="white-space:nowrap; display:inline-block">
+                    <input type="checkbox" name="interested" value="add-on services" />&nbsp; Add-On Services &nbsp;&nbsp;</span>
+                    <span style="white-space:nowrap; display:inline-block">
+                    <input type="checkbox" name="interested" value="other" />&nbsp; Other</span>
+            </div>
         </div>
 
 
         <textarea name="notes" id="" cols="30" rows="6" placeholder="Other notes"></textarea>
 
-        <button class="simplon-mono-bold">Submit</button>
+        <button class="simplon-mono-bold">Submit</button> -->
 
     </form>
 </div>
+
+<!-- <label for="check-branding">Branding</label>
+                <input type="checkbox" id="check-branding"> -->
+
+
+<div class="hb-p-5eba12a103ec9a283ff2f028-1 "></div><img height="1" width="1" style="display:none" src="https://www.honeybook.com/p.png?pid=5eba12a103ec9a283ff2f028">
+<script>
+  (function(h,b,s,n,i,p,e,t) {
+    h._HB_ = h._HB_ || {};h._HB_.pid = i;;;;
+    t=b.createElement(s);t.type="text/javascript";t.async=!0;t.src=n;
+    e=b.getElementsByTagName(s)[0];e.parentNode.insertBefore(t,e);
+})(window,document,"script","https://widget.honeybook.com/assets_users_production/websiteplacements/placement-controller.min.js","5eba12a103ec9a283ff2f028");
+</script>
 
 <!-- <input type="text" placeholder="Budget..." name="budget"> -->
 

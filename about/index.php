@@ -177,5 +177,7 @@
 
    
 
+<?php require_once("../navigation-cards.php")?>
+</div>
 
 <?php require_once("../footer.php");?>

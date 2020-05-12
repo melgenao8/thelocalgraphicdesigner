@@ -92,9 +92,9 @@
             swipe right to see all
         </div>
 
-        <div class="arrow-down">
+        <!-- <div class="arrow-down">
                 <img src="img/icons/yellow-arrow-dow.svg" alt="down arrow">
-            </div>
+            </div> -->
     </div>
    
     <!-- PACKAGE CARDS-->
