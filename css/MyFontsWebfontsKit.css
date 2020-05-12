@@ -73,6 +73,12 @@
        
 }
 
+@font-face {
+  font-family: "Trade-Gothic-Cond18";
+  src: url("webFonts/TradeGothic/TradeGothicLTStd-Cn18.otf") format("woff2");
+       
+}
+
 
 
 
@@ -100,6 +106,11 @@
 .trade-gothic{
   font-family: "Trade-Gothic-Bold20";
 }
+
+.trade-gothic-cond-18{
+  font-family: "Trade-Gothic-Cond18";
+}
+
 
 
 

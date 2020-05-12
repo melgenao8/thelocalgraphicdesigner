@@ -33,7 +33,7 @@
     <!-- <div class="footer-logo"> -->
     <div class="footer-text">
         <div class="simplon-mono-bold text-1">the local graphic designer<BR></div>
-        <div class="bebas-neue text-2">brand + web design<br> for self-made businesses<BR></div>
+        <div class="bebas-neue text-2">brand + web design<br> for the local <br>self-made business<BR></div>
         <div class="simplon-mono-bold text-3">est. dallas, texas<BR></div>
         <!-- <img src="img/logo/the-local-graphic-designer-SYMBOL-green.png" alt="secondary-logo-TLGC"> -->
     </div>

@@ -4,10 +4,23 @@
     background-image: url("../img/bg/home-banner-collage-8.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position:center;
+    
+    .bg-bar{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    padding-bottom: 15px;
+    padding-top:10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    margin-top: 200px;
+    }
 }
 
 .who-we-are-banner {
-    padding: 100px 34px 100px 20px;
+    padding: 200px 34px 75px 20px;
     background-color: $cream;
     color: $black;
     margin: 0 auto;
@@ -19,21 +32,20 @@
                 font-family: "Trade-Gothic-Bold20";
                 color:$brandblack;
                 text-transform: uppercase;
-                font-size: 37pt;
-                line-height: 36pt;
+                font-size: 34pt;
+                line-height: 38pt;
                 letter-spacing: 1.5px;
-                margin-bottom: 28px;
+                margin-bottom: 18px;
             }
             .sub-title-1{
                 text-transform: uppercase;
-                font-size: 24px;
+                font-size: 14px;
                 letter-spacing:2px;
-                padding-bottom: 20px;
+                padding-bottom: 8px;
             }
             .sub-title-2{
-                color: $brandgreen;
-                font-size: 27px;
-                padding-bottom: 28px;
+                font-size: 22px;
+                padding-bottom: 16px;
             }
             .sub-title-3{
                 text-transform: uppercase;
@@ -48,6 +60,38 @@
         }
 
 }
+
+.not-a-luxury-banner-2 {
+    text-align: center;
+    background: $neutral-1;
+    color:$cream;
+    padding: 150px 23px;
+    // background-image: url("../img/bg/stars-bg-tan.png");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+
+    h2 {
+        font-size: 35px;
+        margin-bottom:-30px;
+    }
+
+    h3 {
+        color:$cream;
+        font-size: 38px;
+        line-height:41px;
+        max-width: 601px;
+        margin:0 auto;
+    }
+    h4{
+        font-family: SimplonMono-Bold;
+        text-transform: uppercase;
+        font-size: 8.5pt;
+        letter-spacing: 1.5px;
+        padding-bottom: 10px;
+        }
+
+}
+
 
 .not-a-luxury-banner {
     background-color: $nav-text;
@@ -111,7 +155,7 @@
         text-transform: uppercase;
         font-size: 8.5pt;
         line-height: 20px;
-        letter-spacing: 1.5px;
+        letter-spacing: 3.5px;
         padding-bottom: 10px;
         width:70%;
         margin:0 auto;     
@@ -139,7 +183,10 @@
         margin: 0 auto;
         
     }
-
+    .sub-title-2{
+        font-size: 22px;
+        padding-bottom: 16px;
+    }
     .five-col{
 
         width:80%;

@@ -1,50 +1,57 @@
 <?php require_once("header-no-pricing.php")?>
 
-<div class="container-fluid nav-banner-home homepage-banner">
+<div class="container-fluid nav-banner homepage-banner">
     
-    <?php require_once("home-navigation.php")?>
+    <?php require_once("navigation.php")?>
 
 <!------------------------------------------
  * home page landing IMAGE
  * ---------------------------------------- -->
     <div class="banner">
+
     </div>
+    
 </div>
+
 
 
  <!-- WHO WE ARE : SECTION -->
  <div class="who-we-are-banner">
     <div class="text">
-        <div class="sub-title-1 simplon-norm-reg">welcome to the local graphic designer
+        <div class="sub-title-1 simplon-mono-bold">welcome to<br> the local graphic designer
         </div>
         <div class="sub-title-2 freight-i-lite">specializing in strategic
         </div>
         <!-- <div class="sub-title-2 freight-i-lite">audience focused
         </div> -->
-        <h1>brand + web design for <br>local, self-made businesses        
+        <h1>brand + web design<br> for the local <br> self-made business        
         </h1>
 
-        <div class="sub-title-3">all so you can start booking those clients!
+        <div class="sub-title-2 freight-i-lite">all so you can start booking those clients!
         </div>
         
     </div>
 </div>
 
+<div class="news-bg">
+</div>
 
+<!-- MISSION STATEMENT : SECTION -->
+<div class="not-a-luxury-banner-2">
+    <div class="col-title-dark-2">
+    <h4>real growth and connection</h4>
+    <h3>When you're passionate about growing your business and making authentic connections strategic branding and web design is no longer a luxury.</h3>
+</div>
+</div>
 
  <!-- LUXURY : SECTION -->
- <div class="not-a-luxury-banner simplon-norm-bold">
+ <!-- <div class="not-a-luxury-banner simplon-norm-bold">
 
         <div class= "title-1">for small businesses</div>
         <div class= "title-3">looking to convert</div>
         <div class= "title-2">visitors to customers</div>
         <div class= "title-1">brand+web design<br> is no longer a luxury</div>
-        
-
-        <!-- <div class="arrow-down">
-            <img src="img/icons/yellow-arrow-dow.svg" alt="down arrow">
-        </div> -->
-</div>
+</div> -->
 
 
 
@@ -58,8 +65,9 @@
     <h3>your local business is your livelihood</h3>
     <div class="header-2">don't let these concerns hold you back any longer
     </div>
-    <div class="sub-title">if any of these apply, it's time for a professional rebrand      
-    </div>
+    <div class="sub-title-2 freight-i-lite">if any of these apply, it's time for a professional rebrand 
+        </div>
+
     
 
         <!-- FOUR FLEX ROWS -->

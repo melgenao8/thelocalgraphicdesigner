@@ -14,10 +14,10 @@
                 <a class="nav-link sofia-sb" href="work.html">Work</a>
             </li> -->
             <li class="nav-item">
-                <a class="nav-link bebas-neue" href="/services">Services</a>
+                <a class="nav-link trade-gothic-cond-18" href="/services">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link  bebas-neue" href="/process">The Process</a>
+                <a class="nav-link  trade-gothic-cond-18" href="/process">The Process</a>
             </li>
             <li class="nav-item nav-logo">
 
@@ -29,10 +29,10 @@
                 <a class="nav-link sofia-sb" href="learn.html">Learn</a>
             </li> -->
             <li class="nav-item">
-                <a class="nav-link  bebas-neue" href="/about">About</a>
+                <a class="nav-link  trade-gothic-cond-18" href="/about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link  bebas-neue" href="/contact">Contact</a>
+                <a class="nav-link  trade-gothic-cond-18" href="/contact">Contact</a>
             </li>
         </ul>
         </ul>
