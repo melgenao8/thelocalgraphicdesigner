@@ -101,11 +101,39 @@
     <div class="center-container-cards">
         <div class="packages">
 
-        <div class="swiper-container services-swiper">
-            <div class="swiper-wrapper">
+        <!-- <div class="two-text-col left-text">
+            <div class="title-col">
+                <div class="left-text-content">
+                    <h2 class="freight-i-lite">Browse base services.</h2>
+                    
+                    <div class="arrow-right">
+                        <img src="img/icons/yellow-arrow-right.svg" alt="right arrow">
+                    </div>
+
+                    <div class ="arrow-sub-text sackers-gothic">swipe cards</div>
+
+                    <p class="sofia-light">Packages are a great place to start.
+                                        These services can be combined and
+                                        tailored to your specific needs.
+                                        Take a look at what each package
+                                        offers, and deliverables provided.
+                    </p>               
+                
+                    <div class="main-btn-left-dark">
+                    <a href="/services">view services</a>
+                </div>
+            </div>
+        </div>
+        
+            <div class="text-col"> -->
+
+        <!-- <div class="swiper-container services-swiper">
+            <div class="swiper-wrapper"> -->
+                <div class="cards">
 
                 <!-- BRANDING BASICS -->
-                <div class="swiper-slide card">
+                <div>
+                <div class="card">
 
                     <div class="top-card top-card-bg">
                         
@@ -143,9 +171,11 @@
                     </div>
 
                 </div>
+                </div>
 
                 <!-- WEBSITE BASICS -->
-                <div class="swiper-slide card">
+                <div>
+                <div class="card">
 
                     <div class="top-card top-card-bg">
                         
@@ -182,9 +212,11 @@
                     </div>
                     
                 </div>
+                </div>
 
                 <!-- SOCIAL BASICS -->
-                <div class="swiper-slide card">
+                <div>
+                <div class="card">
 
                     <div class="top-card top-card-bg">
                         
@@ -222,10 +254,11 @@
                     </div>
 
                 </div>
+                </div>
 
-            </div>
+            <!-- </div> -->
         <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
+        <!-- <div class="swiper-pagination"></div> -->
     </div>
     </div>
         

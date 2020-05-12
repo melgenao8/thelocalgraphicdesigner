@@ -225,6 +225,19 @@
     // }
 }
 
+@media screen and (max-width: 1200px) {
+    .about-values {
+        .cards {
+            justify-content: space-between;
+            .card {
+                min-width: unset;
+                max-width: unset;
+                width: 30%;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 850px) {
     .collaboration {
         .collab-cols {
@@ -241,6 +254,21 @@
         
         .founder-content {
             margin-left: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-values {
+        padding-right: 20px;
+        .cards {
+            flex-direction: column;
+            align-items: center;
+            .card {
+                width: 100%;
+                max-width: 350px;
+                margin: 20px 0;
+            }
         }
     }
 }

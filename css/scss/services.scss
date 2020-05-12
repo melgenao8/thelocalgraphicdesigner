@@ -64,15 +64,21 @@
     padding: 20px 0 100px;
     overflow: hidden;
 
-    // .cards {
-    //     align-items: stretch;
-    //     justify-content: flex-start;
-        .swiper-container {
-            overflow: hidden !important;
-        }
 
-        .swiper-slide {
-            align-items: stretch !important;
+    .cards {
+        align-items: stretch;
+        height: 100%;
+        justify-content: center;
+        overflow-y: scroll;
+        // .swiper-container {
+        //     overflow: hidden !important;
+        // }
+
+        // .swiper-slide {
+        //     align-items: stretch !important;
+        // }
+        > div {
+            align-items: stretch;
         }
 
         .card {
@@ -82,6 +88,9 @@
             max-width: 375px;
             min-width: 375px;
             border-radius:1px;
+            height: 100%;
+            margin: 0 20px;
+            align-items: stretch;
 
             .top-card {
                 background: $cream;
@@ -173,7 +182,7 @@
             }
         }
     }   
-// }
+}
 
 
 .center-container-cards{
@@ -452,7 +461,7 @@
 
 @media screen and (max-width: 1480px) {
     .packages {
-        padding-left: 15px;
+        // padding-left: 15px;
         // padding-right: 15px;
         .cards {
             .card {
@@ -471,9 +480,27 @@
             justify-content: center;
         }
     }
+
+    // .packages {
+    //     .cards {
+
+    //         > div:first-of-type {
+    //             .card:first-child {
+    //                 margin-left: 20px;
+    //             }
+    //         }
+            
+    //     }
+    // }
 }
 
 @media screen and (max-width: 1200px) {
+    .packages {
+        .cards {
+            justify-content: flex-start;
+        }
+    }
+
     .branded-content {
         .title-col {
             margin-right: 20px;
@@ -589,11 +616,15 @@
                         padding: 0 20px;
                     }
                 }
-
-                &:first-child {
-                    margin-left: 0;
-                }
             }
+
+            // > div:last-of-type {
+            //     .card {
+            //         &:last-child {
+            //             margin-right: 20px;
+            //         }
+            //     }
+            // }
         }
     }
 }

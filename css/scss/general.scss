@@ -943,6 +943,7 @@ p, h2, h3, h4, a {
     .service-nav-cards {
         align-items: stretch;
         padding-left:20px;
+        overflow-x: scroll;
 
         .card {
             // width:375px;
@@ -1687,6 +1688,10 @@ footer {
         color:$cream;
         }
 
+        a {
+            color:#fff;
+        }
+
     .footer-social {
         display: flex;
         margin-top: 20px;
@@ -1793,7 +1798,7 @@ footer {
     }
 
     .cards {
-        // justify-content: flex-start;
+        justify-content: flex-start;
 
         .card {
 
@@ -1820,7 +1825,7 @@ footer {
 
         div:first-of-type {
             order: 1;
-            margin-top: 20px;
+            // margin-top: 20px;
         }
 
         h2{
@@ -1838,7 +1843,8 @@ footer {
         .footer-links {
             display: flex;
             align-items: flex-start;
-            margin-top:20px;
+            // margin-top:20px;
+            flex-direction: row;
 
             p {
                 text-align: center;
@@ -2062,15 +2068,15 @@ footer {
 
     .core-values {
         .cards {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            .card {
-                margin: 20px 0;
-                width: 100%;
-                height: 300px;
-                flex: unset;
-            }
+            // flex-direction: column;
+            // justify-content: center;
+            // align-items: center;
+            // .card {
+            //     margin: 20px 0;
+            //     width: 100%;
+            //     height: 300px;
+            //     flex: unset;
+            // }
         }
     }
 }
@@ -2204,12 +2210,19 @@ footer {
         }
     }
 
+    .core-values {
+        .service-nav-cards {
+            padding: 0;
+        }
+    }
+    
+
     .cards {
-        flex-direction: column;
-        align-items: center !important;
+        // flex-direction: column;
+        // align-items: center !important;
 
         .card {
-            margin: 10px 0;
+            margin: 10px 7px;
             padding: 15px;
             min-width: 310px;
             height: 250px;

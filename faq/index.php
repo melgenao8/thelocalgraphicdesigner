@@ -16,9 +16,9 @@
 
 <div class="pricing-pg-title">
     <div class="download-form">
-        
+
         <div class="title-headers">
-           
+
             <div class="header-1">Frequently Asked Questions
             </div>
         </div>
@@ -35,19 +35,23 @@
 
             <div class="col-lg-12">
                 <div class="nav md-pills faq-nav" id="faq-tabs" role="tablist" aria-orientation="vertical">
-                    <a href="#tab1" class="nav-link active" data-toggle="pill" role="tab" aria-controls="tab1" aria-selected="true">
+                    <a href="#tab1" class="nav-link active" data-toggle="pill" role="tab" aria-controls="tab1"
+                        aria-selected="true">
                         Branding
                     </a>
-                    <a href="#tab2" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab2" aria-selected="false">
-                    Website
+                    <a href="#tab2" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab2"
+                        aria-selected="false">
+                        Website
                     </a>
-                    <a href="#tab3" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab3" aria-selected="false">
+                    <a href="#tab3" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab3"
+                        aria-selected="false">
                         Social
                     </a>
-                    <!-- <a href="#tab4" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab4" aria-selected="false">
-                       Other
-                    </a> -->
-                
+                    <a href="#tab4" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab4"
+                        aria-selected="false">
+                        Other
+                    </a>
+
                 </div>
             </div>
 
@@ -56,19 +60,24 @@
                 <div class="tab-content" id="faq-tab-content">
 
                     <!-- TAB 1:BRANDING -->
-                    <div class="tab-pane show active" id="tab1" role="tabpanel" aria-labelledby="tab1">
+                    <div class="tab-pane active" id="tab1" role="tabpanel" aria-labelledby="tab1">
                         <div class="accordion" id="accordion-tab-1">
 
                             <!-- question 1 -->
                             <div class="card">
                                 <div class="card-header" id="accordion-tab-1-heading-1">
                                     <h5>
-                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-1" aria-expanded="false" aria-controls="accordion-tab-1-content-1">Do you only make logos?</button>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#accordion-tab-1-content-1" aria-expanded="false"
+                                            aria-controls="accordion-tab-1-content-1">Do you only make logos?</button>
                                     </h5>
                                 </div>
-                                <div class="collapse show" id="accordion-tab-1-content-1" aria-labelledby="accordion-tab-1-heading-1" data-parent="#accordion-tab-1">
+                                <div class="collapse" id="accordion-tab-1-content-1"
+                                    aria-labelledby="accordion-tab-1-heading-1" data-parent="#accordion-tab-1">
                                     <div class="card-body">
-                                        <p>Your brand is more than just a logo. For this reason, in order to keep brand consistency and provide you the full benefit of branding I do not offer solo logo design.  </p>
+                                        <p>Your brand is more than just a logo. For this reason, in order to keep brand
+                                            consistency and provide you the full benefit of branding I do not offer solo
+                                            logo design. </p>
                                     </div>
                                 </div>
                             </div>
@@ -77,12 +86,18 @@
                             <div class="card">
                                 <div class="card-header" id="accordion-tab-1-heading-2">
                                     <h5>
-                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-2" aria-expanded="false" aria-controls="accordion-tab-1-content-2">How long does a Branding project take?</button>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#accordion-tab-1-content-2" aria-expanded="false"
+                                            aria-controls="accordion-tab-1-content-2">How long does a Branding project
+                                            take?</button>
                                     </h5>
                                 </div>
-                                <div class="collapse" id="accordion-tab-1-content-2" aria-labelledby="accordion-tab-1-heading-2" data-parent="#accordion-tab-1">
+                                <div class="collapse" id="accordion-tab-1-content-2"
+                                    aria-labelledby="accordion-tab-1-heading-2" data-parent="#accordion-tab-1">
                                     <div class="card-body">
-                                        <p>Branding projects typically take 4 weeks to complete but can vary based on each client. Project timelines are subject to client timely feedback and responses.</p>
+                                        <p>Branding projects typically take 4 weeks to complete but can vary based on
+                                            each client. Project timelines are subject to client timely feedback and
+                                            responses.</p>
                                     </div>
                                 </div>
                             </div>
@@ -91,12 +106,21 @@
                             <div class="card">
                                 <div class="card-header" id="accordion-tab-1-heading-3">
                                     <h5>
-                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-3" aria-expanded="false" aria-controls="accordion-tab-1-content-3">I’ve never worked with a designer before. What should I expect?</button>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#accordion-tab-1-content-3" aria-expanded="false"
+                                            aria-controls="accordion-tab-1-content-3">I’ve never worked with a designer
+                                            before. What should I expect?</button>
                                     </h5>
                                 </div>
-                                <div class="collapse" id="accordion-tab-1-content-3" aria-labelledby="accordion-tab-1-heading-3" data-parent="#accordion-tab-1">
+                                <div class="collapse" id="accordion-tab-1-content-3"
+                                    aria-labelledby="accordion-tab-1-heading-3" data-parent="#accordion-tab-1">
                                     <div class="card-body">
-                                        <p>I am here to make this process as overwhelm-free and simple as possible. A shared calendar helps us both to stay on track with your project. The schedule will include design meetings, where I will present current progress on your project. Once a design meeting is completed, your feedback is usually required. This collaborative relationship helps to craft a brand identity your audience will love, and one that you are proud of!</p>
+                                        <p>I am here to make this process as overwhelm-free and simple as possible. A
+                                            shared calendar helps us both to stay on track with your project. The
+                                            schedule will include design meetings, where I will present current progress
+                                            on your project. Once a design meeting is completed, your feedback is
+                                            usually required. This collaborative relationship helps to craft a brand
+                                            identity your audience will love, and one that you are proud of!</p>
                                     </div>
                                 </div>
                             </div>
@@ -105,12 +129,17 @@
                             <div class="card">
                                 <div class="card-header" id="accordion-tab-1-heading-4">
                                     <h5>
-                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-1-content-4" aria-expanded="false" aria-controls="accordion-tab-1-content-4">What do I do once the branding project is complete?</button>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#accordion-tab-1-content-4" aria-expanded="false"
+                                            aria-controls="accordion-tab-1-content-4">What do I do once the branding
+                                            project is complete?</button>
                                     </h5>
                                 </div>
-                                <div class="collapse" id="accordion-tab-1-content-4" aria-labelledby="accordion-tab-1-heading-4" data-parent="#accordion-tab-1">
+                                <div class="collapse" id="accordion-tab-1-content-4"
+                                    aria-labelledby="accordion-tab-1-heading-4" data-parent="#accordion-tab-1">
                                     <div class="card-body">
-                                        <p>I will provide you with any final files you will need to execute your brand.</p>
+                                        <p>I will provide you with any final files you will need to execute your brand.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -125,12 +154,18 @@
                             <div class="card">
                                 <div class="card-header" id="accordion-tab-2-heading-1">
                                     <h5>
-                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-1" aria-expanded="false" aria-controls="accordion-tab-2-content-1">How long does a Website project take?</button>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#accordion-tab-2-content-1" aria-expanded="false"
+                                            aria-controls="accordion-tab-2-content-1">How long does a Website project
+                                            take?</button>
                                     </h5>
                                 </div>
-                                <div class="collapse show" id="accordion-tab-2-content-1" aria-labelledby="accordion-tab-2-heading-1" data-parent="#accordion-tab-2">
+                                <div class="collapse" id="accordion-tab-2-content-1"
+                                    aria-labelledby="accordion-tab-2-heading-1" data-parent="#accordion-tab-2">
                                     <div class="card-body">
-                                        <p>Website projects typically take 8 weeks to complete but can vary based on each client. Project timelines are subject to client timely feedback and responses.</p>
+                                        <p>Website projects typically take 8 weeks to complete but can vary based on
+                                            each client. Project timelines are subject to client timely feedback and
+                                            responses.</p>
                                     </div>
                                 </div>
                             </div>
@@ -139,12 +174,18 @@
                             <div class="card">
                                 <div class="card-header" id="accordion-tab-2-heading-2">
                                     <h5>
-                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-2" aria-expanded="false" aria-controls="accordion-tab-2-content-2">Are your websites designed on platforms such as Wordpress, Squarespace, or Shopify?</button>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#accordion-tab-2-content-2" aria-expanded="false"
+                                            aria-controls="accordion-tab-2-content-2">Are your websites designed on
+                                            platforms such as Wordpress, Squarespace, or Shopify?</button>
                                     </h5>
                                 </div>
-                                <div class="collapse" id="accordion-tab-2-content-2" aria-labelledby="accordion-tab-2-heading-2" data-parent="#accordion-tab-2">
+                                <div class="collapse" id="accordion-tab-2-content-2"
+                                    aria-labelledby="accordion-tab-2-heading-2" data-parent="#accordion-tab-2">
                                     <div class="card-body">
-                                        <p>Currently all websites are created using HTML5/SCSS, and are uploaded directly to your hosting provider. Should you be interested in using a platform, let me know and we can discuss how to move forward.</p>
+                                        <p>Currently all websites are created using HTML5/SCSS, and are uploaded
+                                            directly to your hosting provider. Should you be interested in using a
+                                            platform, let me know and we can discuss how to move forward.</p>
                                     </div>
                                 </div>
                             </div>
@@ -153,12 +194,18 @@
                             <div class="card">
                                 <div class="card-header" id="accordion-tab-2-heading-3">
                                     <h5>
-                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-3" aria-expanded="false" aria-controls="accordion-tab-2-content-3">Do you handle domain/hosting/server costs?</button>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#accordion-tab-2-content-3" aria-expanded="false"
+                                            aria-controls="accordion-tab-2-content-3">Do you handle
+                                            domain/hosting/server costs?</button>
                                     </h5>
                                 </div>
-                                <div class="collapse" id="accordion-tab-2-content-3" aria-labelledby="accordion-tab-2-heading-3" data-parent="#accordion-tab-2">
+                                <div class="collapse" id="accordion-tab-2-content-3"
+                                    aria-labelledby="accordion-tab-2-heading-3" data-parent="#accordion-tab-2">
                                     <div class="card-body">
-                                        <p>I do not purchase your domain/hosting/server costs. While my clients are responsible for these purchases, I do guide you through the process and best practices.</p>
+                                        <p>I do not purchase your domain/hosting/server costs. While my clients are
+                                            responsible for these purchases, I do guide you through the process and best
+                                            practices.</p>
                                     </div>
                                 </div>
                             </div>
@@ -169,15 +216,19 @@
                     <!-- TAB 3: SOCIAL MEDIA -->
                     <div class="tab-pane" id="tab3" role="tabpanel" aria-labelledby="tab3">
                         <div class="accordion" id="accordion-tab-3">
-                            
+
                             <!-- question 1 -->
                             <div class="card">
                                 <div class="card-header" id="accordion-tab-3-heading-1">
                                     <h5>
-                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-3-content-1" aria-expanded="false" aria-controls="accordion-tab-3-content-1">Will I be able to edit the social media templates you create?</button>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#accordion-tab-3-content-1" aria-expanded="false"
+                                            aria-controls="accordion-tab-3-content-1">Will I be able to edit the social
+                                            media templates you create?</button>
                                     </h5>
                                 </div>
-                                <div class="collapse show" id="accordion-tab-3-content-1" aria-labelledby="accordion-tab-3-heading-1" data-parent="#accordion-tab-3">
+                                <div class="collapse" id="accordion-tab-3-content-1"
+                                    aria-labelledby="accordion-tab-3-heading-1" data-parent="#accordion-tab-3">
                                     <div class="card-body">
                                         <p>Yes. Templates are created through Canva.</p>
                                     </div>
@@ -188,62 +239,82 @@
                             <div class="card">
                                 <div class="card-header" id="accordion-tab-3-heading-2">
                                     <h5>
-                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-3-content-2" aria-expanded="false" aria-controls="accordion-tab-3-content-2">How do you create the custom content calendar?</button>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#accordion-tab-3-content-2" aria-expanded="false"
+                                            aria-controls="accordion-tab-3-content-2">How do you create the custom
+                                            content calendar?</button>
                                     </h5>
                                 </div>
-                                <div class="collapse" id="accordion-tab-3-content-2" aria-labelledby="accordion-tab-3-heading-2" data-parent="#accordion-tab-3">
+                                <div class="collapse" id="accordion-tab-3-content-2"
+                                    aria-labelledby="accordion-tab-3-heading-2" data-parent="#accordion-tab-3">
                                     <div class="card-body">
-                                        <p>For me to create a complete social media content calendar I ask my clients to sign up with the Later and Canva platforms. Later is an social media scheduling and planning tool. The Canva platform enables me to create custom graphics. Both platforms are free but offer upgraded packages.</p>
+                                        <p>For me to create a complete social media content calendar I ask my clients to
+                                            sign up with the Later and Canva platforms. Later is an social media
+                                            scheduling and planning tool. The Canva platform enables me to create custom
+                                            graphics. Both platforms are free but offer upgraded packages.</p>
                                     </div>
                                 </div>
                             </div>
 
-                            </div>
                         </div>
                     </div>
 
                     <!-- TAB 4: OTHER -->
-                    <!-- <div class="tab-pane" id="tab4" role="tabpanel" aria-labelledby="tab4">
+                    <div class="tab-pane" id="tab4" role="tabpanel" aria-labelledby="tab4">
                         <div class="accordion" id="accordion-tab-4">
-                            
-                         
+
+
                             <div class="card">
                                 <div class="card-header" id="accordion-tab-4-heading-1">
                                     <h5>
-                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-4-content-1" aria-expanded="false" aria-controls="accordion-tab-4-content-1">Will I be able to edit the social media templates you create?</button>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#accordion-tab-4-content-1" aria-expanded="false"
+                                            aria-controls="accordion-tab-4-content-1">Will I be able to edit the social
+                                            media templates you create?</button>
                                     </h5>
                                 </div>
-                                <div class="collapse show" id="accordion-tab-4-content-1" aria-labelledby="accordion-tab-4-heading-1" data-parent="#accordion-tab-4">
+                                <div class="collapse" id="accordion-tab-4-content-1"
+                                    aria-labelledby="accordion-tab-4-heading-1" data-parent="#accordion-tab-4">
                                     <div class="card-body">
                                         <p>Yes. Templates are created through Canva.</p>
                                     </div>
                                 </div>
                             </div>
 
-                           
+
                             <div class="card">
                                 <div class="card-header" id="accordion-tab-4-heading-2">
                                     <h5>
-                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-4-content-2" aria-expanded="false" aria-controls="accordion-tab-4-content-2">How do you create the custom content calendar?</button>
+                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#accordion-tab-4-content-2" aria-expanded="false"
+                                            aria-controls="accordion-tab-4-content-2">How do you create the custom
+                                            content
+                                            calendar?</button>
                                     </h5>
                                 </div>
-                                <div class="collapse" id="accordion-tab-4-content-2" aria-labelledby="accordion-tab-4-heading-2" data-parent="#accordion-tab-4">
+                                <div class="collapse" id="accordion-tab-4-content-2"
+                                    aria-labelledby="accordion-tab-4-heading-2" data-parent="#accordion-tab-4">
                                     <div class="card-body">
-                                        <p>For me to create a complete social media content calendar I ask my clients to sign up with the Later and Canva platforms. Later is an social media scheduling and planning tool. The Canva platform enables me to create custom graphics. Both platforms are free but offer upgraded packages.</p>
+                                        <p>For me to create a complete social media content calendar I ask my clients to
+                                            sign up with the Later and Canva platforms. Later is an social media
+                                            scheduling
+                                            and planning tool. The Canva platform enables me to create custom graphics.
+                                            Both
+                                            platforms are free but offer upgraded packages.</p>
                                     </div>
                                 </div>
                             </div>
 
-                            </div>
                         </div>
-                    </div> -->
-
+                    </div>
                 </div>
-            </div>
 
+            </div>
         </div>
+
     </div>
 </div>
+
 
 
 <!-- ACCORDIAN -->
