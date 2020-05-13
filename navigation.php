@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg" style=height:93px;>
 
-    <a class="nav-brand" href="/"><img src="img/logo/the-local-graphic-designer-green-logo.png" /></a>
+    <a class="nav-brand" href="/"><img src="img/logo/TLGD-LOGO-OVAL-white.png" /></a>
     
     <button class="navbar-toggler" type="button" data-toggle="slide-collapse" data-target="#menu" aria-controls="menu"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@
             </li>
             <li class="nav-item nav-logo">
 
-                    <a class="nav-link" href="/"><img src="img/logo/the-local-graphic-designer-green-logo.png"></a>
+                    <a class="nav-link" href="/"><img src="img/logo/TLGD-LOGO-OVAL-white.png"></a>
             
 
             </li>

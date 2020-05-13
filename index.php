@@ -30,8 +30,8 @@
         <h1>brand + web design<br> for the local <br> self-made business        
         </h1>
 
-        <div class="sub-title-2 freight-i-lite">all so you can start booking those clients!
-        </div>
+        <!-- <div class="sub-title-2 freight-i-lite">all so you can start booking those clients!
+        </div> -->
         
     </div>
                 </div>
@@ -93,14 +93,17 @@
     </div>
 </div> -->
 
-<div class="news-bg">
-</div>
+<!-- <div class="news-bg">
+</div> -->
 
 <!-- MISSION STATEMENT : SECTION -->
 <div class="not-a-luxury-banner-2">
+
     <div class="col-title-dark-2">
-    <h4>real growth and connection</h4>
-    <h3>When you're passionate about growing your business and making authentic connections strategic branding and web design is no longer a luxury.</h3>
+    <!-- <h4>real growth and connection starts with a plan</h4> -->
+    <div class="header-2">your local business is your livelihood
+    </div>
+    <h3>which is why branding and web design is no longer a luxury for small business owners.</h3>
 </div>
 </div>
 
@@ -124,10 +127,10 @@
         </div>
     <div class="sub-titles">Your local business is your
     </div> -->
-    <h3>your local business is your livelihood</h3>
-    <div class="header-2">don't let these concerns hold you back any longer
-    </div>
-    <div class="sub-title-2 freight-i-lite">if any of these apply, it's time for a professional rebrand 
+    <!-- <h3>your local business is your livelihood</h3> -->
+    <!-- <div class="header-2">your local business is your livelihood
+    </div> -->
+    <div class="sub-title-2">When you're passionate about growing your business and making authentic connections strategic branding and web design is no longer a luxury. Branding is much more than colors and fonts. It's about making your audience emotionally connect to you and your business. This connection makes it easier for potential customers to book those appointments and purchase your products. If any of these apply, it's time for the professional rebrand your business deserves.
         </div>
 
     

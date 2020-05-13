@@ -153,8 +153,8 @@ p, h2, h3, h4, a {
 
     h2{
         font-family: "Trade-Gothic-Bold20";
-        font-size: 34pt;
-        line-height: 44pt;
+        font-size: 30pt;
+        line-height: 38pt;
         letter-spacing: 4px;
         color:$brandblack;
         text-transform: uppercase;
@@ -162,7 +162,7 @@ p, h2, h3, h4, a {
         }
 
     .hr-text {
-        border: 1.5px solid $brandgreen;
+        border: .5px solid $brandgreen;
         max-width: 360px;
         margin: 0 auto;
         margin-top: 45px;
@@ -264,7 +264,7 @@ p, h2, h3, h4, a {
     background-size: cover;
     background-repeat: no-repeat;
     color:$cream;
-    padding: 75px 0px;
+    padding: 55px 0px;
     text-transform: uppercase;
     margin: 0 auto;
     text-align: center; 
@@ -342,11 +342,10 @@ p, h2, h3, h4, a {
 
 // body copy
 .bc{
-    font-size: 11.5pt;
-    line-height: 18pt;
-    letter-spacing: 1.2px;
-    font-family: SimplonNorm-Lite;
-    margin-bottom:20px;
+    font-size: 11pt;
+    line-height: 13.5pt;
+    font-family: SimplonMono-Lite;
+    margin-bottom:30px;
 }
 
 .bc-sm{
@@ -597,7 +596,7 @@ p, h2, h3, h4, a {
     background: $cream;
 
     .two-col-box:first-child {
-       
+       padding:30px;
         text-align: center;
 
         .text{
@@ -643,7 +642,7 @@ p, h2, h3, h4, a {
         background-position: top;
         background-repeat: no-repeat;  
         color:$brandblack;
-        height:550px;
+        height:745px;
 
 
     }
@@ -733,9 +732,9 @@ p, h2, h3, h4, a {
         color:$brandblack;
 
         .sub-title{
-            font-family: SimplonNorm-Bold;
+            font-family: SimplonMono-Bold;
             text-transform: uppercase;
-            font-size: 13pt;
+            font-size: 10pt;
             letter-spacing: 2px;
             margin-bottom: 10px;
             
@@ -743,10 +742,10 @@ p, h2, h3, h4, a {
 
         p{
             font-size: 11.5pt;
-            line-height: 18pt;
-            letter-spacing: 1.2px;
-            font-family: SimplonNorm-Lite;
-            margin-bottom:20px;
+            line-height: 13.5pt;
+            font-family: SimplonMono-Lite;
+            margin-bottom:30px;
+            letter-spacing: -.5px;;
         }
 
         .bullet-pts{
@@ -1198,21 +1197,23 @@ p, h2, h3, h4, a {
     position: relative;
     
     nav {
-        background-color: rgba(0, 0, 0, 0.95);
+        background-color: $brandblack;
+        // background-color: rgba(0, 0, 0, 0.95);
         position: absolute;
-        padding-top: 25px;
-        padding-bottom: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
         top: 0;
         left: 0;
         width: 100%;
-        // padding-top:20px;
         z-index: 100;
+        height:88px;
 
         &.show-nav {
             position: fixed;
             height: 0;
             opacity: 0;
             z-index: 10000;
+            height:84px;
 
             .navbar-toggler {
                 margin-top: 0;
@@ -1222,8 +1223,8 @@ p, h2, h3, h4, a {
                 // top: 5px;
 
                 img {
-                    max-width: 50px;
-                    margin-top: 15px;
+                    max-width: 93px;
+                    margin-top: 0px;
                 }
             }
         }
@@ -1233,7 +1234,6 @@ p, h2, h3, h4, a {
         justify-content: center;
         width: 100%;
         align-items: center;
-        padding-top: 10Px;
 
         .nav-item {
             border-right: 0px solid #000;
@@ -1242,9 +1242,9 @@ p, h2, h3, h4, a {
             a {
                 color: $white;
                 text-transform: uppercase;
-                padding: 1px 5px;
+                padding: 1px 20px;
                 letter-spacing: 2.3px;
-                font-size: 13px;
+                font-size: 10px;
             }
 
             &:nth-child(5) {
@@ -1262,7 +1262,7 @@ p, h2, h3, h4, a {
         }
 
         .nav-link img {
-            max-width: 75px;
+            max-width: 125px;
         }
     }
 
@@ -1310,8 +1310,10 @@ p, h2, h3, h4, a {
         left: 50%;
         transform: translateX(-50%);
         display: none;
+
         img {
-            max-width: 80px;
+            max-width: 125px;
+            // padding-top:54px;
         }
     }
 
@@ -1704,9 +1706,10 @@ p, h2, h3, h4, a {
 
 .contact-footer-banner {
     margin: 0 auto;
-    background-image:  url("../img/bg/contact-us-bg-2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    // background-image:  url("../img/bg/contact-us-bg-2.jpg");
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    background-color: $brandgreen;
     padding: 20px;
 }
 
@@ -1737,7 +1740,7 @@ p, h2, h3, h4, a {
     
     .left-col {
 
-        font-family: "Trade-Gothic-Bold20";
+        font-family: SimplonMono-Bold;
         display: flex;
         text-transform: uppercase;
         align-items: center;
@@ -2205,7 +2208,7 @@ footer {
         flex-direction: column;
 
         .title-col {
-            margin: 80px 30px 30px 30px;
+            margin: 80px 10px 30px 10px;
         }
 
         .text-col {
@@ -2249,7 +2252,6 @@ footer {
 
 
     footer {
-        // background-image:  url("../img/bg/bg-text-footer-banner-mobile.svg");
 
         h2{
             text-align: center;
@@ -2260,6 +2262,17 @@ footer {
 
 
 @media screen and (max-width: 450px){
+
+    .two-col-text-home {
+
+        .two-col-box:last-child {
+
+            height:545px;
+    
+    
+        }
+    }
+
 
     .two-col-text {
 

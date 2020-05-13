@@ -6,7 +6,7 @@
     // background-repeat: no-repeat;
     // background-position:center;
     background-color:$cream;
-    padding-top:124px;
+    padding-top:88px;
     .bg-bar{
     background-color: rgba(0, 0, 0, 0.95);
     position: absolute;
@@ -202,9 +202,9 @@
 
 .not-a-luxury-banner-2 {
     text-align: center;
-    background: $neutral-1;
+    // background: #4c4a3a;
     color:$cream;
-    padding: 150px 23px;
+    padding: 150px 23px 0px 23px;
     // background-image: url("../img/bg/stars-bg-tan.png");
     // background-size: cover;
     // background-repeat: no-repeat;
@@ -216,10 +216,11 @@
 
     h3 {
         color:$cream;
-        font-size: 38px;
-        line-height:41px;
-        max-width: 601px;
+        font-size: 26px;
+        line-height:31px;
+        max-width: 500px;
         margin:0 auto;
+        padding-bottom:0px;
     }
     h4{
         font-family: SimplonMono-Bold;
@@ -229,6 +230,17 @@
         padding-bottom: 10px;
         }
 
+
+        .header-2{
+            font-family: "Trade-Gothic-Bold20";
+            font-size: 25pt;
+            line-height: 41pt;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            max-width:500px;
+            margin:0 auto;
+            margin-bottom:20px;
+        }
 }
 
 
@@ -280,7 +292,7 @@
     // background-image: url("../img/bg/texture-bg-dark-min.png");
     // background-size: cover;
     // background-repeat: no-repeat;
-    padding: 150px 30px 120px 30px;
+    padding: 30px 30px 120px 30px;
     text-align: center;
     color:$cream;
 
@@ -301,9 +313,8 @@
     }
 
     .header-2{
-        color:$nav-text;
         font-family: "Trade-Gothic-Bold20";
-        font-size: 30pt;
+        font-size: 25pt;
         line-height: 41pt;
         letter-spacing: 4px;
         text-transform: uppercase;
@@ -323,9 +334,14 @@
         
     }
     .sub-title-2{
-        font-size: 22px;
-        padding-bottom: 16px;
+        font-size: 9.5pt;
+        line-height: 13pt;
+        font-family: SimplonMono-Lite;
+        margin-bottom:20px;
+        max-width: 600px;
+        margin: 0 auto;
     }
+
     .five-col{
 
         width:80%;
@@ -360,13 +376,12 @@
         
                     p{
                         color:$brandblack;
-                        font-size: 11pt;
-                        line-height:13pt;
-                        padding: 0px 10px;
                         margin-top:20px;
-                        letter-spacing: .5px;
-                        text-transform: none;
-                        font-family: SimplonNorm-Lite;
+                        font-size: 11pt;
+                        line-height: 13.5pt;
+                        letter-spacing: -1px;
+                        font-family: SimplonMono-Lite;
+                        margin-bottom:30px;
                         
                     }
                 }
@@ -808,7 +823,7 @@
 @media screen and (max-width: 890px){
 
     .livelyhood-banner{
-        padding: 50px 20px 30px 20px;
+        padding: 0px 20px 30px 20px;
         .five-col{
             width:100%;
 
@@ -920,6 +935,13 @@
     .intro-banner {
         padding: 50px;
     }
+
+    .not-a-luxury-banner-2 {
+
+        padding: 50px 23px;
+    
+    }
+
 }
 
 @media screen and (max-width: 484px){

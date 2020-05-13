@@ -23,17 +23,17 @@
     <script>      
 
         // verifies if user has subscribed
-        const subscribed = localStorage.getItem("subscribed");
+        // const subscribed = localStorage.getItem("subscribed");
         
-        const check = function(){
-            if (subscribed){
-                return window.location.href = 'http://localhost:3000/package-pricing'
-            } else if(!subscribed) {
-                return false;
-            }
-        }
+        // const check = function(){
+        //     if (subscribed){
+        //         return window.location.href = 'http://localhost:3000/package-pricing'
+        //     } else if(!subscribed) {
+        //         return false;
+        //     }
+        // }
 
-        check();     
+        // check();     
 
     </script>
 

@@ -42,8 +42,8 @@
             
         <div class="sub-title">the packages
         </div>
-            <p>Packages are tailored specifically to what your business needs. We start from the basic packages below, and build from there.
-            </p>
+            <div class="bc">Packages are tailored specifically to what your business needs. We start from the basic packages below, and build from there.
+</div>
 
             <div class="bullet-pts">
                 <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg"></div>
