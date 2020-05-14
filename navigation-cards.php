@@ -5,7 +5,7 @@
 
         <!-- CARD #2 -->
         <div>
-            <a class="card" id="website-nav-bg" href="process">
+            <a class="card" id="process-nav-bg" href="process">
             </a>
             <div class="arrow-down-nav">
                 <img src="img/icons/black-down-arrow.svg" alt="down arrow">
@@ -36,7 +36,7 @@
 
         <!-- CARD #2 -->
         <div>
-            <a class="card" id="website-nav-bg" href="faq">
+            <a class="card" id="faq-nav-bg" href="faq">
             </a>
             <div class="arrow-down-nav">
                 <img src="img/icons/black-down-arrow.svg" alt="down arrow">
@@ -50,7 +50,7 @@
 
         <!-- CARD #2 -->
         <div>
-            <a class="card" id="website-nav-bg" href="pricing">
+            <a class="card" id="pricing-nav-bg" href="pricing">
             </a>
             <div class="arrow-down-nav">
                 <img src="img/icons/black-down-arrow.svg" alt="down arrow">

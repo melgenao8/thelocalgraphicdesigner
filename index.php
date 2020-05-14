@@ -158,9 +158,9 @@
                     <div class="five-box-title">
                         
                         <h4 class="title-1 simplon-mono-bold">overwhelmed</h4>
-                        <p class="simplon-norm-reg">There’s so much 
-                                        to do. I just can’t keep up
-                                        with designing as well</p>
+                        <p class="simplon-norm-reg">There’s just so much 
+                                        to do. I can’t keep up
+                                        with designing my content too</p>
                     </div>
                 </div>
             </div>

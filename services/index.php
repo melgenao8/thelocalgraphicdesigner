@@ -1,5 +1,5 @@
-<?php require_once("../header-no-pricing.php")?>
-<div class="container-fluid nav-banner services-banner nav-banner-2">
+<?php require_once("../header.php")?>
+<div class="container-fluid nav-banner nav-banner-2">
     <?php require_once("../navigation.php") ?>
 
 
@@ -10,6 +10,19 @@
                 <!-- <h1 class="bebas-neue lrg-outline">DESIGN <span class="bebas-neue lrg-outline">Services</span></h1> -->
             </div>
         </div>
+    </div>
+</div>
+
+<!-- PAGE TITLE -->
+<div class="pricing-pg-title">
+    <div class="download-form">
+        
+        <div class="title-headers-2">
+           
+            <div class="header-1">Services
+            </div>
+        </div>
+
     </div>
 </div>
 
@@ -24,9 +37,9 @@
             <div class="title-col">
 
                 <div class="left-col">
-                    <h3>Services</h3>
-                    <h4>your image makes an impact</h4>
-                    <h2>Let design work for you. Turn those casual visitors into loyal customers.
+                    <!-- <h3>Services</h3> -->
+                    <h4>your image is making an impact on your business</h4>
+                    <h2>Design can work for you. Turn those casual visitors into loyal customers.
                     </h2>
                 </div>
 

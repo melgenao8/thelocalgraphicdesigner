@@ -115,12 +115,13 @@
 }
 
 .card-body{
-    font-family: SimplonNorm-Lite;
+    font-size: 11pt;
+    line-height: 14pt;
+    font-family: SimplonMono-Lite;
+    margin-bottom:20px;
     color:$cream;
-    background-color:$brandblack;
-    font-size: 12pt;
-    line-height: 23pt;
-    margin:0 auto;
+    padding-top:30px;
+    padding-bottom:20px;
 }
 
 .card-header{
@@ -130,6 +131,7 @@
     font-size: 12pt;
     line-height: 23pt;
     padding:10px 5px 0px 5px;
+    text-align: left;
     }
 
 .btn-link{

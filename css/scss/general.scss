@@ -162,10 +162,11 @@ p, h2, h3, h4, a {
         }
 
     .hr-text {
-        border: .5px solid $brandgreen;
-        max-width: 360px;
+        border: .75px solid $brandgreen;
+        max-width: 85%;
         margin: 0 auto;
-        margin-top: 45px;
+        margin-top: 28px;
+        margin-bottom: 6px;
       }
 }
 
@@ -352,19 +353,23 @@ p, h2, h3, h4, a {
     font-size: 9.5pt;
     line-height: 15pt;
     letter-spacing: 1.2px;
-    font-family: SimplonNorm-Lite;
+    font-family: SimplonMono-Lite;
     margin-bottom:20px;
 }
 
 .bc-dark{
-    font-size: 11.5pt;
-    line-height: 18pt;
-    letter-spacing: 1.2px;
-    font-family: SimplonNorm-Lite;
+    font-size: 11pt;
+    line-height: 14pt;
+    font-family: SimplonMono-Lite;
     margin-bottom:20px;
     color:$cream;
+    padding-top:30px;
+    padding-bottom:20px;
 }
 
+.btn{
+    text-align:left !important;
+}
 
 //let's work together header
 
@@ -637,7 +642,7 @@ p, h2, h3, h4, a {
 
     .two-col-box:last-child {
 
-        background-image: url("../img/home-about-me-pic-sq.jpg");
+        background-image: url("../img/home-about-me-pic-sq-2.jpg");
         background-size: cover;
         background-position: top;
         background-repeat: no-repeat;  
@@ -685,6 +690,7 @@ p, h2, h3, h4, a {
 
 .two-col-text {
     background: $cream;
+    padding:20px;
 
     .two-col-box:first-child {
        
@@ -734,7 +740,7 @@ p, h2, h3, h4, a {
         .sub-title{
             font-family: SimplonMono-Bold;
             text-transform: uppercase;
-            font-size: 10pt;
+            font-size: 9pt;
             letter-spacing: 2px;
             margin-bottom: 10px;
             
@@ -750,7 +756,7 @@ p, h2, h3, h4, a {
 
         .bullet-pts{
             font-family: SimplonMono-Lite;
-            font-size: 7.2pt;
+            font-size: 8.2pt;
             text-transform: uppercase;
             letter-spacing: 2.1px;
         }
@@ -868,8 +874,7 @@ p, h2, h3, h4, a {
         img {
             width: 100%;
             min-width: 330px;
-            // min-height:600px;
-            margin-left: 20px;
+           
         }
     }
 
@@ -919,26 +924,26 @@ p, h2, h3, h4, a {
 
 
         &#process-nav-bg{
-            background-image: url("../img/3-nav-imgs/carousel-test-img.jpg");
+            background-image: url("../img/3-nav-imgs/nav-process.jpg");
             background-size: cover;
             background-position: center;
         }
 
         &#about-nav-bg{
-            background-image: url("../img/3-nav-imgs/carousel-test-img.jpg");
+            background-image: url("../img/3-nav-imgs/nav-about-1.jpg");
             background-size: cover;
             background-position: center;
         }
 
         
         &#faq-nav-bg{
-            background-image:url("../img/3-nav-imgs/carousel-test-img.jpg");
+            background-image:url("../img/3-nav-imgs/nav-FAQ.jpg");
             background-size: cover;
             background-position: center;
         }
 
         &#pricing-nav-bg{
-            background-image:url("../img/3-nav-imgs/carousel-test-img.jpg");
+            background-image:url("../img/3-nav-imgs/nav-pricing.jpg");
             background-size: cover;
             background-position: center;
         }
@@ -950,7 +955,7 @@ p, h2, h3, h4, a {
         }
 
         &#about-nav-bg{
-            background-image:url("../img/3-nav-imgs/nav-about-img-2.jpg");
+            background-image:url("../img/3-nav-imgs/nav-about-1.jpg");
             background-size: cover;
             background-position: center;
         }
@@ -1699,7 +1704,7 @@ p, h2, h3, h4, a {
 .nav-banner-2 {
 
     .opening {
-        padding: 225px 15px 15px;
+        padding-top: 77px;
 
     }
 }
@@ -2116,7 +2121,7 @@ footer {
 
         .two-col-box {
             width: 100%;
-            padding: 0px 30px;
+            padding: 0px 0px;
         }
     }
 
@@ -2124,7 +2129,7 @@ footer {
         .opening {
             flex-direction: column;
             align-items: center;
-            padding: 175px 15px 15px;
+            padding: 100px 15px 15px;
 
 
             .opening-title {
@@ -2294,8 +2299,8 @@ footer {
                 p {
                     font-size: 14px;
                     margin-top: 25px;
-                    padding-left:20px;
-                    padding-right: 15px;
+                    // padding-left:20px;
+                    // padding-right: 15px;
                 }
             }
         }
@@ -2318,6 +2323,7 @@ footer {
     .core-values {
         .service-nav-cards {
             padding: 0;
+            padding-top:100px;
         }
     }
     

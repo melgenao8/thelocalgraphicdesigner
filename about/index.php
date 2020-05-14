@@ -145,11 +145,11 @@
             <h3>get to know</h3>
             <h2>Melissa</h2>
 
-            <p class="simplon-norm-lite">I am a southern girl with traditional values and trailblazing aspirations. After leaving my position at a well reputable design firm, I decided to take the leap of faith and start my own business. Since then, I’ve been passionate about helping small business owners use design to transform their company.
-            </p>
+            <div class="bc">I am a southern girl with traditional values and trailblazing aspirations. After leaving my position at a well reputable design firm, I decided to take the leap of faith and start my own business. Since then, I’ve been passionate about helping small business owners use design to transform their company.
+</div>
 
-            <p class="simplon-norm-lite">I'm also a dog mom to a fluffy 80lb goldendoodle boy named Hercules. You can follow his adventures on Instagram <a href="https://www.instagram.com/hercadude/" target="_blank">@Hercadude.</a>
-            </p>
+            <!-- <p class="simplon-norm-lite">I'm also a dog mom to a fluffy 80lb goldendoodle boy named Hercules. You can follow his adventures on Instagram <a href="https://www.instagram.com/hercadude/" target="_blank">@Hercadude.</a>
+            </p> -->
 
             <div class="bullet-pts">
                 <div class="arrow-right"><img src="img/icons/arrow-right-white.svg"></div>
@@ -169,7 +169,7 @@
 
 
     <div class="image-col">
-        <img src="img/design-picture.png" alt="Design Picture">
+        <img src="img/MEET-MELISSA.jpg" alt="Design Picture">
     </div>
 
 </div>

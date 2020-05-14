@@ -1,5 +1,5 @@
 <?php require_once("../header.php")?>
-<div class="container-fluid nav-banner services-banner nav-banner-2">
+<div class="container-fluid nav-banner nav-banner-2">
     <?php require_once("../navigation.php") ?>
 
 
@@ -17,7 +17,7 @@
 <div class="pricing-pg-title">
     <div class="download-form">
         
-        <div class="title-headers">
+        <div class="title-headers-2">
            
             <div class="header-1">Pricing Guide
             </div>
@@ -44,7 +44,7 @@
                     INVESTMENT STARTING AT
                     </div>
 
-                    <h3>$3000</h3>
+                    <h3>$2500</h3>
 
                     <div class="sub-title">expected timeline</div>
 

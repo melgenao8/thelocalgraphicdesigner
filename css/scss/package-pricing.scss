@@ -124,25 +124,24 @@
 }
 
 .pricing-pg-title {
-
-    width: 90%;
+    // border:0.25px solid $brandgreen;
     margin: 0 auto;
     padding: 20px;
+    background-color: $brandbrown;
 
-    .title-headers {
+    .title-headers-2 {
         color:$cream;
         text-align: center;
     
 
         .header-1 {
-            font-family: freight-text-pro, serif;
-            font-style: italic;
-            font-weight: 300;
-            font-size: 20pt;
+            font-family: "Trade-Gothic-Cond18";
+            font-size: 15pt;
             letter-spacing: 1px;
             color:$off-white;
            padding:0px;
            margin:0px;
+           text-transform: uppercase;
         }
     
 

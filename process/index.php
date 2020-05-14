@@ -1,5 +1,5 @@
-<?php require_once("../header-no-pricing.php")?>
-<div class="container-fluid nav-banner process-banner nav-banner-2">
+<?php require_once("../header.php")?>
+<div class="container-fluid nav-banner nav-banner-2">
     <?php require_once("../navigation.php") ?>
 
 
@@ -8,6 +8,19 @@
         <div class="opening-title">
 
         </div>
+    </div>
+</div>
+
+<!-- PAGE TITLE -->
+<div class="pricing-pg-title">
+    <div class="download-form">
+        
+        <div class="title-headers-2">
+           
+            <div class="header-1">The Process
+            </div>
+        </div>
+
     </div>
 </div>
 
@@ -21,7 +34,7 @@
             <div class="title-col">
 
                 <div class="left-col">
-                    <h3>Process</h3>
+                    <!-- <h3>Process</h3> -->
                     <h4>design on purpose</h4>
                     <h2>improve
                         your customer experience + accomplish your business goals
@@ -135,10 +148,10 @@
     <div class="two-col-box">
         <div class="box">
 
-            <p class="simplon-norm-lite">I've made it easy to stay along the process with me. Lorem ipsum dolor sit
+            <div class="bc-dark">I've made it easy to stay along the process with me. Lorem ipsum dolor sit
                 amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat. Ut wisi enim ad minim
-            </p>
+            </div>
 
             <div class="bullet-pts simplon-mono-bold ">
                 <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="right arrow"></div>
