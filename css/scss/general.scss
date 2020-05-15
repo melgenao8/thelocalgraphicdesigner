@@ -34,6 +34,7 @@ $oat:#d6d0c4;
 $darkblack:#23221F;
 $brandbrown: #232120;
 $neutral-1:#595650;
+$camel:#897E6e;
 
 
 
@@ -246,7 +247,7 @@ p, h2, h3, h4, a {
 }
 
 .brand-symbol-bg{
-    background-color: #897E6e;
+    background-color: $camel;
     background-image: url("../img/bg/symbol-bg-image.jpg");;
     background-size: cover;
     background-repeat: no-repeat;
@@ -260,7 +261,7 @@ p, h2, h3, h4, a {
 
     
 .news-bg{
-    background-color: #897E6e;
+    background-color: $camel;
     background-image: url("../img/bg/home-banner-collage-8.jpg");;
     background-size: cover;
     background-repeat: no-repeat;
@@ -314,10 +315,10 @@ p, h2, h3, h4, a {
     text-transform: uppercase;
     font-family: "Trade-Gothic-Bold20";
     text-align: center;
-    font-size: 27pt;
+    font-size: 21pt;
     letter-spacing:3px;
     line-height: 36pt;
-    color:$cream;
+    color:$camel;
     padding-bottom: 10px;
 }
 
@@ -325,12 +326,11 @@ p, h2, h3, h4, a {
     font-family: SimplonNorm-Reg;
     text-transform: uppercase;
     text-align: center;
-    font-size: 9pt;
-    letter-spacing:2.25px;
+    font-size: 8.5pt;
+    letter-spacing: 2.5px;
     color:$cream;
     max-width: 600px;
     margin: 0 auto;
-    padding-top:10px;
 }
 
 .sub-title-text{
@@ -690,7 +690,7 @@ p, h2, h3, h4, a {
 
 .two-col-text {
     background: $cream;
-    padding:20px;
+    padding: 50px 20px 20px 20px;
 
     .two-col-box:first-child {
        
@@ -700,7 +700,7 @@ p, h2, h3, h4, a {
         font-family: "Trade-Gothic-Bold20";
         font-size: 33pt;
         line-height: 41pt;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
         color:$brandblack;
         text-transform: uppercase;
         max-width: 500px;
@@ -726,6 +726,16 @@ p, h2, h3, h4, a {
             padding-bottom: 10px;
         }
 
+        h5{
+            font-family: freight-text-pro, serif;
+            font-style: italic;
+            font-weight: 300;
+            color:$brandblack;
+            font-size: 11.5pt;
+            letter-spacing: 1.5px;
+            padding-top: 10px;
+        }
+
  
     }
 
@@ -740,7 +750,7 @@ p, h2, h3, h4, a {
         .sub-title{
             font-family: SimplonMono-Bold;
             text-transform: uppercase;
-            font-size: 9pt;
+            font-size: 10.5pt;
             letter-spacing: 2px;
             margin-bottom: 10px;
             
@@ -762,7 +772,7 @@ p, h2, h3, h4, a {
         }
 
         .hr-line {
-            border: .75px solid $brandgreen;
+            border: .5px solid $brandgreen;
             max-width: 100%;
             margin: 0 auto;
             margin-top: 30px;
@@ -821,6 +831,10 @@ p, h2, h3, h4, a {
     }
 }
 
+
+.nav{
+    margin-top: 50px;
+}
 
 .nav-footer-banner{
     background-color: $greygreen;
@@ -2021,9 +2035,6 @@ footer {
             }
         }
 
-        // .banner {
-        //     padding: 300px 30px 15px;
-        // }
 
         .opening {
             .opening-title {
@@ -2329,8 +2340,7 @@ footer {
     
 
     .cards {
-        // flex-direction: column;
-        // align-items: center !important;
+
 
         .card {
             margin: 10px 7px;

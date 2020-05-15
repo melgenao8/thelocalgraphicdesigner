@@ -61,7 +61,7 @@
 }
 
 .packages {
-    padding: 20px 0 100px;
+    padding-left: 20px;
     overflow: hidden;
 
 
@@ -98,12 +98,12 @@
                 .top-headers{
                     color: $brandblack;
                     text-align: center;
-                    // padding-bottom: 33px;
+                    padding:20px;
                     text-transform: uppercase;
                     
                     h2 {
                         font-family: SimplonNorm-Bold;
-                        font-size:25px;
+                        font-size:30px;
                         letter-spacing: 2.75px;
                         margin-bottom: 0px;
                         margin-top: 15px;
@@ -118,13 +118,13 @@
 
                 }
 
-                .img-holder {
-                    width: 100%;
-                    height: 150px;
-                    background-image: url("../img/design-picture.png");
-                    background-size: cover;
-                    background-position: center;
-                }
+                // .img-holder {
+                //     width: 100%;
+                //     height: 150px;
+                //     background-image: url("../img/design-picture.png");
+                //     background-size: cover;
+                //     background-position: center;
+                // }
             }
 
             .middle-card {
@@ -141,24 +141,29 @@
             }
 
             .bottom-card {
-                background: $dark-brown;
-                color: $cream;
+                background: $camel;
+                color: $brandblack;
                 margin-bottom: 35px;
                 text-align: center;
                 font-size:10.5px;
-                padding-bottom: 30px;
+                padding-top:30px;
 
                 .card-description{
-                    font-family: SimplonNorm-Lite;
-                    font-size:15px;
+                    font-size: 11pt;
+                    line-height: 13.5pt;
+                    // font-family: SimplonMono-Lite;
+                    font-family: freight-text-pro, serif;
+                    font-style: italic;
+                    font-weight: 300;
+                    margin-bottom:30px;
                     letter-spacing: .5px;
-                    padding: 0px 25px;
                 }
                 .descrp-title {
+                    font-family: SimplonMono-Bold;
                     text-transform: uppercase;
-                    color:$dark-yellow;
-                    letter-spacing: 1px;
-                    margin: 16px 0;
+                    font-size:8.5pt;
+                    letter-spacing:1.5px;
+                    padding-bottom:10px;
                 }
 
                 ul {
@@ -191,9 +196,9 @@
 }
 
 .service-cards-bg {
-    background-image: url("../img/bg/services-carousel-bg-dark-3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    // background-image: url("../img/bg/services-carousel-bg-dark-3.jpg");
+    // background-size: cover;
+    // background-repeat: no-repeat;
     width: 100%;
     height: 560px;
     margin: 0 auto;
@@ -215,7 +220,7 @@
     margin-bottom: 100px;
     border: .25px solid $brandgreen;
     margin:20px;
-    padding: 30px 20px;
+    padding: 60px 20px;
 
     .two-col-box:first-child {
        
@@ -225,7 +230,7 @@
                 font-family: SimplonMono-Bold;
                 text-transform: uppercase;
                 font-size: 8.5pt;
-                letter-spacing: 1.5px;
+                letter-spacing: 2.5px;
                 padding-bottom: 10px;       
             }
 

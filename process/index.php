@@ -106,11 +106,11 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="img/search-btns-bg-TEST-03.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/the-process/01-the-discovery.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/the-process/02-on-boarding.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/the-process/03-the-strategy copy.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/the-process/04-the-design.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="img/the-process/05-apply.jpg" alt=""></div>
                 ...
             </div>
             <!-- If we need pagination -->

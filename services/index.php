@@ -38,9 +38,10 @@
 
                 <div class="left-col">
                     <!-- <h3>Services</h3> -->
-                    <h4>your image is making an impact on your business</h4>
-                    <h2>Design can work for you. Turn those casual visitors into loyal customers.
+                    <h4>your image matters</h4>
+                    <h2>Consistency and connection is what your audience is looking for
                     </h2>
+                    <h5>strategic branding makings this possible</h5>
                 </div>
 
             </div>
@@ -55,7 +56,7 @@
             
         <div class="sub-title">the packages
         </div>
-            <div class="bc">Packages are tailored specifically to what your business needs. We start from the basic packages below, and build from there.
+            <div class="bc">Packages are tailored specifically to what your business needs. We start from the base packages below, and build from there.
 </div>
 
             <div class="bullet-pts">
@@ -69,20 +70,20 @@
         
 
         <div class="hr-line"></div>
-        <div class="sub-title">passionate about you
+        <div class="sub-title">i truly care
         </div>
-            <p>I’m excited to know everything and anything about your business. All the reasons you’re passionate about your business can set the tone for your visuals. We will thoroughly go over your goals, and back all of our design decisions with intention.
+            <p>I’m so excited to know everything and anything about your business. All the reasons you’re passionate about your business will set the tone for your visuals. We will thoroughly go over your goals, and back all of our design decisions with intention. 
         </p>
 
             <div class="bullet-pts">
                 <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg"></div>
-                Feel confident growing your bus</div>
+                Feel confident growing your biz</div>
             <div class="bullet-pts">
                 <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg"></div>
                 Target your dream client</div>
             <div class="bullet-pts">
                 <div class="arrow-right"><img src="img/icons/arrow-right-brown.svg"></div>
-                Clear customer communication</div>  
+                Have clear customer communication</div>  
             </div>
       
        
@@ -90,6 +91,64 @@
 
     </div>
 </div>
+
+<!-- BRAND CORE : SECTION -->
+<div class="two-col brand-audit-two-col">
+        
+        <div class="two-col-box">
+            <div class="box">
+                <div class="title-col">
+
+                    <div class="left-col">
+                        <h3>success by strategy</h3>
+                        <h2>Brand Core
+                        </h2>
+                        <div class="hr-text"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="two-col-box">
+            <div class="box">
+            
+                <div class="bc-dark">No matter what you need for your brand, we always start off with a strategic process that evaluates your current brand, and focuses on targeting your dream client. This sets the tone for all design decisiobs, and puts purpose into your aesthetic.
+                </div>
+
+            <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
+                review current brand</div>
+
+            <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
+                define business goals</div>
+
+            <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
+                market and user research</div>
+
+                <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
+                unique proposition</div>
+
+                <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
+                brand voice</div>
+
+                <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
+                mission statement</div>
+
+                <div class="bullet-pts">
+                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
+                who we are statement</div>
+                
+
+            </div>
+        
+        </div>
+    </div>
 
 
 
@@ -114,34 +173,7 @@
     <div class="center-container-cards">
         <div class="packages">
 
-        <!-- <div class="two-text-col left-text">
-            <div class="title-col">
-                <div class="left-text-content">
-                    <h2 class="freight-i-lite">Browse base services.</h2>
-                    
-                    <div class="arrow-right">
-                        <img src="img/icons/yellow-arrow-right.svg" alt="right arrow">
-                    </div>
-
-                    <div class ="arrow-sub-text sackers-gothic">swipe cards</div>
-
-                    <p class="sofia-light">Packages are a great place to start.
-                                        These services can be combined and
-                                        tailored to your specific needs.
-                                        Take a look at what each package
-                                        offers, and deliverables provided.
-                    </p>               
-                
-                    <div class="main-btn-left-dark">
-                    <a href="/services">view services</a>
-                </div>
-            </div>
-        </div>
-        
-            <div class="text-col"> -->
-
-        <!-- <div class="swiper-container services-swiper">
-            <div class="swiper-wrapper"> -->
+       
                 <div class="cards">
 
                 <!-- BRANDING BASICS -->
@@ -163,13 +195,13 @@
 
                         <div class="descrp-title">description</div>
                         <div class="card-description">
-                        Designing your brand identity & personality, strategically
+                        Designing your brand personality, strategically
                         targeted to your ideal customer.
                         </div>
 
                         <div class="descrp-title">deliverables</div>
                         <ul>
-                            <li>brand audit</li>
+                            <li>brand core</li>
                             <li>logo + supporting logos</li>
                             <li>color scheme</li>
                             <li>font pairings</li>
@@ -210,7 +242,7 @@
 
                         <div class="descrp-title">deliverables</div>
                         <ul>
-                            <li>brand audit</li>
+                            <li>brand core</li>
                             <li>sitemap + wireframe</li>
                             <li>colors/fonts</li>
                             <li>seo meta tagging</li>
@@ -252,7 +284,7 @@
 
                         <div class="descrp-title">deliverables</div>
                         <ul>
-                            <li>brand audit</li>
+                            <li>brand core</li>
                             <li>templated captions</li>
                             <li>hashtag research</li>
                             <li>posting schedule</li>
@@ -269,9 +301,7 @@
                 </div>
                 </div>
 
-            <!-- </div> -->
-        <!-- Add Pagination -->
-        <!-- <div class="swiper-pagination"></div> -->
+
     </div>
     </div>
         
@@ -279,63 +309,7 @@
 
 
 
-<!-- BRAND AUDIT : SECTION -->
-    <div class="two-col brand-audit-two-col">
-        
-        <div class="two-col-box">
-            <div class="box">
-                <div class="title-col">
 
-                    <div class="left-col">
-                        <h3>success by strategy</h3>
-                        <h2>Brand Audit
-                        </h2>
-                        <div class="hr-text"></div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="two-col-box">
-            <div class="box">
-            
-                <div class="bc-dark">No matter what you need for your brand, we always start off with a strategic process that evaluates your current brand, and focuses on targeting your dream client. This brand audit sets the tone for all design decisions.
-                </div>
-
-            <div class="bullet-pts">
-                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
-                review current brand</div>
-
-            <div class="bullet-pts">
-                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
-                define business goals</div>
-
-            <div class="bullet-pts">
-                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
-                market and user research</div>
-
-                <div class="bullet-pts">
-                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
-                unique proposition</div>
-
-                <div class="bullet-pts">
-                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
-                brand voice</div>
-
-                <div class="bullet-pts">
-                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
-                mission statement</div>
-
-                <div class="bullet-pts">
-                <div class="arrow-right"><img src="img/icons/arrow-right-white.svg" alt="down arrow"></div>
-                who we are statement</div>
-                
-
-            </div>
-        
-        </div>
-    </div>
 
 
 

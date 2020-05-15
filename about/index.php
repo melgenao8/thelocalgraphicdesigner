@@ -1,6 +1,6 @@
-<?php require_once("../header-no-pricing.php")?>
+<?php require_once("../header.php")?>
 
-<div class="container-fluid nav-banner about-banner nav-banner-2">
+<div class="container-fluid nav-banner nav-banner-2">
     <?php require_once("../navigation.php") ?>
 
 
@@ -9,6 +9,20 @@
         <div class="opening-title">
             
         </div>
+    </div>
+</div>
+
+
+<!-- PAGE TITLE -->
+<div class="pricing-pg-title">
+    <div class="download-form">
+        
+        <div class="title-headers-2">
+           
+            <div class="header-1">About
+            </div>
+        </div>
+
     </div>
 </div>
 
@@ -23,7 +37,7 @@
             <div class="title-col">
 
                 <div class="left-col">
-                    <h3>About</h3>
+                    <!-- <h3>About</h3> -->
                     <h4>work with someone you trust</h4>
                     <h2>integrity and honesty at the core of every decision
                     </h2>

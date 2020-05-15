@@ -1,31 +1,30 @@
-<?php require_once("../header-no-pricing.php")?>
-<div class="container-fluid nav-banner services-banner nav-banner-2">
+<?php require_once("../header.php")?>
+<div class="container-fluid nav-banner nav-banner-2">
     <?php require_once("../navigation.php") ?>
 
 
     <!-- LANDING IMAGE -->
     <div class="opening fade-in">
         <div class="opening-title">
-            <div class="bounce-in-top">
-                <!-- <h1 class="bebas-neue lrg-outline">DESIGN <span class="bebas-neue lrg-outline">Services</span></h1> -->
-            </div>
+        
         </div>
     </div>
 </div>
 
 
+<!-- PAGE TITLE -->
 <div class="pricing-pg-title">
     <div class="download-form">
-
-        <div class="title-headers">
-
+        
+        <div class="title-headers-2">
+           
             <div class="header-1">Frequently Asked Questions
             </div>
         </div>
 
-
     </div>
 </div>
+
 
 <!-- BUTTONS -->
 
